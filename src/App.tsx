@@ -1,3 +1,4 @@
+// src/App.tsx
 import { useState, useMemo, useCallback } from "react";
 import { players } from "./data/players";
 import {
@@ -12,11 +13,11 @@ import PresetSelector from "./components/PresetSelector";
 import RankingList from "./components/RankingList";
 import PlayerCard from "./components/PlayerCard";
 import PlayerCompare from "./components/PlayerCompare";
+import CommentSection from "./components/CommentSection";
 
 type ViewMode = "ranking" | "compare";
 
 export default function App() {
-  // 状态
   const [weights, setWeights] = useState<WeightConfig>({ ...DEFAULT_WEIGHTS });
   const [activePreset, setActivePreset] = useState<string | null>("均衡模式");
   const [selectedPlayer, setSelectedPlayer] = useState<RankedPlayer | null>(null);
@@ -25,39 +26,33 @@ export default function App() {
   const [viewMode, setViewMode] = useState<ViewMode>("ranking");
   const [showWeights, setShowWeights] = useState(true);
 
-  // 计算排名
   const rankings = useMemo(
     () => calculateRankings(players, weights),
     [weights]
   );
 
-  // 权重变更
   const handleWeightChange = useCallback(
     (key: keyof WeightConfig, value: number) => {
       setWeights((prev) => ({ ...prev, [key]: value }));
-      setActivePreset(null); // 手动调整后清除预设标记
+      setActivePreset(null);
     },
     []
   );
 
-  // 选择预设
   const handlePresetSelect = useCallback((preset: WeightPreset) => {
     setWeights({ ...preset.weights });
     setActivePreset(preset.name);
   }, []);
 
-  // 重置权重
   const handleReset = useCallback(() => {
     setWeights({ ...DEFAULT_WEIGHTS });
     setActivePreset("均衡模式");
   }, []);
 
-  // 选择球员查看详情
   const handleSelectPlayer = useCallback((ranked: RankedPlayer) => {
     setSelectedPlayer(ranked);
   }, []);
 
-  // 对比模式选择球员
   const handleCompareSelect = useCallback(
     (playerId: number) => {
       if (comparePlayer1 === null) {
@@ -67,7 +62,6 @@ export default function App() {
           setComparePlayer2(playerId);
         }
       } else {
-        // 两个都选了，重新选第一个
         setComparePlayer1(playerId);
         setComparePlayer2(null);
       }
@@ -75,25 +69,23 @@ export default function App() {
     [comparePlayer1, comparePlayer2]
   );
 
-  // 获取对比数据
   const compareData = useMemo(() => {
     if (comparePlayer1 === null || comparePlayer2 === null) return null;
-
     const r1 = rankings.find((r) => r.player.id === comparePlayer1);
     const r2 = rankings.find((r) => r.player.id === comparePlayer2);
     if (!r1 || !r2) return null;
-
     const rank1 = rankings.indexOf(r1) + 1;
     const rank2 = rankings.indexOf(r2) + 1;
-
     return { player1: r1, player2: r2, rank1, rank2 };
   }, [rankings, comparePlayer1, comparePlayer2]);
 
-  // 获取选中球员的排名
   const selectedRank = useMemo(() => {
     if (!selectedPlayer) return 0;
     return rankings.findIndex((r) => r.player.id === selectedPlayer.player.id) + 1;
   }, [rankings, selectedPlayer]);
+
+  // 获取当前排名第一的球员名字，传给评论区
+  const topPlayerName = rankings.length > 0 ? rankings[0].player.name : undefined;
 
   return (
     <div className="min-h-screen bg-gray-950 text-white">
@@ -113,7 +105,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* 模式切换 */}
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setViewMode("ranking")}
@@ -157,7 +148,7 @@ export default function App() {
           />
         </section>
 
-        {/* 权重调节区域（可折叠） */}
+        {/* 权重调节区域 */}
         <section className="mb-6">
           <button
             onClick={() => setShowWeights(!showWeights)}
@@ -187,7 +178,6 @@ export default function App() {
 
         {/* 主内容区域 */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-          {/* 左侧：排名列表 */}
           <div className="lg:col-span-3">
             <div className="flex items-center justify-between mb-3">
               <h2 className="text-sm font-bold text-gray-400">
@@ -213,7 +203,6 @@ export default function App() {
                 selectedPlayerId={selectedPlayer?.player.id ?? null}
               />
             ) : (
-              /* 对比模式的球员选择列表 */
               <div className="space-y-2">
                 {rankings.map((ranked, index) => {
                   const isSelected1 = ranked.player.id === comparePlayer1;
@@ -232,7 +221,6 @@ export default function App() {
                           : "bg-gray-800/50 border-transparent hover:bg-gray-800 hover:border-gray-600"
                         }`}
                     >
-                      {/* 选择标记 */}
                       <div className="w-8 text-center shrink-0">
                         {isSelected1 ? (
                           <span className="text-green-400 font-bold text-sm">P1</span>
@@ -242,9 +230,7 @@ export default function App() {
                           <span className="text-gray-600 text-sm">{index + 1}</span>
                         )}
                       </div>
-
                       <div className="text-2xl">{ranked.player.avatar}</div>
-
                       <div className="flex-1 min-w-0">
                         <div className="font-bold text-white truncate">
                           {ranked.player.name}
@@ -253,7 +239,6 @@ export default function App() {
                           {ranked.player.position} | {ranked.player.era}
                         </div>
                       </div>
-
                       <div className="text-right shrink-0">
                         <div className="text-lg font-bold font-mono text-orange-400">
                           {ranked.score.toFixed(1)}
@@ -266,11 +251,9 @@ export default function App() {
             )}
           </div>
 
-          {/* 右侧：详情/对比面板 */}
           <div className="lg:col-span-2">
             <div className="sticky top-20">
               {viewMode === "ranking" ? (
-                /* 排名模式：显示球员详情 */
                 selectedPlayer ? (
                   <PlayerCard
                     ranked={
@@ -289,8 +272,7 @@ export default function App() {
                     </p>
                   </div>
                 )
-              ) : /* 对比模式 */
-              compareData ? (
+              ) : compareData ? (
                 <PlayerCompare
                   player1={compareData.player1}
                   player2={compareData.player2}
@@ -316,6 +298,11 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        {/* 评论区 */}
+        <section className="mt-12 border-t border-gray-800 pt-8">
+          <CommentSection teamName={topPlayerName} />
+        </section>
       </main>
 
       {/* 底部 */}
