@@ -1,0 +1,334 @@
+import { useState, useMemo, useCallback } from "react";
+import { players } from "./data/players";
+import {
+  DEFAULT_WEIGHTS,
+  WEIGHT_PRESETS,
+} from "./types/weights";
+import type { WeightConfig, WeightPreset } from "./types/weights";
+import { calculateRankings } from "./utils/calculator";
+import type { RankedPlayer } from "./utils/calculator";
+import WeightSlider from "./components/WeightSlider";
+import PresetSelector from "./components/PresetSelector";
+import RankingList from "./components/RankingList";
+import PlayerCard from "./components/PlayerCard";
+import PlayerCompare from "./components/PlayerCompare";
+
+type ViewMode = "ranking" | "compare";
+
+export default function App() {
+  // 状态
+  const [weights, setWeights] = useState<WeightConfig>({ ...DEFAULT_WEIGHTS });
+  const [activePreset, setActivePreset] = useState<string | null>("均衡模式");
+  const [selectedPlayer, setSelectedPlayer] = useState<RankedPlayer | null>(null);
+  const [comparePlayer1, setComparePlayer1] = useState<number | null>(null);
+  const [comparePlayer2, setComparePlayer2] = useState<number | null>(null);
+  const [viewMode, setViewMode] = useState<ViewMode>("ranking");
+  const [showWeights, setShowWeights] = useState(true);
+
+  // 计算排名
+  const rankings = useMemo(
+    () => calculateRankings(players, weights),
+    [weights]
+  );
+
+  // 权重变更
+  const handleWeightChange = useCallback(
+    (key: keyof WeightConfig, value: number) => {
+      setWeights((prev) => ({ ...prev, [key]: value }));
+      setActivePreset(null); // 手动调整后清除预设标记
+    },
+    []
+  );
+
+  // 选择预设
+  const handlePresetSelect = useCallback((preset: WeightPreset) => {
+    setWeights({ ...preset.weights });
+    setActivePreset(preset.name);
+  }, []);
+
+  // 重置权重
+  const handleReset = useCallback(() => {
+    setWeights({ ...DEFAULT_WEIGHTS });
+    setActivePreset("均衡模式");
+  }, []);
+
+  // 选择球员查看详情
+  const handleSelectPlayer = useCallback((ranked: RankedPlayer) => {
+    setSelectedPlayer(ranked);
+  }, []);
+
+  // 对比模式选择球员
+  const handleCompareSelect = useCallback(
+    (playerId: number) => {
+      if (comparePlayer1 === null) {
+        setComparePlayer1(playerId);
+      } else if (comparePlayer2 === null) {
+        if (playerId !== comparePlayer1) {
+          setComparePlayer2(playerId);
+        }
+      } else {
+        // 两个都选了，重新选第一个
+        setComparePlayer1(playerId);
+        setComparePlayer2(null);
+      }
+    },
+    [comparePlayer1, comparePlayer2]
+  );
+
+  // 获取对比数据
+  const compareData = useMemo(() => {
+    if (comparePlayer1 === null || comparePlayer2 === null) return null;
+
+    const r1 = rankings.find((r) => r.player.id === comparePlayer1);
+    const r2 = rankings.find((r) => r.player.id === comparePlayer2);
+    if (!r1 || !r2) return null;
+
+    const rank1 = rankings.indexOf(r1) + 1;
+    const rank2 = rankings.indexOf(r2) + 1;
+
+    return { player1: r1, player2: r2, rank1, rank2 };
+  }, [rankings, comparePlayer1, comparePlayer2]);
+
+  // 获取选中球员的排名
+  const selectedRank = useMemo(() => {
+    if (!selectedPlayer) return 0;
+    return rankings.findIndex((r) => r.player.id === selectedPlayer.player.id) + 1;
+  }, [rankings, selectedPlayer]);
+
+  return (
+    <div className="min-h-screen bg-gray-950 text-white">
+      {/* 顶部导航 */}
+      <header className="sticky top-0 z-50 bg-gray-950/90 backdrop-blur-md border-b border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl">🏀</span>
+              <div>
+                <h1 className="text-xl font-black tracking-tight">
+                  NBA历史地位模拟器
+                </h1>
+                <p className="text-xs text-gray-500">
+                  GOAT Simulator — 用你的标准定义历史排名
+                </p>
+              </div>
+            </div>
+
+            {/* 模式切换 */}
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setViewMode("ranking")}
+                className={`px-4 py-2 rounded-lg text-sm font-bold transition-all
+                  ${viewMode === "ranking"
+                    ? "bg-orange-500 text-white"
+                    : "bg-gray-800 text-gray-400 hover:text-white"
+                  }`}
+              >
+                📊 排名
+              </button>
+              <button
+                onClick={() => {
+                  setViewMode("compare");
+                  setComparePlayer1(null);
+                  setComparePlayer2(null);
+                }}
+                className={`px-4 py-2 rounded-lg text-sm font-bold transition-all
+                  ${viewMode === "compare"
+                    ? "bg-orange-500 text-white"
+                    : "bg-gray-800 text-gray-400 hover:text-white"
+                  }`}
+              >
+                🆚 对比
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main className="max-w-7xl mx-auto px-4 py-6">
+        {/* 预设模板 */}
+        <section className="mb-6">
+          <h2 className="text-sm font-bold text-gray-400 mb-3">
+            ⚡ 快速预设 — 选择一个评价标准
+          </h2>
+          <PresetSelector
+            presets={WEIGHT_PRESETS}
+            onSelect={handlePresetSelect}
+            activePreset={activePreset}
+          />
+        </section>
+
+        {/* 权重调节区域（可折叠） */}
+        <section className="mb-6">
+          <button
+            onClick={() => setShowWeights(!showWeights)}
+            className="flex items-center gap-2 text-sm font-bold text-gray-400 mb-3 hover:text-white transition-colors"
+          >
+            🎛️ 自定义权重调节
+            <span className="text-xs">{showWeights ? "▼ 收起" : "▶ 展开"}</span>
+          </button>
+
+          {showWeights && (
+            <div className="bg-gray-900/50 rounded-2xl p-5 border border-gray-800">
+              <div className="flex justify-between items-center mb-4">
+                <p className="text-xs text-gray-500">
+                  拖动滑块调整各维度权重（0-100），实时查看排名变化
+                </p>
+                <button
+                  onClick={handleReset}
+                  className="text-xs text-orange-400 hover:text-orange-300 px-3 py-1 rounded-lg border border-orange-400/30 hover:border-orange-400"
+                >
+                  🔄 恢复默认
+                </button>
+              </div>
+              <WeightSlider weights={weights} onChange={handleWeightChange} />
+            </div>
+          )}
+        </section>
+
+        {/* 主内容区域 */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+          {/* 左侧：排名列表 */}
+          <div className="lg:col-span-3">
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-sm font-bold text-gray-400">
+                {viewMode === "ranking"
+                  ? `📊 历史排名 — 共 ${rankings.length} 位球员`
+                  : "🆚 选择两位球员进行对比"}
+              </h2>
+              {viewMode === "compare" && (
+                <div className="text-xs text-gray-500">
+                  {comparePlayer1 === null
+                    ? "👈 请选择第一位球员"
+                    : comparePlayer2 === null
+                    ? "👈 请选择第二位球员"
+                    : "点击球员可重新选择"}
+                </div>
+              )}
+            </div>
+
+            {viewMode === "ranking" ? (
+              <RankingList
+                rankings={rankings}
+                onSelectPlayer={handleSelectPlayer}
+                selectedPlayerId={selectedPlayer?.player.id ?? null}
+              />
+            ) : (
+              /* 对比模式的球员选择列表 */
+              <div className="space-y-2">
+                {rankings.map((ranked, index) => {
+                  const isSelected1 = ranked.player.id === comparePlayer1;
+                  const isSelected2 = ranked.player.id === comparePlayer2;
+
+                  return (
+                    <div
+                      key={ranked.player.id}
+                      onClick={() => handleCompareSelect(ranked.player.id)}
+                      className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer
+                        transition-all duration-200 border
+                        ${isSelected1
+                          ? "bg-green-500/20 border-green-500"
+                          : isSelected2
+                          ? "bg-blue-500/20 border-blue-500"
+                          : "bg-gray-800/50 border-transparent hover:bg-gray-800 hover:border-gray-600"
+                        }`}
+                    >
+                      {/* 选择标记 */}
+                      <div className="w-8 text-center shrink-0">
+                        {isSelected1 ? (
+                          <span className="text-green-400 font-bold text-sm">P1</span>
+                        ) : isSelected2 ? (
+                          <span className="text-blue-400 font-bold text-sm">P2</span>
+                        ) : (
+                          <span className="text-gray-600 text-sm">{index + 1}</span>
+                        )}
+                      </div>
+
+                      <div className="text-2xl">{ranked.player.avatar}</div>
+
+                      <div className="flex-1 min-w-0">
+                        <div className="font-bold text-white truncate">
+                          {ranked.player.name}
+                        </div>
+                        <div className="text-xs text-gray-500">
+                          {ranked.player.position} | {ranked.player.era}
+                        </div>
+                      </div>
+
+                      <div className="text-right shrink-0">
+                        <div className="text-lg font-bold font-mono text-orange-400">
+                          {ranked.score.toFixed(1)}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+
+          {/* 右侧：详情/对比面板 */}
+          <div className="lg:col-span-2">
+            <div className="sticky top-20">
+              {viewMode === "ranking" ? (
+                /* 排名模式：显示球员详情 */
+                selectedPlayer ? (
+                  <PlayerCard
+                    ranked={
+                      rankings.find(
+                        (r) => r.player.id === selectedPlayer.player.id
+                      ) || selectedPlayer
+                    }
+                    rank={selectedRank}
+                  />
+                ) : (
+                  <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 text-center">
+                    <div className="text-5xl mb-4">👈</div>
+                    <p className="text-gray-400 font-bold">点击左侧球员</p>
+                    <p className="text-gray-500 text-sm mt-1">
+                      查看详细数据和各维度得分
+                    </p>
+                  </div>
+                )
+              ) : /* 对比模式 */
+              compareData ? (
+                <PlayerCompare
+                  player1={compareData.player1}
+                  player2={compareData.player2}
+                  rank1={compareData.rank1}
+                  rank2={compareData.rank2}
+                />
+              ) : (
+                <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700 text-center">
+                  <div className="text-5xl mb-4">🆚</div>
+                  <p className="text-gray-400 font-bold">选择两位球员</p>
+                  <p className="text-gray-500 text-sm mt-1">
+                    {comparePlayer1 !== null
+                      ? "再选一位球员开始对比"
+                      : "从左侧列表中选择两位球员进行对比"}
+                  </p>
+                  {comparePlayer1 !== null && (
+                    <div className="mt-4 text-sm text-green-400">
+                      ✓ 已选择第一位球员
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </main>
+
+      {/* 底部 */}
+      <footer className="border-t border-gray-800 mt-12 py-6">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <p className="text-sm text-gray-600">
+            🏀 NBA历史地位模拟器 GOAT Simulator
+          </p>
+          <p className="text-xs text-gray-700 mt-1">
+            数据仅供娱乐参考 | 每个人心中都有自己的GOAT
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
