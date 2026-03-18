@@ -1,0 +1,13 @@
+services:
+  nba-goat:
+    build: .
+    container_name: nba-goat-simulator
+    ports:
+      - "80:80"
+    volumes:
+      # 评论数据库持久化 — 容器重建不丢数据
+      - nba-data:/data
+    restart: unless-stopped
+
+volumes:
+  nba-data:

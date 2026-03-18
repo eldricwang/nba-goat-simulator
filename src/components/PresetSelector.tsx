@@ -1,4 +1,4 @@
-import type { WeightPreset } from "../types/weights";
+import type { WeightPreset } from "../api";
 
 interface PresetSelectorProps {
   presets: WeightPreset[];

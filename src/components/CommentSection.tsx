@@ -1,14 +1,7 @@
 // src/components/CommentSection.tsx
 import { useState, useEffect } from 'react'
-import { supabase } from '../lib/supabase'
-
-interface Comment {
-  id: string
-  nickname: string
-  content: string
-  team_name: string | null
-  created_at: string
-}
+import { fetchComments, postComment } from '../api'
+import type { Comment } from '../api'
 
 export default function CommentSection({ teamName }: { teamName?: string }) {
   const [comments, setComments] = useState<Comment[]>([])
@@ -18,22 +11,19 @@ export default function CommentSection({ teamName }: { teamName?: string }) {
   const [submitting, setSubmitting] = useState(false)
 
   // 加载评论
-  const fetchComments = async () => {
+  const loadComments = async () => {
     setLoading(true)
-    const { data, error } = await supabase
-      .from('comments')
-      .select('*')
-      .order('created_at', { ascending: false })
-      .limit(50)
-
-    if (!error && data) {
+    try {
+      const data = await fetchComments()
       setComments(data)
+    } catch (err) {
+      console.error('Failed to load comments:', err)
     }
     setLoading(false)
   }
 
   useEffect(() => {
-    fetchComments()
+    loadComments()
   }, [])
 
   // 提交评论
@@ -42,16 +32,11 @@ export default function CommentSection({ teamName }: { teamName?: string }) {
     if (!nickname.trim() || !content.trim()) return
 
     setSubmitting(true)
-    const { error } = await supabase.from('comments').insert({
-      nickname: nickname.trim(),
-      content: content.trim(),
-      team_name: teamName || null,
-    })
-
-    if (!error) {
+    try {
+      await postComment(nickname.trim(), content.trim(), teamName)
       setContent('')
-      fetchComments()
-    } else {
+      loadComments()
+    } catch {
       alert('发送失败，请重试')
     }
     setSubmitting(false)

@@ -1,19 +1,19 @@
 // src/App.tsx
-import { useState, useMemo, useCallback } from "react";
-import { players } from "./data/players";
-import {
-  DEFAULT_WEIGHTS,
-  WEIGHT_PRESETS,
-} from "./types/weights";
-import type { WeightConfig, WeightPreset } from "./types/weights";
-import { calculateRankings } from "./utils/calculator";
-import type { RankedPlayer } from "./utils/calculator";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
+import { fetchRankings, fetchPresets } from "./api";
+import type { WeightConfig, WeightPreset, RankedPlayer } from "./api";
 import WeightSlider from "./components/WeightSlider";
 import PresetSelector from "./components/PresetSelector";
 import RankingList from "./components/RankingList";
 import PlayerCard from "./components/PlayerCard";
 import PlayerCompare from "./components/PlayerCompare";
 import CommentSection from "./components/CommentSection";
+
+const DEFAULT_WEIGHTS: WeightConfig = {
+  championships: 70, mvp: 65, fmvp: 60, allStar: 25, allNBA: 35,
+  allDefense: 20, dpoy: 30, scoringTitle: 25, ppg: 40, rpg: 20,
+  apg: 20, totalPoints: 30, playoffPPG: 45, playoffWins: 35, peakPPG: 35,
+};
 
 type ViewMode = "ranking" | "compare";
 
@@ -26,10 +26,35 @@ export default function App() {
   const [viewMode, setViewMode] = useState<ViewMode>("ranking");
   const [showWeights, setShowWeights] = useState(true);
 
-  const rankings = useMemo(
-    () => calculateRankings(players, weights),
-    [weights]
-  );
+  // 后端数据状态
+  const [rankings, setRankings] = useState<RankedPlayer[]>([]);
+  const [presets, setPresets] = useState<WeightPreset[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  // 防抖定时器
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // 加载预设方案（一次性）
+  useEffect(() => {
+    fetchPresets().then(setPresets).catch(console.error);
+  }, []);
+
+  // 权重变化时，防抖调用后端计算排名
+  useEffect(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+
+    debounceRef.current = setTimeout(() => {
+      setLoading(true);
+      fetchRankings(weights)
+        .then(setRankings)
+        .catch(console.error)
+        .finally(() => setLoading(false));
+    }, 150); // 150ms 防抖
+
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, [weights]);
 
   const handleWeightChange = useCallback(
     (key: keyof WeightConfig, value: number) => {
@@ -84,7 +109,6 @@ export default function App() {
     return rankings.findIndex((r) => r.player.id === selectedPlayer.player.id) + 1;
   }, [rankings, selectedPlayer]);
 
-  // 获取当前排名第一的球员名字，传给评论区
   const topPlayerName = rankings.length > 0 ? rankings[0].player.name : undefined;
 
   return (
@@ -106,6 +130,9 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-2">
+              {loading && (
+                <span className="text-xs text-orange-400 animate-pulse mr-2">计算中...</span>
+              )}
               <button
                 onClick={() => setViewMode("ranking")}
                 className={`px-4 py-2 rounded-lg text-sm font-bold transition-all
@@ -142,7 +169,7 @@ export default function App() {
             ⚡ 快速预设 — 选择一个评价标准
           </h2>
           <PresetSelector
-            presets={WEIGHT_PRESETS}
+            presets={presets}
             onSelect={handlePresetSelect}
             activePreset={activePreset}
           />

@@ -1,5 +1,5 @@
 import { WEIGHT_LABELS, WEIGHT_GROUPS } from "../types/weights";
-import type { WeightConfig } from "../types/weights";
+import type { WeightConfig } from "../api";
 
 interface WeightSliderProps {
   weights: WeightConfig;

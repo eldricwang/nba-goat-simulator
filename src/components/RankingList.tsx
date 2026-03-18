@@ -1,4 +1,4 @@
-import type { RankedPlayer } from "../utils/calculator";
+import type { RankedPlayer } from "../api";
 
 interface RankingListProps {
   rankings: RankedPlayer[];

@@ -1,6 +1,5 @@
-import type { RankedPlayer } from "../utils/calculator";
+import type { RankedPlayer, WeightConfig } from "../api";
 import { WEIGHT_LABELS } from "../types/weights";
-import type { WeightConfig } from "../types/weights";
 
 interface PlayerCardProps {
   ranked: RankedPlayer;
