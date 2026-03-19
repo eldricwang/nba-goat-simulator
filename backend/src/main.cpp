@@ -84,6 +84,11 @@ int main(int argc, char* argv[]) {
     CommentStore commentStore(db);
     UserStore userStore(db);
 
+    // 启动时主动加载球员数据（不依赖懒加载）
+    LOG_INFO("MAIN", "Loading player data on startup...");
+    auto players = getAllPlayers();
+    LOG_INFO("MAIN", "Player data loaded: " + std::to_string(players.size()) + " players");
+
     // 创建 HTTP 服务器
     httplib::Server svr;
     g_svr = &svr;

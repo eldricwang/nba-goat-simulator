@@ -538,12 +538,8 @@ static bool positionMatches(const std::string& playerPos, const std::string& fil
 }
 
 PlayerSearchResult searchPlayers(const PlayerSearchParams& params) {
-    // 获取数据快照
-    std::vector<PlayerData> allData;
-    {
-        std::shared_lock<std::shared_mutex> lock(g_dataMutex);
-        allData = g_players;
-    }
+    // 获取数据快照（通过 getAllPlayers 确保数据已加载）
+    std::vector<PlayerData> allData = getAllPlayers();
 
     // 1. 筛选
     std::vector<PlayerData> filtered;
