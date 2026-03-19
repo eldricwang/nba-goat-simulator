@@ -8,6 +8,8 @@ services:
     volumes:
       # 评论数据库持久化 — 容器重建不丢数据
       - nba-data:/data
+      # 日志目录映射到宿主机，方便直接查看
+      - /data/log:/data/log
     restart: unless-stopped
 
 volumes:
