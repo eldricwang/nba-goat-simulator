@@ -1,14 +1,106 @@
 #include "players.h"
+#include <fstream>
+#include <iostream>
+#include <mutex>
+#include <shared_mutex>
+#include <thread>
+#include <atomic>
+#include <condition_variable>
+#include <chrono>
+#include <ctime>
+#include <sstream>
+#include <cstdlib>
+#include <array>
+#include <algorithm>
+#include <cctype>
+
+// ============================================
+// 全局状态（读写锁保护的球员数据）
+// ============================================
+static std::vector<PlayerData> g_players;
+static std::shared_mutex g_dataMutex;  // 读写锁：读多写少场景
+static bool g_initialLoaded = false;
+
+// ============================================
+// 更新状态
+// ============================================
+static std::mutex g_statusMutex;
+static UpdateStatus g_status = {
+    false,    // isUpdating
+    "",       // lastUpdateTime
+    "never",  // lastResult
+    "",       // lastError
+    0,        // updateCount
+    0,        // playerCount
+    24        // intervalHours
+};
+
+// ============================================
+// 后台更新线程相关
+// ============================================
+static std::thread g_updateThread;
+static std::atomic<bool> g_running{false};
+static std::condition_variable g_cv;
+static std::mutex g_cvMutex;
+static std::atomic<bool> g_triggerNow{false};  // 手动触发标志
+
+// 脚本和数据文件路径
+static std::string g_scriptPath;
+static std::string g_jsonPath;
+
+// ============================================
+// 工具函数
+// ============================================
+
+static std::string getCurrentTimeStr() {
+    auto now = std::chrono::system_clock::now();
+    auto t = std::chrono::system_clock::to_time_t(now);
+    std::tm tm_buf;
+    localtime_r(&t, &tm_buf);
+    char buf[64];
+    strftime(buf, sizeof(buf), "%Y-%m-%d %H:%M:%S", &tm_buf);
+    return std::string(buf);
+}
+
+// 执行命令并获取输出
+static std::pair<int, std::string> execCommand(const std::string& cmd) {
+    std::string output;
+    std::array<char, 256> buffer;
+
+    FILE* pipe = popen((cmd + " 2>&1").c_str(), "r");
+    if (!pipe) {
+        return {-1, "Failed to execute command"};
+    }
+
+    while (fgets(buffer.data(), buffer.size(), pipe) != nullptr) {
+        output += buffer.data();
+    }
+
+    int exitCode = pclose(pipe);
+    // pclose 返回的是 wait status，需要用 WEXITSTATUS 提取退出码
+    if (WIFEXITED(exitCode)) {
+        exitCode = WEXITSTATUS(exitCode);
+    }
+
+    return {exitCode, output};
+}
+
+// ============================================
+// PlayerData 序列化
+// ============================================
 
 json PlayerData::toJson() const {
     return json{
         {"id", id},
+        {"nbaId", nbaId},
         {"name", name},
         {"nameEn", nameEn},
         {"position", position},
         {"era", era},
         {"teams", teams},
         {"avatar", avatar},
+        {"isActive", isActive},
+        {"hasDetailedStats", hasDetailedStats},
         {"championships", championships},
         {"mvp", mvp},
         {"fmvp", fmvp},
@@ -41,128 +133,503 @@ json PlayerData::toJson() const {
     };
 }
 
-const std::vector<PlayerData>& getAllPlayers() {
-    static const std::vector<PlayerData> players = {
-        {
-            1, "迈克尔·乔丹", "Michael Jordan", "SG", "1984-2003",
-            {"公牛", "奇才"}, "🐐",
-            6, 5, 6, 14, 10, 1, 0, 9, 1, 10, 0, 0, 3, 1,
-            1072, 30.1, 6.2, 5.3, 2.3, 0.8, 49.7, 32292,
-            33.4, 6.4, 5.7, 119, 60,
-            37.1, "1986-87"
-        },
-        {
-            2, "勒布朗·詹姆斯", "LeBron James", "SF", "2003-至今",
-            {"骑士", "热火", "骑士", "湖人"}, "👑",
-            4, 4, 4, 20, 13, 3, 2, 6, 0, 1, 1, 0, 3, 1,
-            1492, 27.1, 7.5, 7.4, 1.5, 0.8, 50.6, 40474,
-            28.4, 8.9, 7.2, 183, 83,
-            31.4, "2005-06"
-        },
-        {
-            3, "科比·布莱恩特", "Kobe Bryant", "SG", "1996-2016",
-            {"湖人"}, "🐍",
-            5, 1, 2, 18, 11, 2, 2, 12, 0, 2, 0, 0, 4, 0,
-            1346, 25.0, 5.2, 4.7, 1.4, 0.5, 44.7, 33643,
-            25.6, 5.1, 4.7, 135, 56,
-            35.4, "2005-06"
-        },
-        {
-            4, "卡里姆·贾巴尔", "Kareem Abdul-Jabbar", "C", "1969-1989",
-            {"雄鹿", "湖人"}, "🪝",
-            6, 6, 2, 19, 10, 5, 0, 11, 0, 2, 0, 1, 0, 1,
-            1560, 24.6, 11.2, 3.6, 0.9, 2.6, 55.9, 38387,
-            24.3, 10.5, 3.2, 154, 88,
-            34.8, "1971-72"
-        },
-        {
-            5, "魔术师约翰逊", "Magic Johnson", "PG", "1979-1996",
-            {"湖人"}, "🪄",
-            5, 3, 3, 12, 9, 1, 0, 0, 0, 0, 4, 0, 2, 0,
-            906, 19.5, 7.2, 11.2, 1.9, 0.4, 52.0, 17707,
-            19.5, 7.7, 12.3, 128, 52,
-            23.9, "1986-87"
-        },
-        {
-            6, "拉里·伯德", "Larry Bird", "SF", "1979-1992",
-            {"凯尔特人"}, "🐦",
-            3, 3, 2, 12, 9, 1, 0, 0, 0, 0, 0, 0, 1, 1,
-            897, 24.3, 10.0, 6.3, 1.7, 0.8, 49.6, 21791,
-            23.8, 10.3, 6.5, 99, 55,
-            29.9, "1987-88"
-        },
-        {
-            7, "蒂姆·邓肯", "Tim Duncan", "PF/C", "1997-2016",
-            {"马刺"}, "🏔️",
-            5, 2, 3, 15, 10, 3, 2, 15, 0, 0, 0, 0, 0, 1,
-            1392, 19.0, 10.8, 3.0, 0.7, 2.2, 50.6, 26496,
-            20.6, 11.4, 3.0, 157, 97,
-            25.5, "2001-02"
-        },
-        {
-            8, "沙奎尔·奥尼尔", "Shaquille O'Neal", "C", "1992-2011",
-            {"魔术", "湖人", "热火", "太阳", "骑士", "凯尔特人"}, "🦸",
-            4, 1, 3, 15, 8, 2, 4, 3, 0, 2, 0, 0, 3, 0,
-            1207, 23.7, 10.9, 2.5, 0.6, 2.3, 58.2, 28596,
-            24.3, 11.6, 2.7, 137, 78,
-            29.7, "1999-00"
-        },
-        {
-            9, "斯蒂芬·库里", "Stephen Curry", "PG", "2009-至今",
-            {"勇士"}, "🎯",
-            4, 2, 1, 10, 4, 3, 3, 0, 0, 2, 0, 0, 1, 0,
-            956, 24.8, 4.7, 6.4, 1.4, 0.2, 47.3, 23670,
-            26.0, 5.4, 6.2, 93, 47,
-            32.0, "2015-16"
-        },
-        {
-            10, "比尔·拉塞尔", "Bill Russell", "C", "1956-1969",
-            {"凯尔特人"}, "🏆",
-            11, 5, 0, 12, 3, 8, 0, 1, 0, 0, 0, 4, 1, 0,
-            963, 15.1, 22.5, 4.3, 0.0, 0.0, 44.0, 14522,
-            16.2, 24.9, 4.7, 108, 37,
-            18.9, "1961-62"
-        },
-        {
-            11, "威尔特·张伯伦", "Wilt Chamberlain", "C", "1959-1973",
-            {"勇士", "76人", "湖人"}, "💯",
-            2, 4, 1, 13, 7, 3, 0, 2, 0, 7, 1, 11, 1, 1,
-            1045, 30.1, 22.9, 4.4, 0.0, 0.0, 54.0, 31419,
-            22.5, 24.5, 4.2, 49, 36,
-            50.4, "1961-62"
-        },
-        {
-            12, "哈基姆·奥拉朱旺", "Hakeem Olajuwon", "C", "1984-2002",
-            {"火箭", "猛龙"}, "🌙",
-            2, 1, 2, 12, 6, 3, 3, 9, 2, 0, 0, 0, 0, 0,
-            1238, 21.8, 11.1, 2.5, 1.7, 3.1, 51.2, 26946,
-            25.9, 11.2, 3.2, 97, 68,
-            27.8, "1994-95"
-        },
-        {
-            13, "凯文·杜兰特", "Kevin Durant", "SF", "2007-至今",
-            {"超音速/雷霆", "勇士", "篮网", "太阳"}, "🔥",
-            2, 1, 2, 14, 6, 4, 0, 0, 0, 4, 0, 0, 0, 1,
-            1000, 27.3, 7.0, 4.4, 1.1, 1.1, 50.1, 27372,
-            29.4, 7.7, 4.0, 91, 56,
-            32.0, "2013-14"
-        },
-        {
-            14, "德怀恩·韦德", "Dwyane Wade", "SG", "2003-2019",
-            {"热火", "公牛", "骑士"}, "⚡",
-            3, 0, 1, 13, 2, 3, 3, 3, 0, 1, 0, 0, 0, 0,
-            1054, 22.0, 4.7, 5.4, 1.5, 0.9, 48.0, 23165,
-            22.1, 5.2, 4.6, 101, 55,
-            30.2, "2008-09"
-        },
-        {
-            15, "扬尼斯·安特托昆博", "Giannis Antetokounmpo", "PF", "2013-至今",
-            {"雄鹿"}, "🦌",
-            1, 2, 1, 8, 5, 2, 1, 5, 1, 0, 0, 0, 1, 0,
-            800, 23.4, 9.8, 4.9, 1.1, 1.3, 54.5, 18700,
-            26.8, 11.2, 5.2, 48, 33,
-            29.9, "2019-20"
+PlayerData PlayerData::fromJson(const json& j) {
+    PlayerData p;
+    p.id = j.value("id", 0);
+    p.nbaId = j.value("nbaId", 0);
+    p.name = j.value("name", "");
+    p.nameEn = j.value("nameEn", "");
+    p.position = j.value("position", "");
+    p.era = j.value("era", "");
+    p.avatar = j.value("avatar", "");
+    p.isActive = j.value("isActive", false);
+    p.hasDetailedStats = j.value("hasDetailedStats", false);
+
+    // teams 数组
+    if (j.contains("teams") && j["teams"].is_array()) {
+        for (const auto& t : j["teams"]) {
+            p.teams.push_back(t.get<std::string>());
         }
+    }
+
+    // 荣誉
+    p.championships = j.value("championships", 0);
+    p.mvp = j.value("mvp", 0);
+    p.fmvp = j.value("fmvp", 0);
+    p.allStar = j.value("allStar", 0);
+    p.allNBA1st = j.value("allNBA1st", 0);
+    p.allNBA2nd = j.value("allNBA2nd", 0);
+    p.allNBA3rd = j.value("allNBA3rd", 0);
+    p.allDefense = j.value("allDefense", 0);
+    p.dpoy = j.value("dpoy", 0);
+    p.scoringTitle = j.value("scoringTitle", 0);
+    p.assistTitle = j.value("assistTitle", 0);
+    p.reboundTitle = j.value("reboundTitle", 0);
+    p.allStarMVP = j.value("allStarMVP", 0);
+    p.roy = j.value("roy", 0);
+
+    // 常规赛数据
+    p.gamesPlayed = j.value("gamesPlayed", 0);
+    p.ppg = j.value("ppg", 0.0);
+    p.rpg = j.value("rpg", 0.0);
+    p.apg = j.value("apg", 0.0);
+    p.spg = j.value("spg", 0.0);
+    p.bpg = j.value("bpg", 0.0);
+    p.fgPct = j.value("fgPct", 0.0);
+    p.totalPoints = j.value("totalPoints", 0);
+
+    // 季后赛数据
+    p.playoffPPG = j.value("playoffPPG", 0.0);
+    p.playoffRPG = j.value("playoffRPG", 0.0);
+    p.playoffAPG = j.value("playoffAPG", 0.0);
+    p.playoffWins = j.value("playoffWins", 0);
+    p.playoffLosses = j.value("playoffLosses", 0);
+
+    // 巅峰赛季
+    p.peakPPG = j.value("peakPPG", 0.0);
+    p.peakSeason = j.value("peakSeason", "");
+
+    return p;
+}
+
+// ============================================
+// UpdateStatus 序列化
+// ============================================
+
+json UpdateStatus::toJson() const {
+    return json{
+        {"isUpdating", isUpdating},
+        {"lastUpdateTime", lastUpdateTime},
+        {"lastResult", lastResult},
+        {"lastError", lastError},
+        {"updateCount", updateCount},
+        {"playerCount", playerCount},
+        {"intervalHours", intervalHours}
     };
-    return players;
+}
+
+// ============================================
+// 数据加载（线程安全）
+// ============================================
+
+bool loadPlayersFromFile(const std::string& filepath) {
+    std::ifstream file(filepath);
+    if (!file.is_open()) {
+        std::cerr << "[ERROR] Cannot open players data file: " << filepath << std::endl;
+        return false;
+    }
+
+    try {
+        json data = json::parse(file);
+        if (!data.is_array()) {
+            std::cerr << "[ERROR] Players data file is not a JSON array" << std::endl;
+            return false;
+        }
+
+        // 先解析到临时 vector，避免持有写锁时做 JSON 解析
+        std::vector<PlayerData> newPlayers;
+        newPlayers.reserve(data.size());
+        for (const auto& item : data) {
+            newPlayers.push_back(PlayerData::fromJson(item));
+        }
+
+        // 获取写锁，原子替换数据
+        {
+            std::unique_lock<std::shared_mutex> lock(g_dataMutex);
+            g_players = std::move(newPlayers);
+            g_initialLoaded = true;
+        }
+
+        std::cout << "[INFO] Loaded " << g_players.size() << " players from " << filepath << std::endl;
+        return true;
+
+    } catch (const json::parse_error& e) {
+        std::cerr << "[ERROR] JSON parse error in " << filepath << ": " << e.what() << std::endl;
+        return false;
+    } catch (const std::exception& e) {
+        std::cerr << "[ERROR] Error loading players: " << e.what() << std::endl;
+        return false;
+    }
+}
+
+// 获取球员数据（读锁保护，返回副本）
+std::vector<PlayerData> getAllPlayers() {
+    // 如果还没初始加载过，先尝试加载
+    {
+        std::shared_lock<std::shared_mutex> lock(g_dataMutex);
+        if (g_initialLoaded) {
+            return g_players;  // 返回副本
+        }
+    }
+
+    // 首次加载：尝试多个可能的路径
+    static std::once_flag initFlag;
+    std::call_once(initFlag, []() {
+        std::vector<std::string> searchPaths = {
+            "data/players.json",
+            "./data/players.json",
+            "../data/players.json",
+            "/data/data/players.json",
+            "/data/players.json",
+            "players.json",
+        };
+
+        for (const auto& path : searchPaths) {
+            if (loadPlayersFromFile(path)) {
+                return;
+            }
+        }
+
+        std::cerr << "[WARN] Could not load players.json from any path, using empty data" << std::endl;
+    });
+
+    std::shared_lock<std::shared_mutex> lock(g_dataMutex);
+    return g_players;
+}
+
+// ============================================
+// 执行一次数据更新
+// ============================================
+
+static void doUpdate() {
+    std::string timeStr = getCurrentTimeStr();
+    std::cout << "[UPDATE] Starting player data update at " << timeStr << std::endl;
+
+    // 标记更新中
+    {
+        std::lock_guard<std::mutex> lock(g_statusMutex);
+        g_status.isUpdating = true;
+    }
+
+    // 调用 Python 脚本
+    std::string cmd = "python3 " + g_scriptPath + " --output " + g_jsonPath;
+    std::cout << "[UPDATE] Running: " << cmd << std::endl;
+
+    auto [exitCode, output] = execCommand(cmd);
+
+    if (exitCode == 0) {
+        // 脚本执行成功，重新加载 JSON 数据
+        if (loadPlayersFromFile(g_jsonPath)) {
+            std::lock_guard<std::mutex> lock(g_statusMutex);
+            g_status.isUpdating = false;
+            g_status.lastUpdateTime = getCurrentTimeStr();
+            g_status.lastResult = "success";
+            g_status.lastError = "";
+            g_status.updateCount++;
+            // 读取球员数量
+            {
+                std::shared_lock<std::shared_mutex> dataLock(g_dataMutex);
+                g_status.playerCount = static_cast<int>(g_players.size());
+            }
+            std::cout << "[UPDATE] Data update successful! " << g_status.playerCount << " players loaded." << std::endl;
+        } else {
+            std::lock_guard<std::mutex> lock(g_statusMutex);
+            g_status.isUpdating = false;
+            g_status.lastUpdateTime = getCurrentTimeStr();
+            g_status.lastResult = "failed";
+            g_status.lastError = "JSON file reload failed after script execution";
+            std::cerr << "[UPDATE] Failed to reload JSON after successful script execution" << std::endl;
+        }
+    } else {
+        std::lock_guard<std::mutex> lock(g_statusMutex);
+        g_status.isUpdating = false;
+        g_status.lastUpdateTime = getCurrentTimeStr();
+        g_status.lastResult = "failed";
+        g_status.lastError = "Script exited with code " + std::to_string(exitCode);
+        std::cerr << "[UPDATE] Script failed (exit code " << exitCode << "):" << std::endl;
+        // 只打印最后几行输出
+        std::istringstream iss(output);
+        std::string line;
+        std::vector<std::string> lines;
+        while (std::getline(iss, line)) {
+            lines.push_back(line);
+        }
+        int start = std::max(0, static_cast<int>(lines.size()) - 10);
+        for (int i = start; i < static_cast<int>(lines.size()); i++) {
+            std::cerr << "  " << lines[i] << std::endl;
+        }
+    }
+}
+
+// ============================================
+// 后台更新线程
+// ============================================
+
+static void updateThreadFunc(int intervalHours) {
+    std::cout << "[UPDATE] Auto-update thread started (interval: " << intervalHours << " hours)" << std::endl;
+
+    while (g_running.load()) {
+        // 等待指定时间或被手动唤醒
+        {
+            std::unique_lock<std::mutex> lock(g_cvMutex);
+            g_cv.wait_for(lock, std::chrono::hours(intervalHours), []() {
+                return !g_running.load() || g_triggerNow.load();
+            });
+        }
+
+        if (!g_running.load()) {
+            break;
+        }
+
+        // 清除手动触发标志
+        g_triggerNow.store(false);
+
+        // 执行更新
+        try {
+            doUpdate();
+        } catch (const std::exception& e) {
+            std::cerr << "[UPDATE] Exception during update: " << e.what() << std::endl;
+            std::lock_guard<std::mutex> lock(g_statusMutex);
+            g_status.isUpdating = false;
+            g_status.lastResult = "failed";
+            g_status.lastError = std::string("Exception: ") + e.what();
+        }
+    }
+
+    std::cout << "[UPDATE] Auto-update thread stopped" << std::endl;
+}
+
+// ============================================
+// 公开接口
+// ============================================
+
+bool triggerUpdate() {
+    // 检查是否已经在更新
+    {
+        std::lock_guard<std::mutex> lock(g_statusMutex);
+        if (g_status.isUpdating) {
+            return false;  // 已经在更新中
+        }
+    }
+
+    if (g_running.load()) {
+        // 有后台线程在跑，通过条件变量唤醒它
+        g_triggerNow.store(true);
+        g_cv.notify_one();
+    } else {
+        // 没有后台线程，直接在新线程中执行一次
+        std::thread([]() {
+            try {
+                doUpdate();
+            } catch (const std::exception& e) {
+                std::cerr << "[UPDATE] Exception during manual update: " << e.what() << std::endl;
+            }
+        }).detach();
+    }
+    return true;
+}
+
+void startAutoUpdate(const std::string& scriptPath, const std::string& jsonPath, int intervalHours) {
+    // 如果已经在运行，先停止
+    if (g_running.load()) {
+        stopAutoUpdate();
+    }
+
+    g_scriptPath = scriptPath;
+    g_jsonPath = jsonPath;
+
+    {
+        std::lock_guard<std::mutex> lock(g_statusMutex);
+        g_status.intervalHours = intervalHours;
+        // 初始化球员数量
+        {
+            std::shared_lock<std::shared_mutex> dataLock(g_dataMutex);
+            g_status.playerCount = static_cast<int>(g_players.size());
+        }
+    }
+
+    g_running.store(true);
+    g_updateThread = std::thread(updateThreadFunc, intervalHours);
+
+    std::cout << "[UPDATE] Auto-update started: script=" << scriptPath
+              << ", json=" << jsonPath
+              << ", interval=" << intervalHours << "h" << std::endl;
+}
+
+void stopAutoUpdate() {
+    if (!g_running.load()) return;
+
+    g_running.store(false);
+    g_cv.notify_one();
+
+    if (g_updateThread.joinable()) {
+        g_updateThread.join();
+    }
+
+    std::cout << "[UPDATE] Auto-update stopped" << std::endl;
+}
+
+UpdateStatus getUpdateStatus() {
+    std::lock_guard<std::mutex> lock(g_statusMutex);
+    return g_status;
+}
+
+// ============================================
+// PlayerSearchResult 序列化
+// ============================================
+
+json PlayerSearchResult::toJson() const {
+    json result;
+    result["total"] = total;
+    result["page"] = page;
+    result["pageSize"] = pageSize;
+    result["totalPages"] = totalPages;
+    
+    json playersJson = json::array();
+    for (const auto& p : players) {
+        playersJson.push_back(p.toJson());
+    }
+    result["players"] = playersJson;
+    return result;
+}
+
+// ============================================
+// 搜索功能
+// ============================================
+
+// 大小写无关的字符串包含检查
+static bool containsIgnoreCase(const std::string& haystack, const std::string& needle) {
+    if (needle.empty()) return true;
+    if (haystack.empty()) return false;
+    
+    auto it = std::search(
+        haystack.begin(), haystack.end(),
+        needle.begin(), needle.end(),
+        [](char ch1, char ch2) {
+            return std::toupper(static_cast<unsigned char>(ch1)) == 
+                   std::toupper(static_cast<unsigned char>(ch2));
+        }
+    );
+    return it != haystack.end();
+}
+
+// 检查字符串是否以指定前缀开头（用于位置匹配，如 "PG" 匹配 "PG/SG"）
+static bool positionMatches(const std::string& playerPos, const std::string& filterPos) {
+    if (filterPos.empty()) return true;
+    if (playerPos.empty()) return false;
+    // 精确匹配或者包含匹配
+    return playerPos == filterPos || 
+           playerPos.find(filterPos) != std::string::npos ||
+           containsIgnoreCase(playerPos, filterPos);
+}
+
+PlayerSearchResult searchPlayers(const PlayerSearchParams& params) {
+    // 获取数据快照
+    std::vector<PlayerData> allData;
+    {
+        std::shared_lock<std::shared_mutex> lock(g_dataMutex);
+        allData = g_players;
+    }
+
+    // 1. 筛选
+    std::vector<PlayerData> filtered;
+    filtered.reserve(allData.size());
+
+    for (const auto& p : allData) {
+        // 关键词匹配（中文名或英文名）
+        if (!params.keyword.empty()) {
+            if (!containsIgnoreCase(p.name, params.keyword) &&
+                !containsIgnoreCase(p.nameEn, params.keyword)) {
+                continue;
+            }
+        }
+
+        // 位置筛选
+        if (!params.position.empty() && !positionMatches(p.position, params.position)) {
+            continue;
+        }
+
+        // 球队筛选
+        if (!params.team.empty()) {
+            bool found = false;
+            for (const auto& t : p.teams) {
+                if (containsIgnoreCase(t, params.team)) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) continue;
+        }
+
+        // 现役筛选
+        if (params.activeOnly && !p.isActive) {
+            continue;
+        }
+
+        // 有详细数据筛选
+        if (params.hasStatsOnly && !p.hasDetailedStats) {
+            continue;
+        }
+
+        filtered.push_back(p);
+    }
+
+    // 2. 排序
+    auto getFieldValue = [](const PlayerData& p, const std::string& field) -> double {
+        if (field == "ppg") return p.ppg;
+        if (field == "rpg") return p.rpg;
+        if (field == "apg") return p.apg;
+        if (field == "spg") return p.spg;
+        if (field == "bpg") return p.bpg;
+        if (field == "fgPct") return p.fgPct;
+        if (field == "totalPoints") return static_cast<double>(p.totalPoints);
+        if (field == "gamesPlayed") return static_cast<double>(p.gamesPlayed);
+        if (field == "championships") return static_cast<double>(p.championships);
+        if (field == "mvp") return static_cast<double>(p.mvp);
+        if (field == "fmvp") return static_cast<double>(p.fmvp);
+        if (field == "allStar") return static_cast<double>(p.allStar);
+        if (field == "playoffPPG") return p.playoffPPG;
+        if (field == "playoffWins") return static_cast<double>(p.playoffWins);
+        if (field == "peakPPG") return p.peakPPG;
+        return 0.0;
+    };
+
+    if (params.sortBy == "name") {
+        std::sort(filtered.begin(), filtered.end(),
+            [&](const PlayerData& a, const PlayerData& b) {
+                return params.sortDesc ? (a.nameEn > b.nameEn) : (a.nameEn < b.nameEn);
+            });
+    } else {
+        std::sort(filtered.begin(), filtered.end(),
+            [&](const PlayerData& a, const PlayerData& b) {
+                double va = getFieldValue(a, params.sortBy);
+                double vb = getFieldValue(b, params.sortBy);
+                return params.sortDesc ? (va > vb) : (va < vb);
+            });
+    }
+
+    // 3. 分页
+    int total = static_cast<int>(filtered.size());
+    int pageSize = std::max(1, std::min(params.pageSize, 100)); // 限制 1-100
+    int totalPages = (total + pageSize - 1) / pageSize;
+    int page = std::max(1, std::min(params.page, std::max(1, totalPages)));
+    
+    int startIdx = (page - 1) * pageSize;
+    int endIdx = std::min(startIdx + pageSize, total);
+
+    PlayerSearchResult result;
+    result.total = total;
+    result.page = page;
+    result.pageSize = pageSize;
+    result.totalPages = totalPages;
+
+    if (startIdx < total) {
+        result.players.assign(filtered.begin() + startIdx, filtered.begin() + endIdx);
+    }
+
+    return result;
+}
+
+// 根据 nbaId 查找球员（返回 nullptr 如果未找到）
+PlayerData* findPlayerByNbaId(int nbaId) {
+    // 注意：这个函数返回指向全局数据的指针，调用者需要在读锁保护下使用
+    // 这里简化处理，返回副本
+    std::shared_lock<std::shared_mutex> lock(g_dataMutex);
+    for (auto& p : g_players) {
+        if (p.nbaId == nbaId) {
+            // 返回一个堆上的副本
+            return new PlayerData(p);
+        }
+    }
+    return nullptr;
 }

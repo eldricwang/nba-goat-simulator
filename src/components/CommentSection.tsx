@@ -2,13 +2,18 @@
 import { useState, useEffect } from 'react'
 import { fetchComments, postComment } from '../api'
 import type { Comment } from '../api'
+import { useAuth } from '../contexts/AuthContext'
 
 export default function CommentSection({ teamName }: { teamName?: string }) {
+  const { user } = useAuth()
   const [comments, setComments] = useState<Comment[]>([])
   const [nickname, setNickname] = useState('')
   const [content, setContent] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitting, setSubmitting] = useState(false)
+
+  // 登录用户自动使用昵称
+  const displayNickname = user ? user.nickname : nickname
 
   // 加载评论
   const loadComments = async () => {
@@ -29,11 +34,11 @@ export default function CommentSection({ teamName }: { teamName?: string }) {
   // 提交评论
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!nickname.trim() || !content.trim()) return
+    if (!displayNickname.trim() || !content.trim()) return
 
     setSubmitting(true)
     try {
-      await postComment(nickname.trim(), content.trim(), teamName)
+      await postComment(displayNickname.trim(), content.trim(), teamName)
       setContent('')
       loadComments()
     } catch {
@@ -102,24 +107,55 @@ export default function CommentSection({ teamName }: { teamName?: string }) {
         border: '1px solid rgba(255,255,255,0.1)',
       }}>
         <div style={{ marginBottom: 16 }}>
-          <input
-            type="text"
-            placeholder="你的昵称"
-            value={nickname}
-            onChange={(e) => setNickname(e.target.value)}
-            maxLength={20}
-            style={{
-              width: '100%',
+          {user ? (
+            <div style={{
               padding: '12px 16px',
               borderRadius: 10,
-              border: '1px solid rgba(255,255,255,0.15)',
-              background: 'rgba(255,255,255,0.08)',
-              color: '#fff',
+              border: '1px solid rgba(102,126,234,0.3)',
+              background: 'rgba(102,126,234,0.1)',
+              color: '#667eea',
               fontSize: 15,
-              outline: 'none',
-              boxSizing: 'border-box',
-            }}
-          />
+              display: 'flex',
+              alignItems: 'center',
+              gap: 8,
+            }}>
+              <span style={{
+                width: 28,
+                height: 28,
+                borderRadius: '50%',
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: 13,
+                fontWeight: 'bold',
+                color: '#fff',
+                flexShrink: 0,
+              }}>
+                {user.nickname[0]}
+              </span>
+              以 <strong>{user.nickname}</strong> 的身份发言
+            </div>
+          ) : (
+            <input
+              type="text"
+              placeholder="你的昵称"
+              value={nickname}
+              onChange={(e) => setNickname(e.target.value)}
+              maxLength={20}
+              style={{
+                width: '100%',
+                padding: '12px 16px',
+                borderRadius: 10,
+                border: '1px solid rgba(255,255,255,0.15)',
+                background: 'rgba(255,255,255,0.08)',
+                color: '#fff',
+                fontSize: 15,
+                outline: 'none',
+                boxSizing: 'border-box',
+              }}
+            />
+          )}
         </div>
         <div style={{ marginBottom: 16 }}>
           <textarea
@@ -153,13 +189,13 @@ export default function CommentSection({ teamName }: { teamName?: string }) {
         </div>
         <button
           type="submit"
-          disabled={submitting || !nickname.trim() || !content.trim()}
+          disabled={submitting || !displayNickname.trim() || !content.trim()}
           style={{
             width: '100%',
             padding: '12px 0',
             borderRadius: 10,
             border: 'none',
-            background: submitting || !nickname.trim() || !content.trim()
+            background: submitting || !displayNickname.trim() || !content.trim()
               ? '#333'
               : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
             color: '#fff',

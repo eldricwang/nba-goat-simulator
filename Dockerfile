@@ -39,7 +39,21 @@ RUN apt-get update && apt-get install -y \
     nginx \
     libsqlite3-0 \
     supervisor \
+    openssl \
+    python3 \
+    python3-pip \
     && rm -rf /var/lib/apt/lists/*
+
+# 安装 nba_api（Python 数据抓取依赖）
+RUN pip3 install --no-cache-dir nba_api
+
+# 生成自签名 SSL 证书（有效期 10 年）
+RUN mkdir -p /etc/nginx/ssl && \
+    openssl req -x509 -nodes -days 3650 \
+    -newkey rsa:2048 \
+    -keyout /etc/nginx/ssl/server.key \
+    -out /etc/nginx/ssl/server.crt \
+    -subj "/C=CN/ST=Beijing/L=Beijing/O=NBA-GOAT/CN=111.229.198.32"
 
 # 复制后端可执行文件
 COPY --from=backend-builder /app/backend/build/nba_backend /usr/local/bin/nba_backend
@@ -57,9 +71,16 @@ RUN rm -f /etc/nginx/sites-enabled/default
 COPY supervisord.conf /etc/supervisor/conf.d/app.conf
 
 # 创建数据目录（SQLite 数据库持久化用）
-RUN mkdir -p /data
+RUN mkdir -p /data /data/data
+
+# 复制球员数据 JSON 文件
+COPY backend/data/players.json /data/data/players.json
+
+# 复制 Python 数据抓取脚本
+COPY scripts/fetch_players.py /data/scripts/fetch_players.py
+
 WORKDIR /data
 
-EXPOSE 80
+EXPOSE 80 443
 
 CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/app.conf"]

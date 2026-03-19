@@ -8,6 +8,10 @@ import RankingList from "./components/RankingList";
 import PlayerCard from "./components/PlayerCard";
 import PlayerCompare from "./components/PlayerCompare";
 import CommentSection from "./components/CommentSection";
+import AuthModal from "./components/AuthModal";
+import ProfilePage from "./components/ProfilePage";
+import PlayerDatabase from "./components/PlayerDatabase";
+import { useAuth } from "./contexts/AuthContext";
 
 const DEFAULT_WEIGHTS: WeightConfig = {
   championships: 70, mvp: 65, fmvp: 60, allStar: 25, allNBA: 35,
@@ -16,8 +20,12 @@ const DEFAULT_WEIGHTS: WeightConfig = {
 };
 
 type ViewMode = "ranking" | "compare";
+type PageMode = "home" | "profile" | "database";
 
 export default function App() {
+  const { user, logout } = useAuth();
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [currentPage, setCurrentPage] = useState<PageMode>("home");
   const [weights, setWeights] = useState<WeightConfig>({ ...DEFAULT_WEIGHTS });
   const [activePreset, setActivePreset] = useState<string | null>("均衡模式");
   const [selectedPlayer, setSelectedPlayer] = useState<RankedPlayer | null>(null);
@@ -111,6 +119,16 @@ export default function App() {
 
   const topPlayerName = rankings.length > 0 ? rankings[0].player.name : undefined;
 
+  // 个人主页
+  if (currentPage === "profile") {
+    return <ProfilePage onBack={() => setCurrentPage("home")} />;
+  }
+
+  // 球员数据库
+  if (currentPage === "database") {
+    return <PlayerDatabase onBack={() => setCurrentPage("home")} />;
+  }
+
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       {/* 顶部导航 */}
@@ -157,6 +175,61 @@ export default function App() {
               >
                 🆚 对比
               </button>
+              <button
+                onClick={() => setCurrentPage("database")}
+                className="px-4 py-2 rounded-lg text-sm font-bold transition-all
+                  bg-gray-800 text-gray-400 hover:text-white"
+              >
+                🔍 球员库
+              </button>
+
+              {/* 用户登录区域 */}
+              <div className="ml-2 pl-2 border-l border-gray-700">
+                {user ? (
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => setCurrentPage("profile")}
+                      className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                      title="个人主页"
+                    >
+                      <div
+                        className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold text-white overflow-hidden"
+                        style={{
+                          background: user.avatar_url
+                            ? 'transparent'
+                            : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                        }}
+                      >
+                        {user.avatar_url ? (
+                          <img
+                            src={user.avatar_url}
+                            alt={user.nickname}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          user.nickname[0]
+                        )}
+                      </div>
+                      <span className="text-sm text-gray-300 hidden sm:inline">
+                        {user.nickname}
+                      </span>
+                    </button>
+                    <button
+                      onClick={logout}
+                      className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+                    >
+                      退出
+                    </button>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setShowAuthModal(true)}
+                    className="px-4 py-2 rounded-lg text-sm font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-white hover:opacity-90 transition-opacity"
+                  >
+                    登录
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -343,6 +416,9 @@ export default function App() {
           </p>
         </div>
       </footer>
+
+      {/* 登录/注册弹窗 */}
+      {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}
     </div>
   );
 }

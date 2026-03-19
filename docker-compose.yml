@@ -4,6 +4,7 @@ services:
     container_name: nba-goat-simulator
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       # 评论数据库持久化 — 容器重建不丢数据
       - nba-data:/data

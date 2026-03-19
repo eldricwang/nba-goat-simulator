@@ -5,20 +5,8 @@
 #include <iomanip>
 #include <ctime>
 
-CommentStore::CommentStore(const std::string& dbPath) {
-    int rc = sqlite3_open(dbPath.c_str(), &db_);
-    if (rc != SQLITE_OK) {
-        std::cerr << "Cannot open database: " << sqlite3_errmsg(db_) << std::endl;
-        db_ = nullptr;
-        return;
-    }
+CommentStore::CommentStore(sqlite3* db) : db_(db) {
     initDB();
-}
-
-CommentStore::~CommentStore() {
-    if (db_) {
-        sqlite3_close(db_);
-    }
 }
 
 void CommentStore::initDB() {

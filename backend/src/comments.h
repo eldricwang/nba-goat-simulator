@@ -8,8 +8,8 @@ using json = nlohmann::json;
 
 class CommentStore {
 public:
-    CommentStore(const std::string& dbPath = "comments.db");
-    ~CommentStore();
+    // 使用共享数据库连接
+    CommentStore(sqlite3* db);
 
     // 获取评论列表 (最新50条)
     json getComments(int limit = 50);
