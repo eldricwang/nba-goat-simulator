@@ -83,4 +83,4 @@ WORKDIR /data
 
 EXPOSE 80 443
 
-CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/app.conf"]
+CMD mkdir -p /data/log /data/data && exec /usr/bin/supervisord -n -c /etc/supervisor/conf.d/app.conf
