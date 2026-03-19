@@ -479,7 +479,7 @@ export default function PlayerDatabase({ onBack }: PlayerDatabaseProps) {
                 // 去重并排序
                 const unique = [...new Set(pages)].sort((a, b) => a - b);
 
-                const elements: JSX.Element[] = [];
+                const elements: React.ReactNode[] = [];
                 let prev = 0;
                 for (const p of unique) {
                   if (prev > 0 && p - prev > 1) {
