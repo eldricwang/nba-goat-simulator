@@ -73,14 +73,26 @@ COPY supervisord.conf /etc/supervisor/conf.d/app.conf
 # 创建数据目录（SQLite 数据库持久化用）和日志目录
 RUN mkdir -p /data /data/data /data/log
 
-# 复制球员数据 JSON 文件
-COPY backend/data/players.json /data/data/players.json
+# 复制球员数据 JSON 文件到 volume 不会覆盖的备份位置
+# 注意: /data 被 named volume 挂载后，COPY 到 /data 里的文件会被 volume 覆盖
+# 所以先放到 /opt/nba-seed/ 作为种子数据，启动时按需拷贝
+COPY backend/data/players.json /opt/nba-seed/players.json
 
-# 复制 Python 数据抓取脚本
-COPY scripts/fetch_players.py /data/scripts/fetch_players.py
+# 复制 Python 数据抓取脚本到备份位置（同理）
+COPY scripts/fetch_players.py /opt/nba-seed/fetch_players.py
 
 WORKDIR /data
 
 EXPOSE 80 443
 
-CMD mkdir -p /data/log /data/data && exec /usr/bin/supervisord -n -c /etc/supervisor/conf.d/app.conf
+# 启动时：
+# 1. 确保目录结构存在（bind mount 可能覆盖）
+# 2. 如果 players.json 不存在，从种子数据拷贝
+# 3. 如果 fetch_players.py 不存在，从种子数据拷贝
+# 4. 启动 supervisord
+CMD sh -c '\
+    mkdir -p /data/log /data/data /data/scripts && \
+    if [ ! -f /data/data/players.json ]; then cp /opt/nba-seed/players.json /data/data/players.json; echo "Seeded players.json"; fi && \
+    if [ ! -f /data/scripts/fetch_players.py ]; then cp /opt/nba-seed/fetch_players.py /data/scripts/fetch_players.py; echo "Seeded fetch_players.py"; fi && \
+    exec /usr/bin/supervisord -n -c /etc/supervisor/conf.d/app.conf \
+    '
