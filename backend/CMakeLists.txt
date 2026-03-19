@@ -21,6 +21,7 @@ set(SOURCES
     src/comments.cpp
     src/api.cpp
     src/auth.cpp
+    src/logger.cpp
 )
 
 add_executable(nba_backend ${SOURCES})

@@ -70,8 +70,8 @@ RUN rm -f /etc/nginx/sites-enabled/default
 # 复制 supervisor 配置（同时管理 nginx + 后端进程）
 COPY supervisord.conf /etc/supervisor/conf.d/app.conf
 
-# 创建数据目录（SQLite 数据库持久化用）
-RUN mkdir -p /data /data/data
+# 创建数据目录（SQLite 数据库持久化用）和日志目录
+RUN mkdir -p /data /data/data /data/log
 
 # 复制球员数据 JSON 文件
 COPY backend/data/players.json /data/data/players.json

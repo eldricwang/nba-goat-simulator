@@ -3,6 +3,7 @@
 #include "comments.h"
 #include "auth.h"
 #include "players.h"
+#include "logger.h"
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -21,6 +22,17 @@ static void signalHandler(int signum) {
 }
 
 int main(int argc, char* argv[]) {
+    // 初始化日志系统
+    std::string logDir = "/data/log";
+    const char* envLogDir = std::getenv("LOG_DIR");
+    if (envLogDir) {
+        logDir = envLogDir;
+    }
+    Logger::instance().init(logDir, LogLevel::INFO);
+    LOG_INFO("MAIN", "========================================");
+    LOG_INFO("MAIN", "NBA GOAT Simulator Backend starting...");
+    LOG_INFO("MAIN", "Log directory: " + logDir);
+
     // 默认端口 8080，可通过命令行参数或环境变量修改
     int port = 8080;
     if (argc > 1) {
@@ -62,9 +74,11 @@ int main(int argc, char* argv[]) {
     sqlite3* db = nullptr;
     int rc = sqlite3_open("nba_goat.db", &db);
     if (rc != SQLITE_OK) {
+        LOG_FATAL("MAIN", std::string("Cannot open database: ") + sqlite3_errmsg(db));
         std::cerr << "Cannot open database: " << sqlite3_errmsg(db) << std::endl;
         return 1;
     }
+    LOG_INFO("MAIN", "Database opened: nba_goat.db");
 
     // 初始化各模块（共享同一个数据库连接）
     CommentStore commentStore(db);
@@ -103,7 +117,10 @@ int main(int argc, char* argv[]) {
     // 启动后台自动更新线程
     startAutoUpdate(updateScript, updateJson, updateInterval);
 
+    LOG_INFO("MAIN", "Server listening on 0.0.0.0:" + std::to_string(port));
+
     if (!svr.listen("0.0.0.0", port)) {
+        LOG_FATAL("MAIN", "Failed to start server on port " + std::to_string(port));
         std::cerr << "Error: Failed to start server on port " << port << std::endl;
         stopAutoUpdate();
         sqlite3_close(db);
@@ -111,7 +128,9 @@ int main(int argc, char* argv[]) {
     }
 
     // 服务器停止后，清理资源
+    LOG_INFO("MAIN", "Server shutting down...");
     stopAutoUpdate();
     sqlite3_close(db);
+    LOG_INFO("MAIN", "Server stopped gracefully");
     return 0;
 }

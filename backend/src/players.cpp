@@ -1,4 +1,5 @@
 #include "players.h"
+#include "logger.h"
 #include <fstream>
 #include <iostream>
 #include <mutex>
@@ -213,24 +214,38 @@ json UpdateStatus::toJson() const {
 // ============================================
 
 bool loadPlayersFromFile(const std::string& filepath) {
+    LOG_INFO("DATA", "Loading players from file: " + filepath);
+
     std::ifstream file(filepath);
     if (!file.is_open()) {
-        std::cerr << "[ERROR] Cannot open players data file: " << filepath << std::endl;
+        LOG_ERROR("DATA", "Cannot open players data file: " + filepath);
         return false;
     }
 
     try {
         json data = json::parse(file);
         if (!data.is_array()) {
-            std::cerr << "[ERROR] Players data file is not a JSON array" << std::endl;
+            LOG_ERROR("DATA", "Players data file is not a JSON array: " + filepath);
             return false;
         }
 
         // 先解析到临时 vector，避免持有写锁时做 JSON 解析
         std::vector<PlayerData> newPlayers;
         newPlayers.reserve(data.size());
-        for (const auto& item : data) {
-            newPlayers.push_back(PlayerData::fromJson(item));
+        int parseErrors = 0;
+        for (size_t i = 0; i < data.size(); i++) {
+            try {
+                newPlayers.push_back(PlayerData::fromJson(data[i]));
+            } catch (const std::exception& e) {
+                parseErrors++;
+                if (parseErrors <= 5) {
+                    LOG_WARN("DATA", "Failed to parse player at index " + std::to_string(i) + ": " + e.what());
+                }
+            }
+        }
+
+        if (parseErrors > 0) {
+            LOG_WARN("DATA", "Total parse errors: " + std::to_string(parseErrors) + " out of " + std::to_string(data.size()) + " records");
         }
 
         // 获取写锁，原子替换数据
@@ -240,14 +255,14 @@ bool loadPlayersFromFile(const std::string& filepath) {
             g_initialLoaded = true;
         }
 
-        std::cout << "[INFO] Loaded " << g_players.size() << " players from " << filepath << std::endl;
+        LOG_INFO("DATA", "Successfully loaded " + std::to_string(g_players.size()) + " players from " + filepath);
         return true;
 
     } catch (const json::parse_error& e) {
-        std::cerr << "[ERROR] JSON parse error in " << filepath << ": " << e.what() << std::endl;
+        LOG_ERROR("DATA", "JSON parse error in " + filepath + ": " + std::string(e.what()));
         return false;
     } catch (const std::exception& e) {
-        std::cerr << "[ERROR] Error loading players: " << e.what() << std::endl;
+        LOG_ERROR("DATA", "Error loading players from " + filepath + ": " + std::string(e.what()));
         return false;
     }
 }
@@ -281,6 +296,7 @@ std::vector<PlayerData> getAllPlayers() {
         }
 
         std::cerr << "[WARN] Could not load players.json from any path, using empty data" << std::endl;
+        LOG_ERROR("DATA", "Could not load players.json from any search path! Using empty data. Searched: data/players.json, ./data/players.json, ../data/players.json, /data/data/players.json, /data/players.json, players.json");
     });
 
     std::shared_lock<std::shared_mutex> lock(g_dataMutex);
@@ -293,7 +309,7 @@ std::vector<PlayerData> getAllPlayers() {
 
 static void doUpdate() {
     std::string timeStr = getCurrentTimeStr();
-    std::cout << "[UPDATE] Starting player data update at " << timeStr << std::endl;
+    LOG_INFO("UPDATE", "Starting player data update at " + timeStr);
 
     // 标记更新中
     {
@@ -303,12 +319,13 @@ static void doUpdate() {
 
     // 调用 Python 脚本
     std::string cmd = "python3 " + g_scriptPath + " --output " + g_jsonPath;
-    std::cout << "[UPDATE] Running: " << cmd << std::endl;
+    LOG_INFO("UPDATE", "Running command: " + cmd);
 
     auto [exitCode, output] = execCommand(cmd);
 
     if (exitCode == 0) {
         // 脚本执行成功，重新加载 JSON 数据
+        LOG_INFO("UPDATE", "Script executed successfully, reloading data...");
         if (loadPlayersFromFile(g_jsonPath)) {
             std::lock_guard<std::mutex> lock(g_statusMutex);
             g_status.isUpdating = false;
@@ -321,33 +338,35 @@ static void doUpdate() {
                 std::shared_lock<std::shared_mutex> dataLock(g_dataMutex);
                 g_status.playerCount = static_cast<int>(g_players.size());
             }
-            std::cout << "[UPDATE] Data update successful! " << g_status.playerCount << " players loaded." << std::endl;
+            LOG_INFO("UPDATE", "Data update successful! " + std::to_string(g_status.playerCount) + " players loaded.");
         } else {
             std::lock_guard<std::mutex> lock(g_statusMutex);
             g_status.isUpdating = false;
             g_status.lastUpdateTime = getCurrentTimeStr();
             g_status.lastResult = "failed";
             g_status.lastError = "JSON file reload failed after script execution";
-            std::cerr << "[UPDATE] Failed to reload JSON after successful script execution" << std::endl;
+            LOG_ERROR("UPDATE", "Failed to reload JSON after successful script execution");
         }
     } else {
-        std::lock_guard<std::mutex> lock(g_statusMutex);
-        g_status.isUpdating = false;
-        g_status.lastUpdateTime = getCurrentTimeStr();
-        g_status.lastResult = "failed";
-        g_status.lastError = "Script exited with code " + std::to_string(exitCode);
-        std::cerr << "[UPDATE] Script failed (exit code " << exitCode << "):" << std::endl;
-        // 只打印最后几行输出
+        // 提取脚本最后几行输出作为错误信息
         std::istringstream iss(output);
         std::string line;
         std::vector<std::string> lines;
         while (std::getline(iss, line)) {
             lines.push_back(line);
         }
+        std::string lastLines;
         int start = std::max(0, static_cast<int>(lines.size()) - 10);
         for (int i = start; i < static_cast<int>(lines.size()); i++) {
-            std::cerr << "  " << lines[i] << std::endl;
+            lastLines += lines[i] + "\n";
         }
+
+        std::lock_guard<std::mutex> lock(g_statusMutex);
+        g_status.isUpdating = false;
+        g_status.lastUpdateTime = getCurrentTimeStr();
+        g_status.lastResult = "failed";
+        g_status.lastError = "Script exited with code " + std::to_string(exitCode);
+        LOG_ERROR("UPDATE", "Script failed (exit code " + std::to_string(exitCode) + "): " + lastLines);
     }
 }
 
@@ -356,7 +375,7 @@ static void doUpdate() {
 // ============================================
 
 static void updateThreadFunc(int intervalHours) {
-    std::cout << "[UPDATE] Auto-update thread started (interval: " << intervalHours << " hours)" << std::endl;
+    LOG_INFO("UPDATE", "Auto-update thread started (interval: " + std::to_string(intervalHours) + " hours)");
 
     while (g_running.load()) {
         // 等待指定时间或被手动唤醒
@@ -372,13 +391,16 @@ static void updateThreadFunc(int intervalHours) {
         }
 
         // 清除手动触发标志
-        g_triggerNow.store(false);
+        bool wasManual = g_triggerNow.exchange(false);
+        if (wasManual) {
+            LOG_INFO("UPDATE", "Manual update trigger received");
+        }
 
         // 执行更新
         try {
             doUpdate();
         } catch (const std::exception& e) {
-            std::cerr << "[UPDATE] Exception during update: " << e.what() << std::endl;
+            LOG_ERROR("UPDATE", std::string("Exception during update: ") + e.what());
             std::lock_guard<std::mutex> lock(g_statusMutex);
             g_status.isUpdating = false;
             g_status.lastResult = "failed";
@@ -386,7 +408,7 @@ static void updateThreadFunc(int intervalHours) {
         }
     }
 
-    std::cout << "[UPDATE] Auto-update thread stopped" << std::endl;
+    LOG_INFO("UPDATE", "Auto-update thread stopped");
 }
 
 // ============================================
@@ -406,13 +428,15 @@ bool triggerUpdate() {
         // 有后台线程在跑，通过条件变量唤醒它
         g_triggerNow.store(true);
         g_cv.notify_one();
+        LOG_INFO("UPDATE", "Manual update: signaled background thread");
     } else {
         // 没有后台线程，直接在新线程中执行一次
+        LOG_INFO("UPDATE", "Manual update: spawning one-off update thread");
         std::thread([]() {
             try {
                 doUpdate();
             } catch (const std::exception& e) {
-                std::cerr << "[UPDATE] Exception during manual update: " << e.what() << std::endl;
+                LOG_ERROR("UPDATE", std::string("Exception during manual update: ") + e.what());
             }
         }).detach();
     }
@@ -441,9 +465,8 @@ void startAutoUpdate(const std::string& scriptPath, const std::string& jsonPath,
     g_running.store(true);
     g_updateThread = std::thread(updateThreadFunc, intervalHours);
 
-    std::cout << "[UPDATE] Auto-update started: script=" << scriptPath
-              << ", json=" << jsonPath
-              << ", interval=" << intervalHours << "h" << std::endl;
+    LOG_INFO("UPDATE", "Auto-update started: script=" + scriptPath
+        + ", json=" + jsonPath + ", interval=" + std::to_string(intervalHours) + "h");
 }
 
 void stopAutoUpdate() {
@@ -457,6 +480,7 @@ void stopAutoUpdate() {
     }
 
     std::cout << "[UPDATE] Auto-update stopped" << std::endl;
+    LOG_INFO("UPDATE", "Auto-update stopped");
 }
 
 UpdateStatus getUpdateStatus() {
