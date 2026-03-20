@@ -9,10 +9,11 @@ export const contentType = "image/png";
 export default async function Image({
   params,
 }: {
-  params: { id: string; season: string };
+  params: Promise<{ id: string; season: string }>;
 }) {
-  const player = getPlayerById(params.id);
-  const seasonData = player ? getPlayerSeason(params.id, params.season) : null;
+  const { id, season } = await params;
+  const player = getPlayerById(id);
+  const seasonData = player ? getPlayerSeason(id, season) : null;
 
   if (!player || !seasonData) {
     return new ImageResponse(
@@ -154,7 +155,7 @@ export default async function Image({
                 display: "flex",
               }}
             >
-              {params.season}
+              {season}
             </div>
             <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
               {seasonData.team && (
