@@ -116,6 +116,12 @@ export default function CompareClient() {
   const [copied, setCopied] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
 
+  // Track origin after mount to avoid hydration mismatch
+  const [origin, setOrigin] = useState("");
+  useEffect(() => {
+    setOrigin(window.location.origin);
+  }, []);
+
   // Build /card share URL
   const cardShareUrl = useMemo(() => {
     if (!playerA || !playerB) return "";
@@ -127,9 +133,8 @@ export default function CompareClient() {
       if (seasonA) params.set("sa", seasonA);
       if (seasonB) params.set("sb", seasonB);
     }
-    const origin = typeof window !== "undefined" ? window.location.origin : "";
     return `${origin}/card?${params.toString()}`;
-  }, [playerA, playerB, mode, seasonA, seasonB]);
+  }, [playerA, playerB, mode, seasonA, seasonB, origin]);
 
   const handleCopyCardLink = useCallback(async () => {
     if (!cardShareUrl) return;
