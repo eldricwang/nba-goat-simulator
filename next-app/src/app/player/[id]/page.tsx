@@ -8,9 +8,17 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import type { Player, PlayerSeason } from "@/lib/types";
 
-/* ─── SSG: pre-render every player page at build time ─── */
+/* ─── SSG: pre-render top players at build; rest generated on-demand ─── */
+export const dynamicParams = true;          // allow pages not in generateStaticParams
+export const revalidate = 86400;            // ISR: revalidate every 24h
+
 export async function generateStaticParams() {
-  return getAllPlayers().map((p) => ({ id: p.id }));
+  // Only pre-render top 50 players by career PPG to stay within Vercel size limits
+  const all = getAllPlayers();
+  const top = all
+    .sort((a, b) => (b.career.pts ?? 0) - (a.career.pts ?? 0))
+    .slice(0, 50);
+  return top.map((p) => ({ id: p.id }));
 }
 
 /* ─── Dynamic Metadata ─── */

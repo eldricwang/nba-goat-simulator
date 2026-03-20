@@ -13,11 +13,18 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import type { Player, PlayerSeason } from "@/lib/types";
 
-/* ─── SSG: pre-render every player+season page at build time ─── */
+/* ─── SSG: pre-render top players' seasons at build; rest on-demand ─── */
+export const dynamicParams = true;          // allow pages not in generateStaticParams
+export const revalidate = 86400;            // ISR: revalidate every 24h
+
 export async function generateStaticParams() {
+  // Only pre-render seasons for top 30 players to stay within Vercel size limits
   const allPlayers = getAllPlayers();
+  const top = allPlayers
+    .sort((a, b) => (b.career.pts ?? 0) - (a.career.pts ?? 0))
+    .slice(0, 30);
   const params: { id: string; season: string }[] = [];
-  for (const p of allPlayers) {
+  for (const p of top) {
     const seasons = getPlayerSeasons(p.id);
     for (const s of seasons) {
       params.push({ id: p.id, season: s.season });
