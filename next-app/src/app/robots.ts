@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://nba-goat.vercel.app/sitemap.xml",
+    sitemap: `${process.env.NEXT_PUBLIC_BASE_URL || "https://goat.starcoby.com"}/sitemap.xml`,
   };
 }

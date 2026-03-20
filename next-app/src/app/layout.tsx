@@ -3,7 +3,7 @@ import { webSiteJsonLd, JsonLdScripts } from "@/lib/jsonld";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nba-goat.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://goat.starcoby.com"),
   title: {
     default: "GOAT — NBA Greatest Of All Time",
     template: "%s | GOAT",

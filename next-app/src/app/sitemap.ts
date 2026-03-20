@@ -1,7 +1,8 @@
 import { MetadataRoute } from "next";
 import { getAllPlayers, getPlayerSeasons } from "@/lib/data";
 
-const BASE_URL = "https://nba-goat.vercel.app";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL || "https://goat.starcoby.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const players = getAllPlayers();

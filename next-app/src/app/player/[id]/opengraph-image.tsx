@@ -248,7 +248,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
             GOAT — NBA Greatest Of All Time
           </div>
           <div style={{ fontSize: 14, color: "#334155", display: "flex" }}>
-            nba-goat.vercel.app
+            goat.starcoby.com
           </div>
         </div>
 
