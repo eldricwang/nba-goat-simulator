@@ -1,19 +1,4 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "installCommand": "npm install",
-  "functions": {
-    "api/analytics": {
-      "maxDuration": 10
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/analytics",
-      "destination": "/api/analytics"
-    }
-  ],
   "headers": [
     {
       "source": "/api/(.*)",
@@ -23,7 +8,7 @@
           "value": "*"
         },
         {
-          "key": "Access-Control-Allow-Methods", 
+          "key": "Access-Control-Allow-Methods",
           "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT"
         },
         {

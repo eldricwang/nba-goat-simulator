@@ -1,0 +1,1114 @@
+============================================================
+补充球员 Profile 信息
+============================================================
+  当前球员数: 1050
+  需要补充 profile 的球员: 1050
+  [1/1050] A.C. Green... ✅ 206cm 102kg USA
+  [2/1050] A.J. English... ✅ 190cm 79kg USA
+  [3/1050] A.J. Guyton... ✅ 188cm 84kg USA
+  [4/1050] A.J. Lawson... ✅ 198cm 81kg Canada
+  [5/1050] Aaron Brooks... ✅ 183cm 73kg USA
+  [6/1050] Aaron Gordon... ✅ 203cm 107kg USA
+  [7/1050] Aaron Gray... ✅ 213cm 122kg USA
+  [8/1050] Aaron Holiday... ✅ 183cm 84kg USA
+  [9/1050] Aaron James... ✅ 203cm 95kg USA
+  [10/1050] Aaron McKie... ✅ 196cm 95kg USA
+  [11/1050] Aaron Nesmith... ✅ 196cm 98kg USA
+  [12/1050] Aaron Wiggins... ✅ 196cm 86kg USA
+  [13/1050] Aaron Williams... ✅ 206cm 107kg USA
+  [14/1050] Abdel Nader... ✅ 196cm 102kg Egypt
+  [15/1050] Abdul Jeelani... ✅ 203cm 95kg USA
+  [16/1050] Ace Bailey... ✅ 206cm 91kg USA
+  [17/1050] Acie Earl... ✅ 211cm 109kg USA
+  [18/1050] Acie Law... ✅ 190cm 92kg USA
+  [19/1050] Adam Keefe... ✅ 206cm 104kg USA
+  [20/1050] Adam Morrison... ✅ 203cm 93kg USA
+  [21/1050] Adem Bona... ✅ 208cm 107kg Nigeria
+  [22/1050] Admiral Schofield... ✅ 196cm 109kg United Kingdom
+  [23/1050] Adonal Foyle... ✅ 208cm 122kg St. Vincent & Grenadines
+  [24/1050] Adreian Payne... ✅ 208cm 108kg USA
+  [25/1050] Adrian Branch... ✅ 201cm 84kg USA
+  [26/1050] Adrian Caldwell... ✅ 203cm 120kg USA
+  [27/1050] Adrian Dantley... ✅ 196cm 94kg USA
+  [28/1050] Adrian Griffin... ✅ 196cm 104kg USA
+  [29/1050] Adrian Smith... ✅ 185cm 82kg USA
+  [30/1050] AJ Green... ✅ 193cm 86kg USA
+  [31/1050] AJ Griffin... ✅ 198cm 100kg USA
+  [32/1050] AJ Johnson... ✅ 196cm 73kg USA
+  [33/1050] AJ Price... ✅ 188cm 88kg USA
+  [34/1050] Ajay Mitchell... ✅ 193cm 86kg Belgium
+  [35/1050] Al Bianchi... ✅ 190cm 84kg USA
+  [36/1050] Al Butler... ✅ 188cm 79kg USA
+  [37/1050] Al Cervi... ✅ 180cm 77kg USA
+  [38/1050] Al Eberhard... ✅ 198cm 102kg USA
+  [39/1050] Al Ferrari... ✅ 193cm 86kg USA
+  [40/1050] Al Harrington... ✅ 206cm 111kg USA
+  [41/1050] Al Horford... ✅ 203cm 109kg Dominican Republic
+  [42/1050] Al Jefferson... ✅ 208cm 127kg USA
+  [43/1050] Al Thornton... ✅ 203cm 107kg USA
+  [44/1050] Alex Caruso... ✅ 196cm 84kg USA
+  [45/1050] Alex English... ✅ 203cm 86kg USA
+  [46/1050] Alex Sarr... ✅ 213cm 93kg France
+  [47/1050] Allan Houston... ✅ 198cm 93kg USA
+  [48/1050] Allen Iverson... ✅ 183cm 75kg USA
+  [49/1050] Alonzo Mourning... ✅ 208cm 118kg USA
+  [50/1050] Alperen Sengun... ✅ 211cm 110kg Turkey
+  [51/1050] Alton Lister... ✅ 213cm 111kg USA
+  [52/1050] Alvan Adams... ✅ 206cm 95kg USA
+  [53/1050] Amal McCaskill... ✅ 211cm 107kg USA
+  [54/1050] Amar'e Stoudemire... ✅ 208cm 111kg USA
+  [55/1050] Amen Thompson... ✅ 201cm 91kg USA
+  [56/1050] Amir Coffey... ✅ 201cm 95kg USA
+  [57/1050] Amir Johnson... ✅ 206cm 109kg USA
+  [58/1050] Andray Blatche... ✅ 211cm 118kg USA
+  [59/1050] Andre Drummond... ✅ 211cm 127kg USA
+  [60/1050] Andre Iguodala... ✅ 198cm 98kg USA
+  [61/1050] Andre Jackson Jr.... ✅ 198cm 95kg USA
+  [62/1050] Andre Miller... ✅ 190cm 91kg USA
+  [63/1050] Andrew Nembhard... ✅ 193cm 87kg Canada
+  [64/1050] Andrew Wiggins... ✅ 198cm 89kg Canada
+  [65/1050] Anfernee Simons... ✅ 190cm 91kg USA
+  [66/1050] Antawn Jamison... ✅ 206cm 107kg USA
+  [67/1050] Anthony Black... ✅ 201cm 91kg USA
+  [68/1050] Anthony Davis... ✅ 208cm 115kg USA
+  [69/1050] Anthony Edwards... ✅ 193cm 102kg USA
+  [70/1050] Anthony Gill... ✅ 201cm 104kg USA
+  [71/1050] Anthony Lamb... ✅ 198cm 103kg USA
+  [72/1050] Anthony Mason... ✅ 203cm 116kg USA
+  [73/1050] Anthony Parker... ✅ 198cm 95kg USA
+  [74/1050] Antoine Carr... ✅ 206cm 102kg USA
+  [75/1050] Antoine Walker... ✅ 206cm 111kg USA
+  [76/1050] Antonio Blakeney... ✅ 193cm 87kg USA
+  [77/1050] Antonio Burks... ✅ 183cm 88kg USA
+  [78/1050] Antonio Davis... ✅ 206cm 111kg USA
+  [79/1050] Antonio McDyess... ✅ 206cm 111kg USA
+  [80/1050] Antonio Reeves... ✅ 196cm 93kg USA
+  [81/1050] Ariel Hukporti... ✅ 213cm 112kg Germany
+  [82/1050] Armen Gilliam... ✅ 206cm 118kg USA
+  [83/1050] Aron Baynes... ✅ 208cm 118kg Australia
+  [84/1050] Arron Afflalo... ✅ 196cm 95kg USA
+  [85/1050] Artis Gilmore... ✅ 218cm 109kg USA
+  [86/1050] Arvydas Sabonis... ✅ 221cm 132kg Lithuania
+  [87/1050] Ausar Thompson... ✅ 201cm 93kg USA
+  [88/1050] Austin Reaves... ✅ 196cm 89kg USA
+  [89/1050] Austin Rivers... ✅ 193cm 91kg USA
+  [90/1050] Avery Bradley... ✅ 190cm 82kg USA
+  [91/1050] Avery Johnson... ✅ 180cm 84kg USA
+  [92/1050] Ayo Dosunmu... ✅ 193cm 91kg USA
+  [93/1050] Bailey Howell... ✅ 201cm 95kg USA
+  [94/1050] Bam Adebayo... ✅ 206cm 116kg USA
+  [95/1050] Baron Davis... ✅ 190cm 96kg USA
+  [96/1050] Baylor Scheierman... ✅ 198cm 93kg USA
+  [97/1050] Ben Gordon... ✅ 190cm 93kg USA
+  [98/1050] Ben McLemore... ✅ 190cm 88kg USA
+  [99/1050] Ben Sheppard... ✅ 198cm 86kg USA
+  [100/1050] Ben Simmons... ✅ 208cm 109kg Australia
+
+  💾 中间保存... (100 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [101/1050] Ben Wallace... ✅ 206cm 109kg USA
+  [102/1050] Bennedict Mathurin... ✅ 196cm 95kg Canada
+  [103/1050] Bernard King... ✅ 201cm 93kg USA
+  [104/1050] Bilal Coulibaly... ✅ 201cm 88kg France
+  [105/1050] Bill Bridges... ✅ 196cm 103kg USA
+  [106/1050] Bill Cartwright... ✅ 216cm 111kg USA
+  [107/1050] Bill Laimbeer... ✅ 211cm 111kg USA
+  [108/1050] Bill Russell... ✅ 208cm 98kg USA
+  [109/1050] Bismack Biyombo... ✅ 203cm 116kg DRC
+  [110/1050] Blake Griffin... ✅ 206cm 113kg USA
+  [111/1050] Blake Wesley... ✅ 193cm 86kg USA
+  [112/1050] Bo Outlaw... ✅ 203cm 100kg USA
+  [113/1050] Bob Cousy... ✅ 185cm 79kg USA
+  [114/1050] Bob Lanier... ✅ 211cm 113kg USA
+  [115/1050] Bob McAdoo... ✅ 206cm 95kg USA
+  [116/1050] Bob Pettit... ✅ 206cm 93kg USA
+  [117/1050] Bob Sura... ✅ 196cm 91kg USA
+  [118/1050] Bobby Hurley... ✅ 183cm 75kg USA
+  [119/1050] Bobby Jackson... ✅ 185cm 84kg USA
+  [120/1050] Bobby Portis... ✅ 206cm 113kg USA
+  [121/1050] Bogdan Bogdanović... ✅ 196cm 102kg Serbia
+  [122/1050] Bojan Bogdanovic... ✅ 201cm 103kg Croatia
+  [123/1050] Bones Hyland... ✅ 188cm 77kg USA
+  [124/1050] Bonzi Wells... ✅ 196cm 95kg USA
+  [125/1050] Boris Diaw... ✅ 203cm 113kg France
+  [126/1050] Bostjan Nachbar... ✅ 206cm 100kg Slovenia
+  [127/1050] Brad Davis... ✅ 190cm 82kg USA
+  [128/1050] Bradley Beal... ✅ 193cm 94kg USA
+  [129/1050] Branden Carlson... ✅ 213cm 100kg USA
+  [130/1050] Brandin Podziemski... ✅ 193cm 93kg USA
+  [131/1050] Brandon Armstrong... ✅ 196cm 84kg USA
+  [132/1050] Brandon Bass... ✅ 203cm 113kg USA
+  [133/1050] Brandon Clarke... ✅ 203cm 98kg Canada
+  [134/1050] Brandon Ingram... ✅ 203cm 86kg USA
+  [135/1050] Brandon Miller... ✅ 201cm 91kg USA
+  [136/1050] Brandon Paul... ✅ 193cm 91kg USA
+  [137/1050] Brandon Williams... ✅ 185cm 86kg USA
+  [138/1050] Brent Barry... ✅ 201cm 95kg USA
+  [139/1050] Brett Szabo... ✅ 211cm 104kg USA
+  [140/1050] Brevin Knight... ✅ 178cm 75kg USA
+  [141/1050] Brian Shaw... ✅ 198cm 91kg USA
+  [142/1050] Brice Sensabaugh... ✅ 198cm 107kg USA
+  [143/1050] Bronny James... ✅ 188cm 95kg USA
+  [144/1050] Brook Lopez... ✅ 216cm 128kg USA
+  [145/1050] Bruce Bowen... ✅ 201cm 91kg USA
+  [146/1050] Bruce Brown... ✅ 193cm 92kg USA
+  [147/1050] Bryant Reeves... ✅ 213cm 132kg USA
+  [148/1050] Bryant Stith... ✅ 196cm 95kg USA
+  [149/1050] Bryce McGowens... ✅ 198cm 86kg USA
+  [150/1050] Bub Carrington... ✅ 193cm 86kg USA
+  [151/1050] Buck Williams... ✅ 203cm 102kg USA
+  [152/1050] Buddy Hield... ✅ 193cm 100kg Bahamas
+  [153/1050] Byron Scott... ✅ 193cm 93kg USA
+  [154/1050] C.J. Watson... ✅ 188cm 79kg USA
+  [155/1050] Cade Cunningham... ✅ 198cm 100kg USA
+  [156/1050] Cal Bowdler... ✅ 208cm 115kg USA
+  [157/1050] Caldwell Jones... ✅ 211cm 98kg USA
+  [158/1050] Caleb Houstan... ✅ 203cm 93kg Canada
+  [159/1050] Caleb Martin... ✅ 196cm 93kg USA
+  [160/1050] Calvin Murphy... ✅ 175cm 75kg USA
+  [161/1050] Cam Christie... ✅ 196cm 86kg USA
+  [162/1050] Cam Spencer... ✅ 190cm 93kg USA
+  [163/1050] Cam Thomas... ✅ 190cm 95kg Japan
+  [164/1050] Cam Whitmore... ✅ 198cm 104kg USA
+  [165/1050] Cameron Johnson... ✅ 203cm 95kg USA
+  [166/1050] Cameron Payne... ✅ 188cm 83kg USA
+  [167/1050] Caris LeVert... ✅ 201cm 93kg USA
+  [168/1050] Carlos Arroyo... ✅ 188cm 91kg Puerto Rico
+  [169/1050] Carlos Boozer... ✅ 206cm 117kg USA
+  [170/1050] Carlos Delfino... ✅ 198cm 104kg Argentina
+  [171/1050] Carmelo Anthony... ✅ 201cm 108kg USA
+  [172/1050] Carter Bryant... ✅ 198cm 100kg USA
+  [173/1050] Casey Jacobsen... ✅ 198cm 98kg USA
+  [174/1050] Cason Wallace... ✅ 190cm 88kg USA
+  [175/1050] Cedi Osman... ✅ 201cm 104kg Turkey
+  [176/1050] Cedric Coward... ✅ 196cm 93kg USA
+  [177/1050] Charles Barkley... ✅ 198cm 114kg USA
+  [178/1050] Charles Bassey... ✅ 208cm 104kg Nigeria
+  [179/1050] Charles Jenkins... ✅ 190cm 98kg USA
+  [180/1050] Charles Oakley... ✅ 206cm 111kg USA
+  [181/1050] Charles R. Jones... ✅ 190cm 82kg USA
+  [182/1050] Charlie Villanueva... ✅ 211cm 105kg USA
+  [183/1050] Chase Budinger... ✅ 201cm 95kg USA
+  [184/1050] Chauncey Billups... ✅ 190cm 95kg USA
+  [185/1050] Chet Holmgren... ✅ 216cm 94kg USA
+  [186/1050] Chet Walker... ✅ 201cm 96kg USA
+  [187/1050] Chimezie Metu... ✅ 208cm 102kg USA
+  [188/1050] Chris Anstey... ✅ 213cm 113kg Australia
+  [189/1050] Chris Bosh... ✅ 211cm 107kg USA
+  [190/1050] Chris Boucher... ✅ 203cm 91kg Saint Lucia
+  [191/1050] Chris Crawford... ✅ 206cm 107kg USA
+  [192/1050] Chris Gatling... ✅ Nonecm Nonekg USA
+  [193/1050] Chris Hunter... ✅ 211cm 109kg USA
+  [194/1050] Chris Johnson... ✅ 198cm 93kg USA
+  [195/1050] Chris Mullin... ✅ Nonecm Nonekg USA
+  [196/1050] Chris Paul... ✅ 183cm 79kg USA
+  [197/1050] Chris Porter... ✅ 201cm 99kg USA
+  [198/1050] Chris Webber... ✅ 208cm 111kg USA
+  [199/1050] Chris Wilcox... ✅ 208cm 107kg USA
+  [200/1050] Christian Braun... ✅ 198cm 100kg USA
+
+  💾 中间保存... (200 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [201/1050] Christian Koloko... ✅ 211cm 102kg Cameroon
+  [202/1050] Christian Wood... ✅ 203cm 97kg USA
+  [203/1050] Chuck Person... ✅ 203cm 109kg USA
+  [204/1050] CJ Elleby... ✅ 198cm 91kg USA
+  [205/1050] CJ McCollum... ✅ 190cm 86kg USA
+  [206/1050] Clar. Weatherspoon... ✅ 201cm 122kg USA
+  [207/1050] Clifford Robinson... ✅ 208cm 111kg USA
+  [208/1050] Clint Capela... ✅ 208cm 116kg Switzerland
+  [209/1050] Clyde Drexler... ✅ 208cm 104kg USA
+  [210/1050] Clyde Drexler... ✅ 201cm 101kg USA
+  [211/1050] Coby White... ✅ 193cm 95kg USA
+  [212/1050] Cody Martin... ✅ 198cm 93kg USA
+  [213/1050] Cody Williams... ✅ 203cm 86kg USA
+  [214/1050] Colby Jones... ✅ 198cm 94kg USA
+  [215/1050] Cole Anthony... ✅ 188cm 84kg USA
+  [216/1050] Collin Gillespie... ✅ 185cm 88kg USA
+  [217/1050] Collin Sexton... ✅ 190cm 86kg USA
+  [218/1050] Cooper Flagg... ✅ 206cm 93kg USA
+  [219/1050] Corey Kispert... ✅ 198cm 102kg USA
+  [220/1050] Corie Blount... ✅ 208cm 110kg USA
+  [221/1050] Corliss Williamson... ✅ 201cm 111kg USA
+  [222/1050] Cory Joseph... ✅ 188cm 91kg Canada
+  [223/1050] Courtney Alexander... ✅ 196cm 93kg USA
+  [224/1050] Craig Ehlo... ✅ 198cm 82kg USA
+  [225/1050] Craig Porter Jr.... ✅ 185cm 82kg USA
+  [226/1050] Curtis Borchardt... ✅ 213cm 110kg USA
+  [227/1050] D.J. Augustin... ✅ 180cm 83kg USA
+  [228/1050] Dalano Banton... ✅ 203cm 92kg Canada
+  [229/1050] Dale Davis... ✅ 211cm 114kg USA
+  [230/1050] Dale Ellis... ✅ 201cm 93kg USA
+  [231/1050] Dalen Terry... ✅ 198cm 95kg USA
+  [232/1050] Dalton Knecht... ✅ 198cm 98kg USA
+  [233/1050] Damian Lillard... ✅ 188cm 91kg USA
+  [234/1050] Damon Stoudamire... ✅ 178cm 78kg USA
+  [235/1050] Dan Dickau... ✅ 183cm 82kg USA
+  [236/1050] Dan Issel... ✅ 206cm 107kg USA
+  [237/1050] Dan Majerle... ✅ 198cm 101kg USA
+  [238/1050] Dan Schayes... ✅ 211cm 118kg USA
+  [239/1050] D'Angelo Russell... ✅ 190cm 88kg USA
+  [240/1050] Daniel Ewing... ✅ 190cm 84kg USA
+  [241/1050] Daniel Gafford... ✅ 208cm 120kg USA
+  [242/1050] Daniss Jenkins... ✅ 193cm 75kg USA
+  [243/1050] Danny Ainge... ✅ 196cm 79kg USA
+  [244/1050] Danny Ferry... ✅ 208cm 107kg USA
+  [245/1050] Danny Wolf... ✅ 211cm 113kg USA
+  [246/1050] Danté Exum... ✅ 196cm 97kg Australia
+  [247/1050] Dante Cunningham... ✅ 203cm 104kg USA
+  [248/1050] Dario Šarić... ✅ 208cm 102kg Croatia
+  [249/1050] Darius Garland... ✅ 185cm 87kg USA
+  [250/1050] Darnell Jackson... ✅ 206cm 115kg USA
+  [251/1050] Darrell Armstrong... ✅ 185cm 82kg USA
+  [252/1050] Dave Bing... ✅ 190cm 82kg USA
+  [253/1050] Dave Cowens... ✅ 206cm 104kg USA
+  [254/1050] David Harrison... ✅ 213cm 127kg USA
+  [255/1050] David Lee... ✅ 206cm 111kg USA
+  [256/1050] David Noel... ✅ 198cm 104kg USA
+  [257/1050] David Robinson... ✅ 216cm 114kg USA
+  [258/1050] David Robinson... ✅ 216cm 113kg USA
+  [259/1050] David Wesley... ✅ 185cm 92kg USA
+  [260/1050] David West... ✅ 206cm 113kg USA
+  [261/1050] Davion Mitchell... ✅ 183cm 92kg USA
+  [262/1050] Day'Ron Sharpe... ✅ 208cm 120kg USA
+  [263/1050] De'Andre Hunter... ✅ 201cm 100kg USA
+  [264/1050] De'Anthony Melton... ✅ 188cm 91kg USA
+  [265/1050] De'Aaron Fox... ✅ 190cm 84kg USA
+  [266/1050] Dean Wade... ✅ 206cm 103kg USA
+  [267/1050] Deandre Ayton... ✅ 213cm 114kg Bahamas
+  [268/1050] DeAndre' Bembry... ✅ 196cm 95kg USA
+  [269/1050] DeAndre Jordan... ✅ 211cm 120kg USA
+  [270/1050] DeAndre Liggins... ✅ 198cm 95kg USA
+  [271/1050] Dejounte Murray... ✅ 193cm 82kg USA
+  [272/1050] Dell Curry... ✅ 196cm 93kg USA
+  [273/1050] DeMar DeRozan... ✅ 198cm 100kg USA
+  [274/1050] DeMarcus Cousins... ✅ 208cm 122kg USA
+  [275/1050] Deni Avdija... ✅ 203cm 103kg Israel
+  [276/1050] Dennis Johnson... ✅ 193cm 84kg USA
+  [277/1050] Dennis Rodman... ❌ 'resultSet'
+  [278/1050] Dennis Rodman... ✅ 201cm 95kg USA
+  [279/1050] Dennis Schröder... ✅ 185cm 79kg Germany
+  [280/1050] Dennis Scott... ✅ 203cm 104kg USA
+  [281/1050] Dennis Smith Jr.... ✅ 190cm 93kg USA
+  [282/1050] DeQuan Jones... ✅ 203cm 100kg USA
+  [283/1050] Dereck Lively II... ✅ 216cm 104kg USA
+  [284/1050] Derek Fisher... ✅ 185cm 95kg USA
+  [285/1050] Derek Harper... ✅ 193cm 93kg USA
+  [286/1050] Derik Queen... ✅ 206cm 113kg USA
+  [287/1050] Deron Williams... ✅ 190cm 91kg USA
+  [288/1050] Derrick Brown... ✅ 203cm 106kg USA
+  [289/1050] Derrick Jones Jr.... ✅ 198cm 95kg USA
+  [290/1050] Derrick McKey... ✅ 208cm 109kg USA
+  [291/1050] Derrick Rose... ✅ 190cm 91kg USA
+  [292/1050] Derrick White... ✅ 193cm 86kg USA
+  [293/1050] DeShawn Stevenson... ✅ 196cm 99kg USA
+  [294/1050] Desmond Bane... ✅ 198cm 98kg USA
+  [295/1050] Detlef Schrempf... ✅ 208cm 107kg Germany
+  [296/1050] Devin Booker... ✅ 196cm 93kg USA
+  [297/1050] Devin Brown... ✅ 196cm 95kg USA
+  [298/1050] Devin Carter... ✅ 188cm 88kg USA
+  [299/1050] Devin Harris... ✅ 190cm 84kg USA
+  [300/1050] Devin Vassell... ✅ 196cm 91kg USA
+
+  💾 中间保存... (299 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [301/1050] Diante Garrett... ✅ 193cm 86kg USA
+  [302/1050] Dick Barnett... ✅ 193cm 86kg USA
+  [303/1050] Dick Snyder... ✅ 196cm 94kg USA
+  [304/1050] Dick Van Arsdale... ✅ 196cm 95kg USA
+  [305/1050] Dikembe Mutombo... ✅ 218cm 118kg Congo
+  [306/1050] Dillon Brooks... ✅ 201cm 102kg Canada
+  [307/1050] Dillon Jones... ✅ 196cm 107kg USA
+  [308/1050] Dirk Nowitzki... ✅ 213cm 111kg Germany
+  [309/1050] Dolph Schayes... ✅ 203cm 88kg USA
+  [310/1050] Domantas Sabonis... ✅ 208cm 109kg Lithuania
+  [311/1050] Dominick Barlow... ✅ 206cm 102kg USA
+  [312/1050] Dominique Wilkins... ✅ 203cm 104kg USA
+  [313/1050] Don Nelson... ✅ 198cm 95kg USA
+  [314/1050] Donald Sloan... ✅ 190cm 93kg USA
+  [315/1050] Donovan Clingan... ✅ 218cm 127kg USA
+  [316/1050] Donovan Mitchell... ✅ 188cm 98kg USA
+  [317/1050] Donte DiVincenzo... ✅ 193cm 92kg USA
+  [318/1050] Donte Greene... ✅ 211cm 103kg USA
+  [319/1050] Donyell Marshall... ✅ 206cm 111kg USA
+  [320/1050] Dorian Finney-Smith... ✅ 201cm 100kg USA
+  [321/1050] Doron Lamb... ✅ 193cm 91kg USA
+  [322/1050] Doug McDermott... ✅ 201cm 102kg USA
+  [323/1050] Doug Overton... ✅ 190cm 86kg USA
+  [324/1050] Drake Powell... ✅ 196cm 88kg USA
+  [325/1050] Draymond Green... ✅ 198cm 104kg USA
+  [326/1050] Drew Eubanks... ✅ 208cm 111kg USA
+  [327/1050] Dru Smith... ✅ 188cm 92kg USA
+  [328/1050] Duncan Robinson... ✅ 201cm 98kg USA
+  [329/1050] Duop Reath... ✅ 206cm 111kg South Sudan
+  [330/1050] Dwayne Bacon... ✅ 198cm 100kg USA
+  [331/1050] Dwight Howard... ✅ 208cm 120kg USA
+  [332/1050] Dwight Powell... ✅ 208cm 109kg Canada
+  [333/1050] Dwyane Wade... ✅ 193cm 100kg USA
+  [334/1050] Dylan Harper... ✅ 196cm 98kg USA
+  [335/1050] Dyson Daniels... ✅ 201cm 90kg Australia
+  [336/1050] Earl Monroe... ✅ 190cm 84kg USA
+  [337/1050] Ed O'Bannon... ✅ 203cm 101kg USA
+  [338/1050] Eddie House... ✅ 185cm 86kg USA
+  [339/1050] Eddie Johnson... ✅ Nonecm Nonekg USA
+  [340/1050] Eddie Jones... ✅ 198cm 91kg USA
+  [341/1050] Eddie Robinson... ✅ 206cm 95kg USA
+  [342/1050] Edmond Sumner... ✅ 193cm 89kg USA
+  [343/1050] Egor Dëmin... ✅ 203cm 91kg Russia
+  [344/1050] Ekpe Udoh... ✅ 208cm 111kg USA
+  [345/1050] Elden Campbell... ✅ 213cm 127kg USA
+  [346/1050] Elgin Baylor... ✅ 196cm 102kg USA
+  [347/1050] Elie Okobo... ✅ 190cm 86kg France
+  [348/1050] Elton Brand... ✅ 206cm 115kg USA
+  [349/1050] Elvin Hayes... ✅ 206cm 107kg USA
+  [350/1050] Eric Bledsoe... ✅ 185cm 97kg USA
+  [351/1050] Eric Gordon... ✅ 190cm 98kg USA
+  [352/1050] Eric Paschall... ✅ 198cm 116kg USA
+  [353/1050] Erick Dampier... ✅ 211cm 120kg USA
+  [354/1050] Erick Strickland... ✅ 190cm 99kg USA
+  [355/1050] Evan Mobley... ✅ 211cm 98kg USA
+  [356/1050] Felipe Lopez... ✅ 196cm 88kg Dominican Republic
+  [357/1050] Flip Murray... ✅ 190cm 91kg USA
+  [358/1050] Franz Wagner... ✅ 208cm 100kg Germany
+  [359/1050] Fred Brown... ✅ 190cm 83kg USA
+  [360/1050] Fred Hoiberg... ✅ 196cm 95kg USA
+  [361/1050] Fred Jones... ✅ 188cm 102kg USA
+  [362/1050] Fred VanVleet... ✅ 183cm 89kg USA
+  [363/1050] Gabe Vincent... ✅ 188cm 91kg USA
+  [364/1050] Gail Goodrich... ✅ 185cm 77kg USA
+  [365/1050] Garrett Temple... ✅ 196cm 88kg USA
+  [366/1050] Gary Harris... ✅ 193cm 95kg USA
+  [367/1050] Gary Payton... ✅ 211cm 108kg USA
+  [368/1050] Gary Payton II... ✅ 188cm 88kg USA
+  [369/1050] Gary Payton... ✅ 193cm 86kg USA
+  [370/1050] Gary Trent Jr.... ✅ 196cm 93kg USA
+  [371/1050] Gary Trent... ✅ 203cm 113kg USA
+  [372/1050] George Gervin... ✅ 201cm 82kg USA
+  [373/1050] George Hill... ✅ 193cm 85kg USA
+  [374/1050] George Johnson... ✅ 211cm 93kg USA
+  [375/1050] George McCloud... ✅ 203cm 104kg USA
+  [376/1050] Georges Niang... ✅ 201cm 104kg USA
+  [377/1050] Gerald Green... ✅ 201cm 93kg USA
+  [378/1050] Gerald Henderson... ✅ 196cm 98kg USA
+  [379/1050] Gerald Wilkins... ✅ 198cm 84kg USA
+  [380/1050] GG Jackson... ✅ 206cm 95kg USA
+  [381/1050] Giannis Antetokounmpo... ✅ 211cm 110kg Greece
+  [382/1050] Gilbert Arenas... ✅ 193cm 98kg USA
+  [383/1050] Glen Davis... ✅ 206cm 131kg USA
+  [384/1050] Glen Rice... ✅ 198cm 93kg USA
+  [385/1050] Glen Rice... ✅ 203cm 103kg USA
+  [386/1050] Goga Bitadze... ✅ 211cm 113kg Georgia
+  [387/1050] Goran Dragic... ✅ 193cm 86kg Slovenia
+  [388/1050] Gordan Giricek... ✅ 198cm 100kg Croatia
+  [389/1050] Gordon Hayward... ✅ 201cm 102kg USA
+  [390/1050] Gradey Dick... ✅ 201cm 91kg USA
+  [391/1050] Grant Hill... ✅ 203cm 102kg USA
+  [392/1050] Grant Long... ✅ 206cm 109kg USA
+  [393/1050] Grant Williams... ✅ 201cm 107kg USA
+  [394/1050] Grayson Allen... ✅ 190cm 90kg USA
+  [395/1050] Greg Anderson... ✅ 208cm 113kg USA
+  [396/1050] Greg Anthony... ✅ 185cm 82kg USA
+  [397/1050] Greg Buckner... ✅ 193cm 95kg USA
+  [398/1050] Greg Ostertag... ✅ 218cm 127kg USA
+  [399/1050] Guerschon Yabusele... ✅ 201cm 120kg France
+  [400/1050] Gui Santos... ✅ 201cm 84kg Brazil
+
+  💾 中间保存... (399 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [401/1050] Guy Rodgers... ✅ 183cm 84kg USA
+  [402/1050] Hakeem Olajuwon... ✅ 213cm 116kg Nigeria
+  [403/1050] Hal Greer... ✅ 188cm 79kg USA
+  [404/1050] Hanno Mottola... ✅ 211cm 112kg Finland
+  [405/1050] Harrison Barnes... ✅ 201cm 102kg USA
+  [406/1050] Hassan Whiteside... ✅ 213cm 120kg USA
+  [407/1050] Haywood Highsmith... ✅ 196cm 100kg USA
+  [408/1050] Hedo Turkoglu... ✅ 208cm 100kg Turkey
+  [409/1050] Herb Williams... ✅ 211cm 118kg USA
+  [410/1050] Herbert Jones... ✅ 201cm 93kg USA
+  [411/1050] Hersey Hawkins... ✅ 190cm 91kg USA
+  [412/1050] Horace Grant... ✅ 208cm 111kg USA
+  [413/1050] Hugo González... ✅ 198cm 91kg Spain
+  [414/1050] Hunter Tyson... ✅ 203cm 98kg USA
+  [415/1050] Ian Clark... ✅ 190cm 79kg USA
+  [416/1050] Immanuel Quickley... ✅ 188cm 86kg USA
+  [417/1050] Isaac Okoro... ✅ 193cm 102kg USA
+  [418/1050] Isaiah Collier... ✅ 193cm 95kg USA
+  [419/1050] Isaiah Hartenstein... ✅ 213cm 113kg Germany
+  [420/1050] Isaiah Jackson... ✅ 203cm 93kg USA
+  [421/1050] Isaiah Joe... ✅ 193cm 75kg USA
+  [422/1050] Isaiah Livers... ✅ 198cm 105kg USA
+  [423/1050] Isaiah Stewart... ✅ 203cm 113kg USA
+  [424/1050] Isaiah Taylor... ✅ 190cm 77kg USA
+  [425/1050] Isiah Thomas... ✅ 208cm 111kg USA
+  [426/1050] Isiah Thomas... ✅ 185cm 82kg USA
+  [427/1050] Ivan Johnson... ✅ 203cm 116kg USA
+  [428/1050] Ivica Zubac... ✅ 213cm 109kg Croatia
+  [429/1050] Ja'Kobe Walter... ✅ 193cm 82kg USA
+  [430/1050] Ja Morant... ✅ 188cm 79kg USA
+  [431/1050] Jabari Smith Jr.... ✅ 211cm 100kg USA
+  [432/1050] Jabari Walker... ✅ 201cm 108kg USA
+  [433/1050] Jack Sikma... ✅ 211cm 104kg USA
+  [434/1050] Jaden Hardy... ✅ 190cm 90kg USA
+  [435/1050] Jaden Ivey... ✅ 190cm 88kg USA
+  [436/1050] Jaden McDaniels... ✅ 206cm 84kg USA
+  [437/1050] Jae'Sean Tate... ✅ 193cm 104kg USA
+  [438/1050] Jaime Jaquez Jr.... ✅ 198cm 102kg USA
+  [439/1050] Jake LaRavia... ✅ 201cm 107kg USA
+  [440/1050] Jakob Poeltl... ✅ 213cm 115kg Austria
+  [441/1050] Jalen Brunson... ✅ 188cm 86kg USA
+  [442/1050] Jalen Duren... ✅ 208cm 113kg USA
+  [443/1050] Jalen Green... ✅ 193cm 84kg USA
+  [444/1050] Jalen Johnson... ✅ 203cm 99kg USA
+  [445/1050] Jalen Pickett... ✅ 188cm 92kg USA
+  [446/1050] Jalen Rose... ✅ 203cm 98kg USA
+  [447/1050] Jalen Smith... ✅ 203cm 111kg USA
+  [448/1050] Jalen Suggs... ✅ 196cm 93kg USA
+  [449/1050] Jalen Williams... ✅ 196cm 96kg USA
+  [450/1050] Jalen Wilson... ✅ 198cm 100kg USA
+  [451/1050] Jamal Cain... ✅ 201cm 87kg USA
+  [452/1050] Jamal Crawford... ✅ 196cm 91kg USA
+  [453/1050] Jamal Murray... ✅ 193cm 98kg Canada
+  [454/1050] Jamal Shead... ✅ 185cm 91kg USA
+  [455/1050] Jameer Nelson... ✅ 183cm 86kg USA
+  [456/1050] James Anderson... ✅ 198cm 97kg USA
+  [457/1050] James Donaldson... ✅ 218cm 125kg USA
+  [458/1050] James Harden... ✅ 196cm 100kg USA
+  [459/1050] James White... ✅ 201cm 98kg USA
+  [460/1050] James Wiseman... ✅ 211cm 109kg USA
+  [461/1050] James Worthy... ✅ 206cm 102kg USA
+  [462/1050] Jamison Battle... ✅ 201cm 100kg USA
+  [463/1050] JaMychal Green... ✅ 206cm 103kg USA
+  [464/1050] Jan Vesely... ✅ 213cm 110kg Czech Republic
+  [465/1050] Jarace Walker... ✅ 201cm 107kg USA
+  [466/1050] Jared Butler... ✅ 190cm 88kg USA
+  [467/1050] Jared Dudley... ✅ 198cm 108kg USA
+  [468/1050] Jared McCain... ✅ 190cm 88kg USA
+  [469/1050] Jaren Jackson Jr.... ✅ 208cm 110kg USA
+  [470/1050] Jarred Vanderbilt... ✅ 203cm 97kg USA
+  [471/1050] Jarrett Allen... ✅ 206cm 110kg USA
+  [472/1050] Jarrett Jack... ✅ 190cm 91kg USA
+  [473/1050] Jason Caffey... ✅ 203cm 116kg USA
+  [474/1050] Jason Collier... ✅ 213cm 118kg USA
+  [475/1050] Jason Kidd... ❌ 'resultSet'
+  [476/1050] Jason Kidd... ✅ 193cm 95kg USA
+  [477/1050] Jason Maxiell... ✅ 201cm 118kg USA
+  [478/1050] Jason Terry... ✅ 188cm 84kg USA
+  [479/1050] JaVale McGee... ✅ 213cm 122kg USA
+  [480/1050] Javaris Crittenton... ✅ 196cm 91kg USA
+  [481/1050] Javonte Green... ✅ 196cm 93kg USA
+  [482/1050] Jaxson Hayes... ✅ 213cm 100kg USA
+  [483/1050] Jay Huff... ✅ 216cm 109kg USA
+  [484/1050] Jay Williams... ✅ 188cm 88kg USA
+  [485/1050] Jaylen Brown... ✅ 198cm 101kg USA
+  [486/1050] Jaylen Clark... ✅ 196cm 93kg USA
+  [487/1050] Jaylen Wells... ✅ 201cm Nonekg USA
+  [488/1050] Jaylin Williams... ✅ 206cm 109kg USA
+  [489/1050] Jaylon Tyson... ✅ 198cm 98kg USA
+  [490/1050] Jayson Tatum... ✅ 203cm 95kg USA
+  [491/1050] JD Davison... ✅ 185cm 88kg USA
+  [492/1050] Jeff Green... ✅ 203cm 107kg USA
+  [493/1050] Jeff Hornacek... ✅ 193cm 86kg USA
+  [494/1050] Jeff Malone... ✅ 193cm 93kg USA
+  [495/1050] Jeff McInnis... ✅ 193cm 86kg USA
+  [496/1050] Jeff Teague... ✅ 190cm 88kg USA
+  [497/1050] Jerami Grant... ✅ 201cm 97kg USA
+  [498/1050] Jeremiah Fears... ✅ 190cm 86kg USA
+  [499/1050] Jeremiah Robinson-Earl... ✅ 206cm 109kg USA
+  [500/1050] Jeremy Lamb... ✅ 196cm 82kg USA
+
+  💾 中间保存... (498 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [501/1050] Jeremy Lin... ✅ 190cm 91kg USA
+  [502/1050] Jeremy Sochan... ✅ 203cm 104kg Poland
+  [503/1050] Jericho Sims... ✅ 208cm 113kg USA
+  [504/1050] Jermaine O'Neal... ✅ 211cm 116kg USA
+  [505/1050] Jerome Allen... ✅ 193cm 83kg USA
+  [506/1050] Jerome Kersey... ✅ Nonecm Nonekg USA
+  [507/1050] Jerome Williams... ✅ 206cm 93kg USA
+  [508/1050] Jerry Stackhouse... ✅ 198cm 99kg USA
+  [509/1050] Jerry West... ✅ 198cm 88kg USA
+  [510/1050] Jerry West... ✅ 190cm 79kg USA
+  [511/1050] Jeryl Sasser... ✅ 198cm 91kg USA
+  [512/1050] Jett Howard... ✅ 203cm 98kg USA
+  [513/1050] Jevon Carter... ✅ 183cm 86kg USA
+  [514/1050] Jimmy Butler... ✅ 198cm 104kg USA
+  [515/1050] Jiri Welsch... ✅ 201cm 94kg Czech Republic
+  [516/1050] JJ Redick... ✅ 190cm 91kg USA
+  [517/1050] Jock Landale... ✅ 211cm 116kg Australia
+  [518/1050] Joe Dumars... ✅ 190cm 88kg USA
+  [519/1050] Joe Ingles... ✅ 203cm 100kg Australia
+  [520/1050] Joe Johnson... ✅ 201cm 109kg USA
+  [521/1050] Joe Kleine... ✅ 211cm 116kg USA
+  [522/1050] Joe Smith... ✅ 208cm 102kg USA
+  [523/1050] Joe Young... ✅ 188cm 84kg USA
+  [524/1050] Joel Embiid... ✅ 213cm 122kg Cameroon
+  [525/1050] Joey Dorsey... ✅ Nonecm Nonekg USA
+  [526/1050] Joffrey Lauvergne... ✅ 211cm 118kg France
+  [527/1050] John Amaechi... ✅ 208cm 122kg United Kingdom
+  [528/1050] John Collins... ✅ 206cm 103kg USA
+  [529/1050] John Havlicek... ✅ 196cm 92kg USA
+  [530/1050] John Konchar... ✅ 196cm 95kg USA
+  [531/1050] John Long... ✅ 196cm 91kg USA
+  [532/1050] John Lucas... ✅ 190cm 79kg USA
+  [533/1050] John Salmons... ✅ 198cm 95kg USA
+  [534/1050] John Starks... ✅ 196cm 86kg USA
+  [535/1050] John Stockton... ✅ 185cm 79kg USA
+  [536/1050] John Wall... ✅ 190cm 95kg USA
+  [537/1050] Johnny Furphy... ✅ 203cm 91kg Australia
+  [538/1050] Johnny Green... ✅ 196cm 91kg USA
+  [539/1050] Johnny Juzang... ✅ 201cm 103kg USA
+  [540/1050] Johnny Kerr... ✅ 206cm 104kg USA
+  [541/1050] Johnny Newman... ✅ 201cm 95kg USA
+  [542/1050] Jonas Jerebko... ✅ 208cm 105kg Sweden
+  [543/1050] Jonas Valančiūnas... ✅ 211cm 120kg Lithuania
+  [544/1050] Jonathan Isaac... ✅ 208cm 104kg USA
+  [545/1050] Jonathan Kuminga... ✅ 201cm 102kg DRC
+  [546/1050] Jonathan Mogbo... ✅ 206cm 102kg USA
+  [547/1050] Jonathon Simmons... ✅ 198cm 88kg USA
+  [548/1050] Jordan Clarkson... ✅ 196cm 88kg USA
+  [549/1050] Jordan Goodwin... ✅ 190cm 98kg USA
+  [550/1050] Jordan Hawkins... ✅ 196cm 86kg USA
+  [551/1050] Jordan McLaughlin... ✅ 180cm 84kg USA
+  [552/1050] Jordan Miller... ✅ 196cm 88kg USA
+  [553/1050] Jordan Nwora... ✅ 203cm 102kg USA
+  [554/1050] Jordan Poole... ✅ 193cm 88kg USA
+  [555/1050] Jordan Walsh... ✅ 198cm 93kg USA
+  [556/1050] Jose Alvarado... ✅ 183cm 81kg USA
+  [557/1050] Jose Calderon... ✅ 190cm 91kg Spain
+  [558/1050] Josh Boone... ✅ 208cm 109kg USA
+  [559/1050] Josh Giddey... ✅ 201cm 97kg Australia
+  [560/1050] Josh Green... ✅ 198cm 91kg Australia
+  [561/1050] Josh Hart... ✅ 196cm 98kg USA
+  [562/1050] Josh Huestis... ✅ 201cm 104kg USA
+  [563/1050] Josh Jackson... ✅ 203cm 94kg USA
+  [564/1050] Josh Minott... ✅ 203cm 93kg USA
+  [565/1050] Josh Okogie... ✅ 193cm 97kg Nigeria
+  [566/1050] Josh Smith... ✅ 206cm 102kg USA
+  [567/1050] JR Smith... ✅ 198cm 100kg USA
+  [568/1050] Jrue Holiday... ✅ 193cm 100kg USA
+  [569/1050] Juan Carlos Navarro... ✅ Nonecm Nonekg Spain
+  [570/1050] Juan Dixon... ✅ 190cm 75kg USA
+  [571/1050] Juaquin Hawkins... ✅ 201cm 93kg USA
+  [572/1050] Jud Buechler... ✅ 198cm 103kg USA
+  [573/1050] Julian Champagnie... ✅ 201cm 98kg USA
+  [574/1050] Julian Phillips... ✅ 198cm 91kg USA
+  [575/1050] Julian Strawther... ✅ 198cm 93kg USA
+  [576/1050] Julian Wright... ✅ 203cm 102kg USA
+  [577/1050] Julius Erving... ✅ 196cm 88kg USA
+  [578/1050] Julius Randle... ✅ 206cm 113kg USA
+  [579/1050] Justin Champagnie... ✅ 198cm 93kg USA
+  [580/1050] Justin Edwards... ✅ 201cm 98kg USA
+  [581/1050] Justin Hamilton... ✅ 213cm 116kg USA
+  [582/1050] Justin Holiday... ✅ 198cm 82kg USA
+  [583/1050] Jusuf Nurkić... ✅ 211cm 132kg Bosnia and Herzegovina
+  [584/1050] Juwan Howard... ✅ 206cm 113kg USA
+  [585/1050] Kareem Abdul-Jabbar... ✅ 218cm 102kg USA
+  [586/1050] Karl-Anthony Towns... ✅ 213cm 112kg USA
+  [587/1050] Karl Malone... ✅ 206cm 117kg USA
+  [588/1050] Karlo Matković... ✅ 208cm 105kg Bosnia and Herzegovina
+  [589/1050] Kawhi Leonard... ✅ 198cm 102kg USA
+  [590/1050] Keaton Wallace... ✅ 190cm 84kg USA
+  [591/1050] Keegan Murray... ✅ 203cm 102kg USA
+  [592/1050] Keita Bates-Diop... ✅ 203cm 104kg USA
+  [593/1050] Keith Closs... ✅ 221cm 96kg USA
+  [594/1050] Keith Van Horn... ✅ 208cm 111kg USA
+  [595/1050] Kel'el Ware... ✅ 213cm 104kg USA
+  [596/1050] Keldon Johnson... ✅ 198cm 100kg USA
+  [597/1050] Kelly Olynyk... ✅ 213cm 109kg Canada
+  [598/1050] Kelly Oubre Jr.... ✅ 203cm 95kg USA
+  [599/1050] Kemba Walker... ✅ 183cm 83kg USA
+  [600/1050] Kendall Gill... ✅ 196cm 98kg USA
+
+  💾 中间保存... (598 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [601/1050] Kendrick Nunn... ✅ 190cm 86kg USA
+  [602/1050] Kenrich Williams... ✅ 201cm 95kg USA
+  [603/1050] Kentavious Caldwell-Pope... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [604/1050] Kenyon Martin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [605/1050] Keon Ellis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [606/1050] Keon Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [607/1050] Kevin Durant... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [608/1050] Kevin Gamble... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [609/1050] Kevin Garnett... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [610/1050] Kevin Huerter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [611/1050] Kevin Love... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [612/1050] Kevin Martin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [613/1050] Kevin McHale... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [614/1050] Kevin Porter Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [615/1050] Kevin Willis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [616/1050] Kevon Looney... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [617/1050] Keyonte George... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [618/1050] Khalid El-Amin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [619/1050] Khris Middleton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [620/1050] KJ Simpson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [621/1050] Klay Thompson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [622/1050] Kobe Brown... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [623/1050] Kobe Bryant... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [624/1050] Kobe Sanders... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [625/1050] Kon Knueppel... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [626/1050] Kris Dunn... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [627/1050] Kris Humphries... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [628/1050] Kris Murray... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [629/1050] Kristaps Porziņģis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [630/1050] Kurt Thomas... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [631/1050] Kyle Anderson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [632/1050] Kyle Filipowski... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [633/1050] Kyle Korver... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [634/1050] Kyle Kuzma... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [635/1050] Kyle Lowry... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [636/1050] Kyrie Irving... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [637/1050] Kyshawn George... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [638/1050] Lamar Odom... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [639/1050] LaMarcus Aldridge... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [640/1050] LaMelo Ball... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [641/1050] Lamond Murray... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [642/1050] Landry Shamet... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [643/1050] LaPhonso Ellis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [644/1050] Larry Bird... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [645/1050] Larry Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [646/1050] Larry Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [647/1050] Larry Nance Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [648/1050] Larry Nance... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [649/1050] Larry Stewart... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [650/1050] LaSalle Thompson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [651/1050] Latrell Sprewell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [652/1050] Lauri Markkanen... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [653/1050] Lavoy Allen... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [654/1050] Lawrence Roberts... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [655/1050] Leandro Barbosa... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [656/1050] LeBron James... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [657/1050] Lenny Wilkens... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [658/1050] Leonard Miller... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [659/1050] Leroy Ellis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [660/1050] Lindsey Hunter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [661/1050] Lindy Waters III... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [662/1050] Lonzo Ball... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [663/1050] Lou Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [664/1050] Loy Vaught... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [665/1050] Lucious Harris... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [666/1050] Luguentz Dort... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [667/1050] Luka Doncic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [668/1050] Luka Garza... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [669/1050] Luke Babbitt... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [670/1050] Luke Kennard... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+  [671/1050] Luke Kornet... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628436 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [672/1050] Luke Walton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2575 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [673/1050] Luol Deng... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2736 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [674/1050] Magic Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77142 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [675/1050] Malaki Branham... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631103 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [676/1050] Malcolm Brogdon... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627763 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [677/1050] Malcolm Delaney... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627098 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [678/1050] Malik Beasley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627736 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [679/1050] Malik Monk... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628370 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [680/1050] Malik Sealy... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=907 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [681/1050] Manu Ginobili... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1938 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [682/1050] Marc Gasol... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201188 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [683/1050] Marc Jackson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1531 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [684/1050] Marco Belinelli... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201158 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [685/1050] Marcus Camby... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=948 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [686/1050] Marcus Sasser... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631204 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [687/1050] Marcus Smart... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203935 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [688/1050] Marcus Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200766 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [689/1050] Mario Chalmers... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201596 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [690/1050] Mario Elie... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=53 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [691/1050] Mario Hezonja... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626209 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [692/1050] Mark Aguirre... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76016 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [693/1050] Mark Jackson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=349 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [694/1050] Mark Price... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=899 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [695/1050] Mark West... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=770 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [696/1050] Mark Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631109 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [697/1050] Marko Jaric... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2060 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [698/1050] Marquis Daniels... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2605 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [699/1050] Marreese Speights... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201578 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [700/1050] Marvin Bagley III... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628963 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+  💾 中间保存... (600 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [701/1050] Marvin Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101107 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [702/1050] Mason Plumlee... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203486 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [703/1050] Matas Buzelis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641824 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [704/1050] Matisse Thybulle... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629680 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [705/1050] Matt Barnes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2440 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [706/1050] Matt Harpring... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1723 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [707/1050] Maurice Cheeks... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76385 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [708/1050] Max Christie... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631108 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [709/1050] Max Strus... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629622 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [710/1050] Maxi Kleber... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628467 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [711/1050] Maxime Raynaud... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642875 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [712/1050] Mehmet Okur... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2246 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [713/1050] Metta World Peace... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1897 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [714/1050] Micah Peavy... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642877 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [715/1050] Michael Cage... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=262 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [716/1050] Michael Finley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=714 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [717/1050] Michael Jordan... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=893 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [718/1050] Michael Porter Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629008 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [719/1050] Michael Redd... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2072 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [720/1050] Michael Smith... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=63 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [721/1050] Mickey Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77168 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [722/1050] Mikal Bridges... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628969 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [723/1050] Mike Batiste... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2471 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [724/1050] Mike Bibby... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1710 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [725/1050] Mike Conley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201144 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [726/1050] Mike Dunleavy... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2399 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [727/1050] Mike Gminski... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76826 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [728/1050] Mike Miller... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2034 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [729/1050] Mike Muscala... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203488 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [730/1050] Mike Scott... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203118 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [731/1050] Mike Taylor... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201446 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [732/1050] Miles Bridges... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628970 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [733/1050] Miles McBride... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630540 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [734/1050] Milt Palacio... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1960 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [735/1050] Mitch Richmond... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=782 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [736/1050] Mitchell Robinson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629011 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [737/1050] Mohamed Diawara... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642885 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [738/1050] Monté Morris... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628420 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [739/1050] Monta Ellis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101145 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [740/1050] Montrezl Harrell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626149 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [741/1050] Moritz Wagner... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629021 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [742/1050] Moses Malone... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77461 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [743/1050] Moses Malone... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77449 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [744/1050] Moses Moody... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630541 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [745/1050] Mouhamed Gueye... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631243 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [746/1050] Moussa Diabaté... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631217 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [747/1050] Mychal Thompson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78331 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [748/1050] Myles Turner... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626167 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [749/1050] Nae'Qwan Tomlin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641772 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [750/1050] Naji Marshall... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630230 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [751/1050] Nate Archibald... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76054 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [752/1050] Nate Thurmond... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=600001 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [753/1050] Naz Reid... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629675 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [754/1050] Nazr Mohammed... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1737 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [755/1050] Neemias Queta... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629674 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [756/1050] Nemanja Bjelica... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202357 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [757/1050] Nenad Krstic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2420 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [758/1050] Nene... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2403 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [759/1050] Nic Claxton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629651 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [760/1050] Nick Calathes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201979 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [761/1050] Nick Collison... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2555 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [762/1050] Nick Richards... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630208 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [763/1050] Nick Smith Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641733 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [764/1050] Nick Van Exel... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=89 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [765/1050] Nickeil Alexander-Walker... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629638 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [766/1050] Nicolas Batum... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201587 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [767/1050] Nikola Jokic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203999 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [768/1050] Nikola Jović... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631107 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [769/1050] Nikola Vučević... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202696 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [770/1050] Nique Clifford... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642363 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [771/1050] Noah Clowney... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641730 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [772/1050] Noah Penda... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642869 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [773/1050] Norman Powell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626181 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [774/1050] Obi Toppin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630167 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [775/1050] Ochai Agbaji... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630534 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [776/1050] OG Anunoby... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628384 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [777/1050] Olden Polynice... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=178 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [778/1050] Olivier-Maxence Prosper... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641765 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [779/1050] Onyeka Okongwu... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630168 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [780/1050] Orlando Robinson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631115 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [781/1050] Oscar Robertson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78643 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [782/1050] Oscar Robertson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=600015 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [783/1050] Oso Ighodaro... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642345 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [784/1050] Otis Thorpe... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=901 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [785/1050] Ousmane Dieng... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631172 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [786/1050] P.J. Washington... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629023 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [787/1050] Pablo Prigioni... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203143 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [788/1050] Paolo Banchero... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631094 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [789/1050] Pascal Siakam... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627783 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [790/1050] Pat Connaughton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626192 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [791/1050] Pat Spencer... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630311 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [792/1050] Patrick Beverley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201976 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [793/1050] Patrick Ewing... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=121 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [794/1050] Patrick Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630172 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [795/1050] Patty Mills... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201988 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [796/1050] Pau Gasol... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2200 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [797/1050] Paul George... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202331 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [798/1050] Paul McPherson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2101 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [799/1050] Paul Millsap... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200794 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [800/1050] Paul Pierce... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1718 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+  💾 中间保存... (600 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [801/1050] Paul Reed... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630194 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [802/1050] Paul Silas... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78151 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [803/1050] Paul Zipser... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627835 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [804/1050] Payton Pritchard... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630202 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [805/1050] Peja Stojakovic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=978 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [806/1050] Pelle Larsson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641796 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [807/1050] Pero Antic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203544 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [808/1050] Pete Maravich... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77459 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [809/1050] Pete Nance... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631250 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [810/1050] Peyton Watson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631212 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [811/1050] PJ Hairston... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203798 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [812/1050] Pooh Jeter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200817 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [813/1050] Precious Achiuwa... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630173 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [814/1050] Predrag Drobnjak... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1542 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [815/1050] Quentin Grimes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629656 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [816/1050] Quenton Jackson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631245 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [817/1050] Quincy Pondexter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202347 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [818/1050] Quinten Post... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642366 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [819/1050] Rafer Alston... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1747 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [820/1050] Rajon Rondo... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200765 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [821/1050] Randy Foye... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200751 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [822/1050] Randy Smith... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78200 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [823/1050] Rashad McCants... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101119 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [824/1050] Rashard Lewis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1740 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [825/1050] Rasheed Wallace... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=739 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [826/1050] Ray Allen... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=951 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [827/1050] Ray Owes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1077 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [828/1050] Rayan Rupert... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641712 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [829/1050] Raymond Felton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101109 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [830/1050] Reed Sheppard... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642263 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [831/1050] Reggie Geary... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1002 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [832/1050] Reggie Miller... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=397 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [833/1050] Reggie Theus... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78310 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [834/1050] Rex Chapman... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=364 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [835/1050] Richard Hamilton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1888 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [836/1050] Richard Jefferson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2210 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [837/1050] Rick Barry... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=600013 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [838/1050] Rick Fox... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=296 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [839/1050] Rick Mahorn... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=328 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [840/1050] Rickey Green... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76874 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [841/1050] Ricky Council IV... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641741 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [842/1050] Ricky Pierce... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=894 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [843/1050] Ricky Rubio... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201937 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [844/1050] Rik Smits... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=22 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [845/1050] RJ Barrett... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629628 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [846/1050] Rob Dillingham... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642265 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [847/1050] Robert Horry... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=109 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [848/1050] Robert Parish... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=305 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [849/1050] Robert Reid... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77936 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [850/1050] Robert Traylor... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1714 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [851/1050] Robert Williams III... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629057 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [852/1050] Robin Lopez... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201577 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [853/1050] Rod Strickland... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=393 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [854/1050] Rodney Buford... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1934 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [855/1050] Rodney Hood... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203918 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [856/1050] Rodney Rogers... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=915 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [857/1050] Rodney White... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2206 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [858/1050] Rolando Blackman... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76176 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [859/1050] Ron Harper... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=166 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [860/1050] Ronald Holland II... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641842 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [861/1050] Royce O'Neale... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626220 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [862/1050] Rudy Gay... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200752 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [863/1050] Rudy Gobert... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203497 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [864/1050] Rui Hachimura... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629060 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [865/1050] Rumeal Robinson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=716 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [866/1050] Russell Westbrook... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201566 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [867/1050] Ryan Dunn... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642346 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [868/1050] Ryan Kalkbrenner... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641750 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [869/1050] Ryan Rollins... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631157 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [870/1050] Saddiq Bey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630180 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [871/1050] Sam Cassell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=208 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [872/1050] Sam Hauser... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630573 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [873/1050] Sam Jones... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77196 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [874/1050] Sam Lacey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77326 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [875/1050] Sam Merrill... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630241 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [876/1050] Sam Mitchell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=417 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [877/1050] Sam Perkins... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=64 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [878/1050] Sam Young... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201970 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [879/1050] Sandro Mamukelashvili... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630572 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [880/1050] Santi Aldama... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630583 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [881/1050] Sarunas Jasikevicius... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101180 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [882/1050] Sasha Danilovic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=390 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [883/1050] Scoot Henderson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630703 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [884/1050] Scott Wedman... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78482 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [885/1050] Scottie Barnes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630567 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [886/1050] Scottie Pippen... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=937 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [887/1050] Scotty Pippen Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630590 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [888/1050] Sean Elliott... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=251 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [889/1050] Sean Kilpatrick... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203930 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [890/1050] Sean Rooks... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=399 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [891/1050] Sedale Threatt... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=9 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [892/1050] Semaj Christon... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203902 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [893/1050] Serge Ibaka... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201586 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [894/1050] Sergio Rodriguez... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200771 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [895/1050] Seth Curry... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203552 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [896/1050] Shabazz Napier... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203894 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [897/1050] Shaedon Sharpe... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631101 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [898/1050] Shai Gilgeous-Alexander... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628983 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [899/1050] Shake Milton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629003 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [900/1050] Shane Battier... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2203 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+  💾 中间保存... (600 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [901/1050] Shane Larkin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203499 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [902/1050] Shaquille O'Neal... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=406 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [903/1050] Shareef Abdur-Rahim... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=949 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [904/1050] Shaun Livingston... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2733 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [905/1050] Shawn Bradley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=762 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [906/1050] Shawn Kemp... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=431 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [907/1050] Shawn Marion... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1890 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [908/1050] Shawne Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200761 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [909/1050] Shelden Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200749 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [910/1050] Shelvin Mack... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202714 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [911/1050] Sherman Douglas... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=428 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [912/1050] Sidy Cissoko... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631321 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [913/1050] Simone Fontecchio... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631323 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [914/1050] Sion James... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642883 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [915/1050] Sleepy Floyd... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76726 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [916/1050] Spencer Dinwiddie... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203915 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [917/1050] Spencer Hawes... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201150 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [918/1050] Spencer Jones... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642461 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [919/1050] Stacey Augmon... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=278 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [920/1050] Stephen Curry... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201939 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [921/1050] Stephen Graham... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=101211 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [922/1050] Stephon Castle... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642264 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [923/1050] Stephon Marbury... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=950 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [924/1050] Steve Blake... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2581 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [925/1050] Steve Francis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1883 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [926/1050] Steve Kerr... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=70 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [927/1050] Steve Nash... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=959 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [928/1050] Steven Adams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203500 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [929/1050] Steven Smith... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=120 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [930/1050] Sundiata Gaines... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202178 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [931/1050] Svi Mykhailiuk... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629004 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [932/1050] T.J. McConnell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=204456 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [933/1050] T.R. Dunn... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76618 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [934/1050] Taj Gibson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201959 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [935/1050] Talen Horton-Tucker... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629659 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [936/1050] Tarence Kinsey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200814 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [937/1050] Tari Eason... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631106 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [938/1050] Tarik Black... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=204028 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [939/1050] Taurean Prince... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627752 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [940/1050] Taylor Hendricks... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641707 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [941/1050] Tayshaun Prince... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2419 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [942/1050] Terance Mann... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629611 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [943/1050] Terrence Ross... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203082 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [944/1050] Terrence Shannon Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630545 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [945/1050] Terry Cummings... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=187 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [946/1050] Terry Porter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=345 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [947/1050] Terry Rozier... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626179 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [948/1050] Thaddeus Young... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201152 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [949/1050] Thanasis Antetokounmpo... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203648 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [950/1050] Thomas Bryant... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628418 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [951/1050] Thomas Sanders... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78060 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [952/1050] Thurl Bailey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1847 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [953/1050] Tidjane Salaün... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642275 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [954/1050] Tierre Brown... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2357 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [955/1050] Tim Duncan... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1495 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [956/1050] Tim Hardaway... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=896 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [957/1050] Tim Hardaway Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203501 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [958/1050] Timothe Luwawu-Cabarrot... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1627789 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [959/1050] Tobias Harris... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202699 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [960/1050] Tom Chambers... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1472 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [961/1050] Tom Van Arsdale... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78399 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [962/1050] Tomas Satoransky... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203107 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [963/1050] Toni Kukoc... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=389 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [964/1050] Tony Bradley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628396 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [965/1050] Tony Farmer... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1108 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [966/1050] Tony Massenburg... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=763 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [967/1050] Tony Parker... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2225 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [968/1050] Tony Snell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203503 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [969/1050] Tosan Evbuomwan... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641787 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [970/1050] Toumani Camara... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641739 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [971/1050] Tracy McGrady... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1503 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [972/1050] Trae Young... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629027 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [973/1050] Travis Best... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=696 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [974/1050] Travis Outlaw... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2566 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [975/1050] Trayce Jackson-Davis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631218 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [976/1050] Tre Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642848 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [977/1050] Tre Jones... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630200 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [978/1050] Tre Mann... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630544 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [979/1050] Tree Rollins... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78014 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [980/1050] Trendon Watford... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630570 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [981/1050] Trenton Hassell... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2239 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [982/1050] Treveon Graham... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626203 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [983/1050] Trevor Ariza... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2772 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [984/1050] Trevor Booker... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202344 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [985/1050] Trey Jemison III... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641998 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [986/1050] Trey Lyles... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626168 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [987/1050] Trey Murphy III... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630530 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [988/1050] Tristan da Silva... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641783 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [989/1050] Tristan Vukcevic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641774 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [990/1050] Troy Brown Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628972 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [991/1050] Ty Jerome... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629660 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [992/1050] Ty Lawson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201951 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [993/1050] Tyler Ennis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203898 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [994/1050] Tyler Herro... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629639 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [995/1050] Tyler Kolek... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642278 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [996/1050] Tyreke Evans... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=201936 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [997/1050] Tyrese Haliburton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630169 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [998/1050] Tyrese Martin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631213 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [999/1050] Tyrese Maxey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630178 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1000/1050] Tyrone Corbin... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=895 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+  💾 中间保存... (600 updated)
+  💾 保存 1050 名球员
+  继续...
+
+  [1001/1050] Tyrone Nesby... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1838 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1002/1050] Tyson Chandler... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2199 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1003/1050] Tyus Jones... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1626145 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1004/1050] Vít Krejčí... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630249 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1005/1050] Vern Fleming... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=313 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1006/1050] Victor Wembanyama... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641705 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1007/1050] Vince Carter... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1713 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1008/1050] Vince Williams Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631246 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1009/1050] Vincent Yarbrough... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2428 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1010/1050] Vinnie Johnson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77167 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1011/1050] VJ Edgecombe... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642845 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1012/1050] Vlade Divac... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=124 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1013/1050] Vonteego Cummings... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1907 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1014/1050] Walker Kessler... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631117 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1015/1050] Wally Szczerbiak... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1887 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1016/1050] Walt Bellamy... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76144 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1017/1050] Walt Frazier... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76750 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1018/1050] Walt Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1005 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1019/1050] Walter Clayton Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642383 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1020/1050] Walter Davis... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1453 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1021/1050] Walter Herrmann... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=200835 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1022/1050] Wayman Tisdale... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=47 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1023/1050] Wayne Cooper... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76441 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1024/1050] Wendell Carter Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628976 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1025/1050] Wendell Moore Jr.... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1631111 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1026/1050] Wes Unseld... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=78392 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1027/1050] Wesley Matthews... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=202083 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1028/1050] Will Barton... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203115 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1029/1050] Will Richard... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642954 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1030/1050] Will Riley... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642860 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1031/1050] Will Solomon... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2226 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1032/1050] Willie Green... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2584 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1033/1050] Willis Reed... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=77929 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1034/1050] Wilt Chamberlain... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=76375 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1035/1050] Xavier Tillman... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630214 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1036/1050] Yao Ming... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2397 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1037/1050] Yves Missi... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642274 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1038/1050] Zaccharie Risacher... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1642258 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1039/1050] Zach Collins... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1628380 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1040/1050] Zach Edey... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1641744 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1041/1050] Zach LaVine... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=203897 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1042/1050] Zach Randolph... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2216 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1043/1050] Zan Tabak... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=440 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1044/1050] Zarko Cabarkapa... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2560 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1045/1050] Zaza Pachulia... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2585 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1046/1050] Zeke Nnaji... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630192 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1047/1050] Ziaire Williams... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1630533 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1048/1050] Zion Williamson... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=1629627 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1049/1050] Zoran Planinic... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=2565 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  [1050/1050] Zydrunas Ilgauskas... ❌ HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/commonplayerinfo?LeagueID=00&PlayerID=980 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+🏆 补充 MVP/FMVP/总冠军数据...
+  💾 保存 1050 名球员
+
+============================================================
+📊 Profile 补充完成:
+  更新: 600
+  失败: 450
+  总球员数: 1050

@@ -1,0 +1,1070 @@
+============================================================
+NBA 球员数据扩充脚本
+============================================================
+
+📂 加载现有数据...
+  现有球员: 253
+  现有赛季数据: 2644
+  已加载 506 个中文名映射
+📦 获取 NBA 全量球员列表...
+  共 5103 名球员
+
+🔍 候选新球员: 4853
+  活跃候选: 403
+  退役候选: 4450
+
+📋 选定新增球员: 900
+  [1/900] Trey Alexander (ID: 1641725)... ⏭️ 跳过（仅 29 场）
+  [2/900] Alex Antetokounmpo (ID: 1630828)...     ⚠️ Alex Antetokounmpo 重试 (1/2): 'resultSet'
+    ⚠️ Alex Antetokounmpo 重试 (2/2): 'resultSet'
+    ❌ Alex Antetokounmpo 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [3/900] Brooks Barnhizer (ID: 1642964)... ⏭️ 跳过（仅 34 场）
+  [4/900] Tamar Bates (ID: 1642926)... ⏭️ 跳过（无数据）
+  [5/900] Joan Beringer (ID: 1642866)... ⏭️ 跳过（仅 32 场）
+  [6/900] Koby Brea (ID: 1642886)... ⏭️ 跳过（仅 5 场）
+  [7/900] Johni Broome (ID: 1641780)... ⏭️ 跳过（仅 11 场）
+  [8/900] Dylan Cardwell (ID: 1642928)... ⏭️ 跳过（仅 33 场）
+  [9/900] Devin Carter (ID: 1642269)... ✅ 63G 5.1P 2.3R 1.6A | 2 seasons
+  [10/900] Jevon Carter (ID: 1628975)... ✅ 452G 5.3P 1.7R 1.6A | 12 seasons
+  [11/900] Wendell Carter Jr. (ID: 1628976)... ✅ 448G 11.9P 8.2R 2.0A | 10 seasons
+  [12/900] Alex Caruso (ID: 1627936)... ✅ 464G 6.8P 2.9R 2.7A | 9 seasons
+  [13/900] Stephon Castle (ID: 1642264)... ✅ 140G 15.4P 4.2R 5.4A | 2 seasons
+  [14/900] Colin Castleton (ID: 1630658)... ⏭️ 跳过（仅 43 场）
+  [15/900] Julian Champagnie (ID: 1630577)... ✅ 243G 9.3P 4.1R 1.4A | 6 seasons
+  [16/900] Justin Champagnie (ID: 1630551)... ✅ 178G 6.9P 4.6R 0.9A | 7 seasons
+  [17/900] Cam Christie (ID: 1642353)... ✅ 60G 2.7P 1.4R 0.6A | 2 seasons
+  [18/900] Max Christie (ID: 1631108)... ✅ 251G 7.9P 2.8R 1.4A | 6 seasons
+  [19/900] Moussa Cisse (ID: 1630619)... ⏭️ 跳过（仅 34 场）
+  [20/900] Sidy Cissoko (ID: 1631321)... ✅ 97G 4.5P 2.0R 1.2A | 5 seasons
+  [21/900] Jaylen Clark (ID: 1641740)... ✅ 100G 3.9P 1.6R 0.6A | 2 seasons
+  [22/900] Brandon Clarke (ID: 1629634)... ✅ 309G 10.2P 5.5R 1.3A | 7 seasons
+  [23/900] Jordan Clarkson (ID: 203903)... ✅ 813G 15.5P 3.2R 2.8A | 16 seasons
+  [24/900] Nic Claxton (ID: 1629651)... ✅ 373G 10.6P 7.6R 2.1A | 7 seasons
+  [25/900] Walter Clayton Jr. (ID: 1642383)... ✅ 58G 7.2P 2.0R 3.9A | 3 seasons
+  [26/900] Nique Clifford (ID: 1642363)... ✅ 66G 7.8P 3.6R 2.1A | 1 seasons
+  [27/900] Donovan Clingan (ID: 1642270)... ✅ 132G 9.3P 9.7R 1.7A | 2 seasons
+  [28/900] Noah Clowney (ID: 1641730)... ✅ 131G 10.1P 4.0R 1.2A | 3 seasons
+  [29/900] Amir Coffey (ID: 1629599)... ✅ 366G 6.2P 1.8R 1.1A | 9 seasons
+  [30/900] Isaiah Collier (ID: 1642268)... ✅ 130G 10.0P 3.0R 6.7A | 2 seasons
+  [31/900] John Collins (ID: 1628381)... ✅ 530G 15.8P 7.8R 1.4A | 9 seasons
+  [32/900] Zach Collins (ID: 1628380)... ✅ 388G 8.0P 4.9R 1.8A | 10 seasons
+  [33/900] Pat Connaughton (ID: 1626192)... ✅ 629G 5.9P 3.3R 1.3A | 11 seasons
+  [34/900] Javonte Cooke (ID: 1631451)... ⏭️ 跳过（仅 19 场）
+  [35/900] Sharife Cooper (ID: 1630536)... ⏭️ 跳过（仅 41 场）
+  [36/900] Bilal Coulibaly (ID: 1641731)... ✅ 169G 10.5P 4.5R 2.6A | 3 seasons
+  [37/900] Cedric Coward (ID: 1642907)... ✅ 54G 13.4P 6.2R 2.8A | 1 seasons
+  [38/900] Isaiah Crawford (ID: 1642384)... ⏭️ 跳过（仅 26 场）
+  [39/900] Pacôme Dadiet (ID: 1642359)... ⏭️ 跳过（仅 42 场）
+  [40/900] Dyson Daniels (ID: 1630700)... ✅ 261G 9.2P 5.0R 3.9A | 4 seasons
+  [41/900] N'Faly Dante (ID: 1642368)... ⏭️ 跳过（仅 8 场）
+  [42/900] JD Davison (ID: 1631120)... ✅ 61G 2.0P 0.9R 1.0A | 4 seasons
+  [43/900] RayJ Dennis (ID: 1642484)... ⏭️ 跳过（仅 27 场）
+  [44/900] Donte DiVincenzo (ID: 1628978)... ✅ 486G 11.0P 4.3R 3.1A | 10 seasons
+  [45/900] Moussa Diabaté (ID: 1631217)... ✅ 166G 5.9P 6.3R 1.1A | 4 seasons
+  [46/900] Mohamed Diawara (ID: 1642885)... ✅ 59G 3.4P 1.3R 0.6A | 1 seasons
+  [47/900] Gradey Dick (ID: 1641711)... ✅ 178G 9.5P 2.6R 1.2A | 3 seasons
+  [48/900] Hunter Dickinson (ID: 1630621)... ⏭️ 跳过（仅 1 场）
+  [49/900] Ousmane Dieng (ID: 1631172)... ✅ 153G 4.7P 2.2R 1.2A | 6 seasons
+  [50/900] Rob Dillingham (ID: 1642265)... ✅ 102G 4.8P 1.4R 2.1A | 4 seasons
+
+  💾 中间保存... (33 新球员)
+  💾 已保存: 286 球员, 2827 赛季记录
+  继续获取...
+
+  [51/900] Luguentz Dort (ID: 1629652)... ✅ 421G 11.7P 3.9R 1.6A | 7 seasons
+  [52/900] Ayo Dosunmu (ID: 1630245)... ✅ 340G 11.0P 2.9R 3.3A | 7 seasons
+  [53/900] Kris Dunn (ID: 1627739)... ✅ 477G 7.7P 3.3R 3.9A | 10 seasons
+  [54/900] Ryan Dunn (ID: 1642346)... ✅ 135G 6.4P 3.8R 1.1A | 2 seasons
+  [55/900] Jalen Duren (ID: 1631105)... ✅ 265G 13.2P 10.3R 2.0A | 4 seasons
+  [56/900] Egor Dëmin (ID: 1642856)... ✅ 52G 10.3P 3.2R 3.3A | 1 seasons
+  [57/900] Tari Eason (ID: 1631106)... ✅ 207G 10.4P 6.3R 1.3A | 4 seasons
+  [58/900] Zach Edey (ID: 1641744)... ✅ 77G 9.9P 8.7R 1.0A | 2 seasons
+  [59/900] VJ Edgecombe (ID: 1642845)... ✅ 63G 15.6P 5.6R 4.0A | 1 seasons
+  [60/900] Justin Edwards (ID: 1642348)... ✅ 97G 7.9P 2.4R 1.5A | 2 seasons
+  [61/900] Keon Ellis (ID: 1631165)... ✅ 214G 6.5P 2.1R 1.2A | 6 seasons
+  [62/900] Noa Essengue (ID: 1642855)... ⏭️ 跳过（仅 2 场）
+  [63/900] Tyson Etienne (ID: 1630623)... ⏭️ 跳过（仅 21 场）
+  [64/900] Drew Eubanks (ID: 1629234)... ✅ 426G 5.6P 4.3R 0.9A | 12 seasons
+  [65/900] Tosan Evbuomwan (ID: 1641787)... ✅ 50G 7.4P 3.6R 1.4A | 5 seasons
+  [66/900] Danté Exum (ID: 203957)... ✅ 320G 6.2P 1.9R 2.3A | 10 seasons
+  [67/900] Jeremiah Fears (ID: 1642847)... ✅ 71G 13.0P 3.6R 3.2A | 1 seasons
+  [68/900] Kyle Filipowski (ID: 1642271)... ✅ 140G 10.1P 6.5R 2.2A | 2 seasons
+  [69/900] Dorian Finney-Smith (ID: 1627827)... ✅ 623G 8.0P 4.4R 1.4A | 14 seasons
+  [70/900] Cooper Flagg (ID: 1642843)... ✅ 58G 20.1P 6.6R 4.5A | 1 seasons
+  [71/900] Rasheer Fleming (ID: 1642853)... ⏭️ 跳过（仅 44 场）
+  [72/900] Trentyn Flowers (ID: 1642280)... ⏭️ 跳过（仅 8 场）
+  [73/900] Simone Fontecchio (ID: 1631323)... ✅ 255G 7.8P 2.9R 1.2A | 6 seasons
+  [74/900] Enrique Freeman (ID: 1642402)... ⏭️ 跳过（仅 24 场）
+  [75/900] Johnny Furphy (ID: 1642277)... ✅ 85G 3.3P 2.6R 0.7A | 2 seasons
+  [76/900] Daniel Gafford (ID: 1629655)... ✅ 427G 9.3P 5.8R 1.0A | 11 seasons
+  [77/900] Myron Gardner (ID: 1642066)... ⏭️ 跳过（仅 37 场）
+  [78/900] Darius Garland (ID: 1629636)... ✅ 416G 18.8P 2.6R 6.7A | 9 seasons
+  [79/900] Luka Garza (ID: 1630568)... ✅ 183G 5.7P 2.6R 0.6A | 5 seasons
+  [80/900] Keyonte George (ID: 1641718)... ✅ 196G 17.2P 3.4R 5.3A | 3 seasons
+  [81/900] Kyshawn George (ID: 1642273)... ✅ 116G 11.2P 4.6R 3.3A | 2 seasons
+  [82/900] Anthony Gill (ID: 1630264)... ✅ 272G 3.4P 1.8R 0.6A | 6 seasons
+  [83/900] Collin Gillespie (ID: 1631221)... ✅ 126G 9.5P 3.1R 3.5A | 3 seasons
+  [84/900] Vladislav Goldin (ID: 1642884)... ⏭️ 跳过（仅 5 场）
+  [85/900] Hugo González (ID: 1642864)... ✅ 64G 4.0P 3.5R 0.6A | 1 seasons
+  [86/900] Jordan Goodwin (ID: 1630692)... ✅ 210G 6.9P 4.1R 2.4A | 7 seasons
+  [87/900] Eric Gordon (ID: 201569)... ✅ 931G 15.2P 2.3R 2.7A | 20 seasons
+  [88/900] Jerami Grant (ID: 203924)... ✅ 773G 13.5P 3.9R 1.6A | 14 seasons
+  [89/900] AJ Green (ID: 1631260)... ✅ 229G 6.8P 1.9R 1.2A | 4 seasons
+  [90/900] Jalen Green (ID: 1630224)... ✅ 329G 19.9P 4.2R 3.3A | 5 seasons
+  [91/900] Javonte Green (ID: 1629750)... ✅ 332G 5.6P 3.0R 0.7A | 11 seasons
+  [92/900] Jeff Green (ID: 201145)... ✅ 1242G 11.7P 3.9R 1.4A | 26 seasons
+  [93/900] Josh Green (ID: 1630182)... ✅ 337G 6.4P 2.6R 1.5A | 6 seasons
+  [94/900] Quentin Grimes (ID: 1629656)... ✅ 307G 11.1P 3.2R 2.3A | 9 seasons
+  [95/900] Mouhamed Gueye (ID: 1631243)... ✅ 104G 5.0P 3.8R 0.8A | 3 seasons
+  [96/900] Rui Hachimura (ID: 1629060)... ✅ 395G 12.6P 4.6R 1.2A | 9 seasons
+  [97/900] PJ Hall (ID: 1641790)... ⏭️ 跳过（仅 38 场）
+  [98/900] Tim Hardaway Jr. (ID: 203501)... ✅ 882G 13.7P 2.9R 1.8A | 15 seasons
+  [99/900] Jaden Hardy (ID: 1630702)... ✅ 226G 8.2P 1.7R 1.3A | 6 seasons
+  [100/900] Elijah Harkless (ID: 1641989)... ⏭️ 跳过（仅 31 场）
+  [101/900] Dylan Harper (ID: 1642844)... ✅ 57G 11.1P 3.4R 3.8A | 1 seasons
+  [102/900] Ron Harper Jr. (ID: 1631199)... ⏭️ 跳过（仅 33 场）
+  [103/900] Gary Harris (ID: 203914)... ✅ 663G 9.9P 2.2R 1.8A | 14 seasons
+  [104/900] Kevon Harris (ID: 1630284)... ⏭️ 跳过（仅 36 场）
+  [105/900] Josh Hart (ID: 1628404)... ✅ 586G 10.5P 7.1R 3.4A | 13 seasons
+  [106/900] Isaiah Hartenstein (ID: 1628392)... ✅ 417G 7.1P 6.7R 2.1A | 10 seasons
+  [107/900] Sam Hauser (ID: 1630573)... ✅ 322G 7.8P 3.1R 1.0A | 5 seasons
+  [108/900] Jordan Hawkins (ID: 1641722)... ✅ 166G 7.8P 2.2R 1.0A | 3 seasons
+  [109/900] Jaxson Hayes (ID: 1629637)... ✅ 425G 6.8P 3.9R 0.7A | 7 seasons
+  [110/900] Nigel Hayes-Davis (ID: 1628502)... ⏭️ 跳过（仅 36 场）
+  [111/900] Scoot Henderson (ID: 1630703)... ✅ 146G 13.4P 3.0R 5.1A | 3 seasons
+  [112/900] Taylor Hendricks (ID: 1641707)... ✅ 93G 7.1P 4.1R 0.9A | 5 seasons
+  [113/900] Chucky Hepburn (ID: 1642935)... ⏭️ 跳过（仅 2 场）
+  [114/900] Haywood Highsmith (ID: 1629312)... ✅ 224G 5.4P 3.1R 1.1A | 6 seasons
+  [115/900] Aaron Holiday (ID: 1628988)... ✅ 491G 6.4P 1.5R 1.9A | 10 seasons
+  [116/900] Ronald Holland II (ID: 1641842)... ✅ 146G 7.3P 3.4R 1.1A | 2 seasons
+  [117/900] DaRon Holmes II (ID: 1641747)... ⏭️ 跳过（仅 19 场）
+  [118/900] Caleb Houstan (ID: 1631216)... ✅ 182G 3.9P 1.5R 0.5A | 4 seasons
+  [119/900] Jett Howard (ID: 1641724)... ✅ 125G 4.4P 1.2R 0.7A | 3 seasons
+  [120/900] Kevin Huerter (ID: 1628989)... ✅ 540G 11.4P 3.4R 2.9A | 12 seasons
+  [121/900] Jay Huff (ID: 1630643)... ✅ 165G 7.1P 2.6R 0.9A | 5 seasons
+  [122/900] Ariel Hukporti (ID: 1630574)... ✅ 73G 1.9P 2.5R 0.5A | 2 seasons
+  [123/900] De'Andre Hunter (ID: 1629631)... ✅ 372G 14.7P 4.1R 1.6A | 11 seasons
+  [124/900] CJ Huntley (ID: 1643047)... ⏭️ 跳过（无数据）
+  [125/900] Bones Hyland (ID: 1630538)... ✅ 247G 9.0P 2.0R 2.6A | 9 seasons
+  [126/900] Oso Ighodaro (ID: 1642345)... ✅ 131G 5.3P 4.3R 1.7A | 2 seasons
+  [127/900] Joe Ingles (ID: 204060)... ✅ 747G 7.7P 3.0R 3.5A | 12 seasons
+  [128/900] Harrison Ingram (ID: 1631127)... ⏭️ 跳过（仅 10 场）
+  [129/900] Jonathan Isaac (ID: 1628371)... ✅ 328G 6.8P 4.5R 0.7A | 7 seasons
+  [130/900] Jaden Ivey (ID: 1631093)... ✅ 218G 14.8P 3.5R 4.0A | 6 seasons
+  [131/900] GG Jackson (ID: 1641713)... ✅ 123G 11.6P 3.9R 1.2A | 3 seasons
+  [132/900] Isaiah Jackson (ID: 1630543)... ✅ 215G 7.0P 4.5R 0.8A | 7 seasons
+  [133/900] Quenton Jackson (ID: 1631245)... ✅ 78G 7.0P 1.8R 2.1A | 4 seasons
+  [134/900] Andre Jackson Jr. (ID: 1641748)... ✅ 161G 2.5P 2.1R 1.0A | 3 seasons
+  [135/900] Trayce Jackson-Davis (ID: 1631218)... ✅ 175G 6.4P 4.5R 1.3A | 5 seasons
+  [136/900] Kasparas Jakučionis (ID: 1642857)... ⏭️ 跳过（仅 43 场）
+  [137/900] Bronny James (ID: 1642355)... ✅ 59G 2.2P 0.6R 1.0A | 2 seasons
+  [138/900] Sion James (ID: 1642883)... ✅ 70G 5.4P 3.5R 2.0A | 1 seasons
+  [139/900] Jaime Jaquez Jr. (ID: 1631170)... ✅ 205G 11.8P 4.4R 3.2A | 3 seasons
+  [140/900] Trey Jemison III (ID: 1641998)... ✅ 74G 3.7P 3.4R 0.6A | 7 seasons
+  [141/900] Daniss Jenkins (ID: 1642450)... ✅ 66G 7.0P 1.7R 2.9A | 2 seasons
+  [142/900] Ty Jerome (ID: 1629660)... ✅ 242G 9.3P 2.1R 3.0A | 7 seasons
+  [143/900] Isaiah Joe (ID: 1630198)... ✅ 382G 8.1P 2.1R 1.2A | 6 seasons
+  [144/900] AJ Johnson (ID: 1642358)... ✅ 69G 4.8P 1.5R 1.6A | 6 seasons
+  [145/900] Cameron Johnson (ID: 1629661)... ✅ 384G 12.8P 3.9R 2.0A | 9 seasons
+  [146/900] Jalen Johnson (ID: 1630552)... ✅ 246G 14.0P 7.3R 4.0A | 5 seasons
+  [147/900] Keldon Johnson (ID: 1629640)... ✅ 440G 15.1P 5.4R 2.0A | 7 seasons
+  [148/900] Keshad Johnson (ID: 1642352)... ⏭️ 跳过（仅 41 场）
+  [149/900] Tre Johnson (ID: 1642848)... ✅ 56G 12.4P 2.8R 2.0A | 1 seasons
+  [150/900] Colby Jones (ID: 1641732)... ✅ 70G 3.2P 1.9R 0.9A | 5 seasons
+
+  💾 中间保存... (115 新球员)
+  💾 已保存: 368 球员, 3336 赛季记录
+  继续获取...
+
+  [151/900] Curtis Jones (ID: 1642938)... ⏭️ 跳过（仅 6 场）
+  [152/900] Herbert Jones (ID: 1630529)... ✅ 288G 9.9P 3.8R 2.5A | 5 seasons
+  [153/900] Isaac Jones (ID: 1642403)... ⏭️ 跳过（仅 45 场）
+  [154/900] Kam Jones (ID: 1642880)... ⏭️ 跳过（仅 30 场）
+  [155/900] Spencer Jones (ID: 1642461)... ✅ 78G 4.7P 2.7R 0.7A | 2 seasons
+  [156/900] Tre Jones (ID: 1630200)... ✅ 350G 9.0P 2.8R 4.8A | 8 seasons
+  [157/900] Tyus Jones (ID: 1626145)... ✅ 743G 7.3P 1.9R 4.3A | 14 seasons
+  [158/900] David Jones Garcia (ID: 1642357)... ⏭️ 跳过（仅 11 场）
+  [159/900] Derrick Jones Jr. (ID: 1627884)... ✅ 535G 7.5P 3.3R 0.8A | 12 seasons
+  [160/900] Nikola Jović (ID: 1631107)... ✅ 152G 8.3P 3.7R 2.2A | 4 seasons
+  [161/900] Johnny Juzang (ID: 1630548)... ✅ 123G 6.9P 2.2R 0.9A | 4 seasons
+  [162/900] Ryan Kalkbrenner (ID: 1641750)... ✅ 57G 7.9P 5.8R 0.8A | 1 seasons
+  [163/900] Miles Kelly (ID: 1642939)... ⏭️ 跳过（仅 14 场）
+  [164/900] Luke Kennard (ID: 1628379)... ✅ 526G 9.6P 2.7R 2.2A | 13 seasons
+  [165/900] Walker Kessler (ID: 1631117)... ✅ 201G 9.5P 9.3R 1.2A | 4 seasons
+  [166/900] Corey Kispert (ID: 1630557)... ✅ 340G 10.8P 2.8R 1.5A | 7 seasons
+  [167/900] Maxi Kleber (ID: 1628467)... ✅ 475G 6.1P 4.2R 1.1A | 9 seasons
+  [168/900] Bobi Klintman (ID: 1641752)... ⏭️ 跳过（仅 19 场）
+  [169/900] Dalton Knecht (ID: 1642261)... ✅ 126G 7.2P 2.3R 0.7A | 2 seasons
+  [170/900] Kon Knueppel (ID: 1642851)... ✅ 69G 19.3P 5.3R 3.4A | 1 seasons
+  [171/900] Tyler Kolek (ID: 1642278)... ✅ 97G 3.4P 1.2R 2.4A | 2 seasons
+  [172/900] Christian Koloko (ID: 1631132)... ✅ 118G 2.8P 2.8R 0.5A | 6 seasons
+  [173/900] John Konchar (ID: 1629723)... ✅ 351G 4.1P 3.9R 1.4A | 9 seasons
+  [174/900] Luke Kornet (ID: 1628436)... ✅ 412G 5.4P 3.9R 1.2A | 14 seasons
+  [175/900] Vít Krejčí (ID: 1630249)... ✅ 202G 6.5P 2.4R 1.8A | 7 seasons
+  [176/900] Jonathan Kuminga (ID: 1630228)... ✅ 284G 12.5P 4.2R 1.8A | 7 seasons
+  [177/900] Kyle Kuzma (ID: 1628398)... ✅ 605G 16.6P 6.1R 2.7A | 11 seasons
+  [178/900] Jake LaRavia (ID: 1631222)... ✅ 206G 7.5P 3.5R 1.8A | 6 seasons
+  [179/900] Jock Landale (ID: 1629111)... ✅ 283G 6.6P 3.8R 1.1A | 7 seasons
+  [180/900] Chaz Lanier (ID: 1642404)... ⏭️ 跳过（仅 25 场）
+  [181/900] Pelle Larsson (ID: 1641796)... ✅ 114G 7.8P 2.5R 2.3A | 2 seasons
+  [182/900] A.J. Lawson (ID: 1630639)... ✅ 97G 4.9P 1.9R 0.6A | 6 seasons
+  [183/900] Caris LeVert (ID: 1627747)... ✅ 573G 13.3P 3.6R 3.9A | 16 seasons
+  [184/900] E.J. Liddell (ID: 1630604)... ⏭️ 跳过（仅 36 场）
+  [185/900] Dereck Lively II (ID: 1641726)... ✅ 98G 8.4P 7.0R 1.6A | 3 seasons
+  [186/900] Isaiah Livers (ID: 1630587)... ✅ 128G 5.0P 2.4R 0.8A | 4 seasons
+  [187/900] Chris Livingston (ID: 1641753)... ⏭️ 跳过（仅 45 场）
+  [188/900] Kevon Looney (ID: 1626172)... ✅ 617G 4.9P 5.7R 1.6A | 11 seasons
+  [189/900] Caleb Love (ID: 1631126)... ⏭️ 跳过（仅 45 场）
+  [190/900] Kevin Love (ID: 201567)... ✅ 989G 15.8P 9.8R 2.3A | 20 seasons
+  [191/900] Khaman Maluach (ID: 1642863)... ⏭️ 跳过（仅 35 场）
+  [192/900] Sandro Mamukelashvili (ID: 1630572)... ✅ 257G 6.6P 3.6R 1.2A | 7 seasons
+  [193/900] Terance Mann (ID: 1629611)... ✅ 470G 8.0P 3.5R 2.1A | 9 seasons
+  [194/900] Tre Mann (ID: 1630544)... ✅ 226G 8.8P 2.7R 2.2A | 7 seasons
+  [195/900] Naji Marshall (ID: 1630230)... ✅ 366G 10.0P 4.0R 2.4A | 6 seasons
+  [196/900] Alijah Martin (ID: 1642918)... ⏭️ 跳过（仅 16 场）
+  [197/900] Caleb Martin (ID: 1628997)... ✅ 369G 7.7P 3.7R 1.6A | 9 seasons
+  [198/900] Cody Martin (ID: 1628998)... ✅ 263G 6.1P 3.7R 2.2A | 9 seasons
+  [199/900] Tyrese Martin (ID: 1631213)... ✅ 120G 6.9P 2.9R 1.7A | 5 seasons
+  [200/900] Bennedict Mathurin (ID: 1631097)... ✅ 253G 16.3P 4.7R 1.9A | 6 seasons
+
+  💾 中间保存... (153 新球员)
+  💾 已保存: 406 球员, 3611 赛季记录
+  继续获取...
+
+  [201/900] Karlo Matković (ID: 1631255)... ✅ 99G 6.5P 4.3R 0.9A | 2 seasons
+  [202/900] Chris Mañon (ID: 1643024)... ⏭️ 跳过（仅 6 场）
+  [203/900] Miles McBride (ID: 1630540)... ✅ 271G 7.1P 1.6R 1.9A | 5 seasons
+  [204/900] Jared McCain (ID: 1642272)... ✅ 78G 10.4P 2.2R 1.8A | 4 seasons
+  [205/900] Mac McClung (ID: 1630644)... ⏭️ 跳过（仅 10 场）
+  [206/900] T.J. McConnell (ID: 204456)... ✅ 757G 7.8P 2.9R 5.0A | 11 seasons
+  [207/900] Kevin McCullar Jr. (ID: 1641755)... ⏭️ 跳过（仅 24 场）
+  [208/900] Jaden McDaniels (ID: 1630183)... ✅ 434G 11.0P 4.2R 1.7A | 6 seasons
+  [209/900] Doug McDermott (ID: 203926)... ✅ 716G 8.5P 2.1R 0.9A | 18 seasons
+  [210/900] Bryce McGowens (ID: 1631121)... ✅ 160G 5.6P 1.8R 1.1A | 4 seasons
+  [211/900] Jordan McLaughlin (ID: 1629162)... ✅ 324G 3.8P 1.4R 2.6A | 9 seasons
+  [212/900] Liam McNeeley (ID: 1642862)... ⏭️ 跳过（仅 28 场）
+  [213/900] De'Anthony Melton (ID: 1629001)... ✅ 394G 9.5P 3.6R 2.7A | 8 seasons
+  [214/900] Sam Merrill (ID: 1630241)... ✅ 217G 7.8P 2.0R 1.6A | 6 seasons
+  [215/900] Brandon Miller (ID: 1641706)... ✅ 154G 19.0P 4.6R 3.0A | 3 seasons
+  [216/900] Emanuel Miller (ID: 1641801)... ⏭️ 跳过（仅 11 场）
+  [217/900] Jordan Miller (ID: 1641757)... ✅ 94G 6.8P 2.3R 1.5A | 3 seasons
+  [218/900] Leonard Miller (ID: 1631159)... ✅ 64G 3.5P 1.9R 0.4A | 5 seasons
+  [219/900] Riley Minix (ID: 1642434)... ⏭️ 跳过（仅 6 场）
+  [220/900] Josh Minott (ID: 1631169)... ✅ 135G 3.5P 1.7R 0.5A | 6 seasons
+  [221/900] Yves Missi (ID: 1642274)... ✅ 131G 7.5P 7.1R 1.3A | 2 seasons
+  [222/900] Ajay Mitchell (ID: 1642349)... ✅ 84G 10.9P 2.8R 2.8A | 2 seasons
+  [223/900] Davion Mitchell (ID: 1630558)... ✅ 360G 7.8P 1.9R 3.8A | 7 seasons
+  [224/900] Jonathan Mogbo (ID: 1642367)... ✅ 92G 4.6P 3.9R 1.7A | 2 seasons
+  [225/900] Malik Monk (ID: 1628370)... ✅ 577G 12.3P 2.6R 3.1A | 9 seasons
+  [226/900] Moses Moody (ID: 1630541)... ✅ 314G 7.9P 2.4R 1.0A | 5 seasons
+  [227/900] Wendell Moore Jr. (ID: 1631111)... ✅ 95G 2.3P 1.4R 0.7A | 6 seasons
+  [228/900] Monté Morris (ID: 1628420)... ✅ 426G 9.4P 2.3R 3.6A | 11 seasons
+  [229/900] Trey Murphy III (ID: 1630530)... ✅ 313G 15.4P 4.2R 2.2A | 5 seasons
+  [230/900] Dejounte Murray (ID: 1627749)... ✅ 512G 15.6P 5.8R 5.4A | 9 seasons
+  [231/900] Keegan Murray (ID: 1631099)... ✅ 256G 13.3P 5.6R 1.5A | 4 seasons
+  [232/900] Kris Murray (ID: 1631200)... ✅ 176G 5.3P 3.3R 1.1A | 3 seasons
+  [233/900] Collin Murray-Boyles (ID: 1642867)... ⏭️ 跳过（仅 47 场）
+  [234/900] Svi Mykhailiuk (ID: 1629004)... ✅ 379G 6.9P 1.9R 1.5A | 14 seasons
+  [235/900] Pete Nance (ID: 1631250)... ✅ 57G 3.5P 1.7R 0.6A | 5 seasons
+  [236/900] Larry Nance Jr. (ID: 1626204)... ✅ 575G 7.5P 5.9R 1.8A | 15 seasons
+  [237/900] Eli John Ndiaye (ID: 1642947)... ⏭️ 跳过（无数据）
+  [238/900] Andrew Nembhard (ID: 1629614)... ✅ 260G 11.1P 2.7R 5.1A | 4 seasons
+  [239/900] Ryan Nembhard (ID: 1642948)... ⏭️ 跳过（仅 49 场）
+  [240/900] Aaron Nesmith (ID: 1630174)... ✅ 329G 9.5P 3.4R 1.2A | 6 seasons
+  [241/900] Asa Newell (ID: 1642854)... ⏭️ 跳过（仅 40 场）
+  [242/900] Georges Niang (ID: 1627777)... ✅ 544G 7.4P 2.5R 1.0A | 11 seasons
+  [243/900] Yanic Konan Niederhäuser (ID: 1642949)... ⏭️ 跳过（仅 41 场）
+  [244/900] Zeke Nnaji (ID: 1630192)... ✅ 298G 4.1P 2.3R 0.4A | 6 seasons
+  [245/900] Jusuf Nurkić (ID: 203994)... ✅ 631G 11.8P 8.9R 2.6A | 16 seasons
+  [246/900] Royce O'Neale (ID: 1626220)... ✅ 669G 7.4P 4.8R 2.4A | 11 seasons
+  [247/900] Josh Okogie (ID: 1629006)... ✅ 481G 6.2P 2.9R 1.1A | 10 seasons
+  [248/900] Onyeka Okongwu (ID: 1630168)... ✅ 370G 10.7P 6.9R 1.6A | 6 seasons
+  [249/900] Isaac Okoro (ID: 1630171)... ✅ 389G 8.2P 2.8R 1.6A | 6 seasons
+  [250/900] Lachlan Olbrich (ID: 1642950)... ⏭️ 跳过（仅 26 场）
+  [251/900] Kelly Olynyk (ID: 203482)... ✅ 837G 9.9P 5.0R 2.4A | 19 seasons
+  [252/900] Kelly Oubre Jr. (ID: 1626162)... ✅ 696G 13.4P 4.6R 1.2A | 13 seasons
+  [253/900] Gary Payton II (ID: 1627780)... ✅ 332G 5.7P 2.9R 1.3A | 14 seasons
+  [254/900] Micah Peavy (ID: 1642877)... ✅ 52G 3.9P 1.8R 0.9A | 1 seasons
+  [255/900] Noah Penda (ID: 1642869)... ✅ 50G 4.4P 3.5R 1.2A | 1 seasons
+  [256/900] Taelon Peter (ID: 1643007)... ⏭️ 跳过（仅 31 场）
+  [257/900] Drew Peterson (ID: 1641809)... ⏭️ 跳过（仅 34 场）
+  [258/900] Julian Phillips (ID: 1641763)... ✅ 161G 3.5P 1.6R 0.4A | 5 seasons
+  [259/900] Jalen Pickett (ID: 1629618)... ✅ 120G 3.9P 1.6R 1.9A | 3 seasons
+  [260/900] Scotty Pippen Jr. (ID: 1630590)... ✅ 116G 10.2P 3.0R 4.3A | 4 seasons
+  [261/900] Daeqwon Plowden (ID: 1631342)... ⏭️ 跳过（仅 28 场）
+  [262/900] Mason Plumlee (ID: 203486)... ✅ 877G 7.9P 6.6R 2.4A | 19 seasons
+  [263/900] Brandin Podziemski (ID: 1641764)... ✅ 207G 11.2P 5.4R 3.6A | 3 seasons
+  [264/900] Jakob Poeltl (ID: 1627751)... ✅ 628G 9.0P 7.0R 1.8A | 12 seasons
+  [265/900] Jordan Poole (ID: 1629673)... ✅ 447G 16.6P 2.6R 3.7A | 7 seasons
+  [266/900] Craig Porter Jr. (ID: 1641854)... ✅ 160G 4.6P 2.3R 2.4A | 3 seasons
+  [267/900] Kevin Porter Jr. (ID: 1629645)... ✅ 309G 14.4P 4.3R 4.9A | 8 seasons
+  [268/900] Michael Porter Jr. (ID: 1629008)... ✅ 397G 17.3P 6.5R 1.6A | 7 seasons
+  [269/900] Bobby Portis (ID: 1626171)... ✅ 720G 12.1P 7.1R 1.3A | 13 seasons
+  [270/900] Kristaps Porziņģis (ID: 204001)... ✅ 524G 19.5P 7.6R 1.9A | 14 seasons
+  [271/900] Quinten Post (ID: 1642366)... ✅ 107G 7.9P 3.9R 1.4A | 2 seasons
+  [272/900] Drake Powell (ID: 1642962)... ✅ 52G 6.1P 1.6R 1.4A | 1 seasons
+  [273/900] Dwight Powell (ID: 203939)... ✅ 758G 6.5P 4.2R 1.0A | 14 seasons
+  [274/900] Norman Powell (ID: 1626181)... ✅ 669G 13.9P 2.7R 1.6A | 15 seasons
+  [275/900] Taurean Prince (ID: 1627752)... ✅ 596G 9.8P 3.6R 1.7A | 12 seasons
+  [276/900] Payton Pritchard (ID: 1630202)... ✅ 414G 10.3P 3.0R 3.0A | 6 seasons
+  [277/900] Tyrese Proctor (ID: 1642878)... ⏭️ 跳过（仅 42 场）
+  [278/900] Olivier-Maxence Prosper (ID: 1641765)... ✅ 136G 5.2P 2.6R 0.8A | 3 seasons
+  [279/900] Derik Queen (ID: 1642852)... ✅ 70G 11.5P 6.9R 3.8A | 1 seasons
+  [280/900] Neemias Queta (ID: 1629674)... ✅ 175G 6.7P 5.4R 1.0A | 5 seasons
+  [281/900] Maxime Raynaud (ID: 1642875)... ✅ 63G 11.7P 7.3R 1.3A | 1 seasons
+  [282/900] Duop Reath (ID: 1641871)... ✅ 146G 6.2P 2.6R 0.7A | 3 seasons
+  [283/900] Paul Reed (ID: 1630194)... ✅ 312G 5.2P 4.0R 0.8A | 6 seasons
+  [284/900] Antonio Reeves (ID: 1641810)... ✅ 53G 6.3P 1.3R 0.8A | 2 seasons
+  [285/900] Naz Reid (ID: 1629675)... ✅ 474G 11.9P 5.1R 1.5A | 7 seasons
+  [286/900] Will Richard (ID: 1642954)... ✅ 59G 6.7P 2.6R 1.4A | 1 seasons
+  [287/900] Nick Richards (ID: 1630208)... ✅ 303G 7.1P 5.8R 0.6A | 10 seasons
+  [288/900] Jase Richardson (ID: 1642859)... ⏭️ 跳过（仅 46 场）
+  [289/900] Will Riley (ID: 1642860)... ✅ 61G 8.9P 2.6R 1.6A | 1 seasons
+  [290/900] Zaccharie Risacher (ID: 1642258)... ✅ 130G 11.4P 3.7R 1.2A | 2 seasons
+  [291/900] Duncan Robinson (ID: 1629130)... ✅ 490G 11.4P 2.6R 1.9A | 8 seasons
+  [292/900] Mitchell Robinson (ID: 1629011)... ✅ 388G 7.5P 8.0R 0.7A | 8 seasons
+  [293/900] Orlando Robinson (ID: 1631115)... ✅ 115G 4.6P 3.8R 1.2A | 6 seasons
+  [294/900] Jeremiah Robinson-Earl (ID: 1630526)... ✅ 219G 5.9P 4.3R 1.0A | 7 seasons
+  [295/900] Ryan Rollins (ID: 1631157)... ✅ 148G 10.4P 3.0R 3.4A | 6 seasons
+  [296/900] Jackson Rowe (ID: 1642050)... ⏭️ 跳过（仅 6 场）
+  [297/900] Rayan Rupert (ID: 1641712)... ✅ 149G 3.7P 2.0R 0.9A | 5 seasons
+  [298/900] Tidjane Salaün (ID: 1642275)... ✅ 96G 6.0P 4.5R 1.1A | 2 seasons
+  [299/900] Hunter Sallis (ID: 1642282)... ⏭️ 跳过（仅 7 场）
+  [300/900] Kobe Sanders (ID: 1642920)... ✅ 58G 6.9P 2.4R 1.7A | 1 seasons
+
+  💾 中间保存... (234 新球员)
+  💾 已保存: 487 球员, 4157 赛季记录
+  继续获取...
+
+  [301/900] Gui Santos (ID: 1630611)... ✅ 137G 5.7P 3.2R 1.6A | 3 seasons
+  [302/900] Ben Saraf (ID: 1642879)... ⏭️ 跳过（仅 32 场）
+  [303/900] Alex Sarr (ID: 1642259)... ✅ 113G 14.4P 6.9R 2.5A | 2 seasons
+  [304/900] Marcus Sasser (ID: 1631204)... ✅ 156G 7.2P 1.4R 2.7A | 3 seasons
+  [305/900] Baylor Scheierman (ID: 1631248)... ✅ 95G 4.5P 3.0R 1.3A | 2 seasons
+  [306/900] Dennis Schröder (ID: 203471)... ✅ 902G 13.8P 2.9R 4.9A | 22 seasons
+  [307/900] Mark Sears (ID: 1641813)... ⏭️ 跳过（仅 7 场）
+  [308/900] Brice Sensabaugh (ID: 1641729)... ✅ 169G 11.4P 3.0R 1.6A | 3 seasons
+  [309/900] Collin Sexton (ID: 1629012)... ✅ 463G 18.3P 2.7R 3.7A | 10 seasons
+  [310/900] Landry Shamet (ID: 1629013)... ✅ 443G 8.5P 1.7R 1.5A | 10 seasons
+  [311/900] Terrence Shannon Jr. (ID: 1630545)... ✅ 63G 4.3P 1.3R 0.8A | 2 seasons
+  [312/900] Day'Ron Sharpe (ID: 1630549)... ✅ 253G 7.0P 5.9R 1.5A | 5 seasons
+  [313/900] Shaedon Sharpe (ID: 1631101)... ✅ 232G 15.8P 4.0R 2.2A | 4 seasons
+  [314/900] Jamal Shead (ID: 1642347)... ✅ 143G 6.9P 1.7R 4.6A | 2 seasons
+  [315/900] Ben Sheppard (ID: 1641767)... ✅ 178G 5.6P 2.5R 1.4A | 3 seasons
+  [316/900] Reed Sheppard (ID: 1642263)... ✅ 120G 9.5P 2.2R 2.4A | 2 seasons
+  [317/900] Max Shulga (ID: 1642917)... ⏭️ 跳过（仅 5 场）
+  [318/900] KJ Simpson (ID: 1642354)... ✅ 53G 7.0P 2.7R 2.9A | 4 seasons
+  [319/900] Jericho Sims (ID: 1630579)... ✅ 245G 2.8P 4.2R 0.7A | 7 seasons
+  [320/900] Javon Small (ID: 1642914)... ⏭️ 跳过（仅 33 场）
+  [321/900] Marcus Smart (ID: 203935)... ✅ 694G 10.5P 3.4R 4.4A | 14 seasons
+  [322/900] Dru Smith (ID: 1630696)... ✅ 104G 5.3P 2.4R 2.3A | 6 seasons
+  [323/900] Jalen Smith (ID: 1630188)... ✅ 322G 8.7P 5.5R 0.9A | 8 seasons
+  [324/900] Tolu Smith (ID: 1642449)... ⏭️ 跳过（仅 9 场）
+  [325/900] Nick Smith Jr. (ID: 1641733)... ✅ 136G 7.6P 1.6R 1.7A | 3 seasons
+  [326/900] Jeremy Sochan (ID: 1631110)... ✅ 223G 10.0P 5.4R 2.5A | 6 seasons
+  [327/900] Thomas Sorber (ID: 1642850)... ⏭️ 跳过（无数据）
+  [328/900] Cam Spencer (ID: 1642285)... ✅ 90G 9.4P 2.2R 4.3A | 2 seasons
+  [329/900] Pat Spencer (ID: 1630311)... ✅ 98G 4.7P 1.7R 2.4A | 3 seasons
+  [330/900] Isaiah Stevens (ID: 1641815)... ⏭️ 跳过（仅 6 场）
+  [331/900] Isaiah Stewart (ID: 1630191)... ✅ 362G 8.8P 6.8R 1.3A | 6 seasons
+  [332/900] Julian Strawther (ID: 1631124)... ✅ 161G 7.0P 1.8R 1.1A | 3 seasons
+  [333/900] Max Strus (ID: 1629622)... ✅ 312G 10.4P 3.5R 2.4A | 7 seasons
+  [334/900] Jalen Suggs (ID: 1630591)... ✅ 257G 12.6P 3.4R 3.7A | 5 seasons
+  [335/900] Jae'Sean Tate (ID: 1630256)... ✅ 330G 7.7P 3.9R 1.9A | 6 seasons
+  [336/900] Jahmyl Telfort (ID: 1643141)... ⏭️ 跳过（仅 8 场）
+  [337/900] Garrett Temple (ID: 202066)... ✅ 788G 5.8P 2.2R 1.6A | 24 seasons
+  [338/900] Dalen Terry (ID: 1631207)... ✅ 214G 3.5P 1.6R 1.2A | 6 seasons
+  [339/900] Adou Thiero (ID: 1642876)... ⏭️ 跳过（仅 19 场）
+  [340/900] Cam Thomas (ID: 1630560)... ✅ 256G 14.9P 2.4R 2.1A | 7 seasons
+  [341/900] Amen Thompson (ID: 1641708)... ✅ 197G 13.9P 7.5R 3.9A | 3 seasons
+  [342/900] Ausar Thompson (ID: 1641709)... ✅ 182G 9.6P 5.8R 2.4A | 3 seasons
+  [343/900] Matisse Thybulle (ID: 1629680)... ✅ 365G 4.9P 2.0R 1.1A | 9 seasons
+  [344/900] Xavier Tillman (ID: 1630214)... ✅ 284G 5.0P 3.6R 1.1A | 10 seasons
+  [345/900] Nae'Qwan Tomlin (ID: 1641772)... ✅ 59G 5.9P 2.9R 0.8A | 2 seasons
+  [346/900] John Tonje (ID: 1642910)... ⏭️ 跳过（仅 3 场）
+  [347/900] Alex Toohey (ID: 1642893)... ⏭️ 跳过（无数据）
+  [348/900] Nikola Topić (ID: 1642260)... ⏭️ 跳过（仅 5 场）
+  [349/900] Jacob Toppin (ID: 1631210)... ⏭️ 跳过（仅 31 场）
+  [350/900] Obi Toppin (ID: 1630167)... ✅ 374G 8.5P 3.4R 1.2A | 6 seasons
+
+  💾 中间保存... (271 新球员)
+  💾 已保存: 524 球员, 4380 赛季记录
+  继续获取...
+
+  [351/900] Nolan Traore (ID: 1642849)... ⏭️ 跳过（仅 46 场）
+  [352/900] Luke Travers (ID: 1631247)... ⏭️ 跳过（仅 24 场）
+  [353/900] Gary Trent Jr. (ID: 1629018)... ✅ 472G 13.0P 2.2R 1.4A | 10 seasons
+  [354/900] Oscar Tshiebwe (ID: 1631131)... ⏭️ 跳过（仅 37 场）
+  [355/900] Hunter Tyson (ID: 1641816)... ✅ 90G 2.2P 1.4R 0.4A | 3 seasons
+  [356/900] Jaylon Tyson (ID: 1642281)... ✅ 111G 9.1P 3.8R 1.7A | 2 seasons
+  [357/900] Jonas Valančiūnas (ID: 202685)... ✅ 995G 12.8P 9.1R 1.4A | 18 seasons
+  [358/900] Jarred Vanderbilt (ID: 1629020)... ✅ 364G 5.6P 6.0R 1.4A | 12 seasons
+  [359/900] Devin Vassell (ID: 1630170)... ✅ 359G 14.1P 3.8R 2.6A | 6 seasons
+  [360/900] Gabe Vincent (ID: 1629216)... ✅ 319G 6.8P 1.5R 2.0A | 9 seasons
+  [361/900] Tristan Vukcevic (ID: 1641774)... ✅ 89G 8.9P 3.3R 1.2A | 3 seasons
+  [362/900] Nikola Vučević (ID: 202696)... ✅ 1032G 17.1P 10.4R 2.9A | 19 seasons
+  [363/900] Dean Wade (ID: 1629731)... ✅ 338G 5.3P 3.7R 1.1A | 7 seasons
+  [364/900] Moritz Wagner (ID: 1629021)... ✅ 392G 9.1P 3.9R 1.2A | 11 seasons
+  [365/900] Jabari Walker (ID: 1631133)... ✅ 245G 5.8P 4.2R 0.7A | 4 seasons
+  [366/900] Jarace Walker (ID: 1641716)... ✅ 177G 7.7P 3.7R 1.8A | 3 seasons
+  [367/900] Cason Wallace (ID: 1641717)... ✅ 217G 7.9P 2.9R 2.2A | 3 seasons
+  [368/900] Keaton Wallace (ID: 1630811)... ✅ 78G 4.3P 1.3R 2.1A | 2 seasons
+  [369/900] Jordan Walsh (ID: 1641775)... ✅ 119G 3.4P 2.7R 0.6A | 3 seasons
+  [370/900] Ja'Kobe Walter (ID: 1642266)... ✅ 110G 7.6P 2.7R 1.3A | 2 seasons
+  [371/900] Kel'el Ware (ID: 1642276)... ✅ 129G 10.3P 8.4R 0.8A | 2 seasons
+  [372/900] P.J. Washington (ID: 1629023)... ✅ 441G 13.3P 6.0R 2.2A | 9 seasons
+  [373/900] Lindy Waters III (ID: 1630322)... ✅ 191G 4.6P 1.7R 0.8A | 7 seasons
+  [374/900] Trendon Watford (ID: 1630570)... ✅ 264G 7.6P 3.6R 2.0A | 5 seasons
+  [375/900] Jamir Watkins (ID: 1642364)... ⏭️ 跳过（仅 37 场）
+  [376/900] Peyton Watson (ID: 1631212)... ✅ 220G 8.6P 3.5R 1.3A | 4 seasons
+  [377/900] Jaylen Wells (ID: 1642377)... ✅ 145G 11.5P 3.4R 1.7A | 2 seasons
+  [378/900] Blake Wesley (ID: 1631104)... ✅ 179G 4.4P 1.5R 2.4A | 4 seasons
+  [379/900] Coby White (ID: 1629632)... ✅ 461G 15.4P 3.6R 3.9A | 9 seasons
+  [380/900] Cam Whitmore (ID: 1641715)... ✅ 119G 10.5P 3.3R 0.8A | 3 seasons
+  [381/900] Aaron Wiggins (ID: 1630598)... ✅ 329G 8.8P 3.2R 1.4A | 5 seasons
+  [382/900] Amari Williams (ID: 1642873)... ⏭️ 跳过（仅 19 场）
+  [383/900] Brandon Williams (ID: 1630314)... ✅ 134G 10.5P 2.4R 3.1A | 4 seasons
+  [384/900] Cody Williams (ID: 1642262)... ✅ 106G 6.0P 2.6R 1.4A | 2 seasons
+  [385/900] Grant Williams (ID: 1629684)... ✅ 406G 7.2P 3.7R 1.5A | 9 seasons
+  [386/900] Jaylin Williams (ID: 1631119)... ✅ 220G 5.7P 4.7R 2.0A | 4 seasons
+  [387/900] Kenrich Williams (ID: 1629026)... ✅ 437G 6.4P 4.0R 1.7A | 8 seasons
+  [388/900] Mark Williams (ID: 1631109)... ✅ 162G 12.0P 8.6R 1.3A | 4 seasons
+  [389/900] Patrick Williams (ID: 1630172)... ✅ 336G 9.1P 3.9R 1.4A | 6 seasons
+  [390/900] Ziaire Williams (ID: 1630533)... ✅ 262G 8.5P 3.0R 1.2A | 5 seasons
+  [391/900] Vince Williams Jr. (ID: 1631246)... ✅ 134G 7.7P 4.2R 3.0A | 6 seasons
+  [392/900] Jalen Wilson (ID: 1630592)... ✅ 167G 7.2P 2.8R 1.3A | 3 seasons
+  [393/900] James Wiseman (ID: 1630164)... ✅ 152G 9.0P 5.5R 0.7A | 7 seasons
+  [394/900] Danny Wolf (ID: 1642874)... ✅ 55G 8.9P 4.9R 2.3A | 1 seasons
+  [395/900] Guerschon Yabusele (ID: 1627824)... ✅ 203G 6.1P 3.4R 1.1A | 6 seasons
+  [396/900] Yang Hansen (ID: 1642905)... ⏭️ 跳过（仅 39 场）
+  [397/900] Jahmir Young (ID: 1642443)... ⏭️ 跳过（仅 17 场）
+  [398/900] Chris Youngblood (ID: 1642959)... ⏭️ 跳过（仅 32 场）
+  [399/900] Rocco Zikarsky (ID: 1642911)... ⏭️ 跳过（仅 4 场）
+  [400/900] Ivica Zubac (ID: 1627826)... ✅ 632G 10.5P 8.3R 1.4A | 14 seasons
+
+  💾 中间保存... (312 新球员)
+  💾 已保存: 565 球员, 4626 赛季记录
+  继续获取...
+
+  [401/900] Tristan da Silva (ID: 1641783)... ✅ 138G 8.3P 3.5R 1.5A | 2 seasons
+  [402/900] Nikola Đurišić (ID: 1642365)... ⏭️ 跳过（无数据）
+  [403/900] Dario Šarić (ID: 203967)... ✅ 498G 10.3P 5.3R 1.9A | 13 seasons
+  [404/900] A.C. Green (ID: 920)... ✅ 1278G 9.6P 7.4R 1.1A | 18 seasons
+  [405/900] A.J. Bramlett (ID: 1920)...     ⚠️ A.J. Bramlett 重试 (1/2): 'resultSet'
+    ⚠️ A.J. Bramlett 重试 (2/2): 'resultSet'
+    ❌ A.J. Bramlett 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [406/900] A.J. English (ID: 76672)... ✅ 151G 9.9P 2.1R 2.1A | 2 seasons
+  [407/900] A.J. Guyton (ID: 2062)... ✅ 80G 5.5P 1.0R 1.8A | 3 seasons
+  [408/900] A.J. Wynder (ID: 78627)... ⏭️ 跳过（仅 6 场）
+  [409/900] AJ Griffin (ID: 1631100)... ✅ 92G 7.5P 1.9R 0.8A | 2 seasons
+  [410/900] AJ Hammons (ID: 1627773)... ⏭️ 跳过（仅 22 场）
+  [411/900] AJ Price (ID: 201985)... ✅ 261G 5.8P 1.4R 2.2A | 9 seasons
+  [412/900] Aaron Brooks (ID: 201166)... ✅ 645G 9.7P 1.7R 3.0A | 16 seasons
+  [413/900] Aaron Gray (ID: 201189)... ✅ 318G 3.4P 3.7R 0.7A | 11 seasons
+  [414/900] Aaron Harrison (ID: 1626151)... ⏭️ 跳过（仅 35 场）
+  [415/900] Aaron Henry (ID: 1630565)...     ⚠️ Aaron Henry 重试 (1/2): 'resultSet'
+    ⚠️ Aaron Henry 重试 (2/2): 'resultSet'
+    ❌ Aaron Henry 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [416/900] Aaron Jackson (ID: 1628935)... ⏭️ 跳过（仅 1 场）
+  [417/900] Aaron James (ID: 77115)... ✅ 356G 10.8P 4.1R 1.0A | 5 seasons
+  [418/900] Aaron McKie (ID: 243)... ✅ 793G 7.4P 3.3R 2.7A | 17 seasons
+  [419/900] Aaron Miles (ID: 101223)...     ⚠️ Aaron Miles 重试 (1/2): 'resultSet'
+    ⚠️ Aaron Miles 重试 (2/2): 'resultSet'
+    ❌ Aaron Miles 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [420/900] Aaron Swinson (ID: 78286)... ⏭️ 跳过（仅 9 场）
+  [421/900] Aaron Williams (ID: 1425)... ✅ 715G 5.8P 3.9R 0.7A | 20 seasons
+  [422/900] Abdel Nader (ID: 1627846)... ✅ 202G 4.6P 1.9R 0.5A | 5 seasons
+  [423/900] Abdul Jeelani (ID: 77126)... ✅ 143G 9.0P 3.5R 1.1A | 2 seasons
+  [424/900] Acie Earl (ID: 768)... ✅ 193G 5.1P 2.7R 0.3A | 6 seasons
+  [425/900] Acie Law (ID: 201151)... ✅ 188G 3.9P 1.0R 1.6A | 9 seasons
+  [426/900] Adam Flagler (ID: 1641745)... ⏭️ 跳过（仅 39 场）
+  [427/900] Adam Harrington (ID: 2492)... ⏭️ 跳过（仅 19 场）
+  [428/900] Adam Keefe (ID: 228)... ✅ 617G 5.0P 4.1R 0.7A | 9 seasons
+  [429/900] Adam Mokoka (ID: 1629690)... ⏭️ 跳过（仅 25 场）
+  [430/900] Adam Morrison (ID: 200747)... ✅ 161G 7.5P 2.1R 1.4A | 5 seasons
+  [431/900] Adama Sanogo (ID: 1641766)... ⏭️ 跳过（仅 13 场）
+  [432/900] Ade Murkey (ID: 1630278)...     ⚠️ Ade Murkey 重试 (1/2): 'resultSet'
+    ⚠️ Ade Murkey 重试 (2/2): 'resultSet'
+    ❌ Ade Murkey 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [433/900] Admiral Schofield (ID: 1629678)... ✅ 131G 3.3P 1.6R 0.6A | 4 seasons
+  [434/900] Adolph Hoefer (ID: 77035)...     ⚠️ Adolph Hoefer 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Adolph Hoefer 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Adolph Hoefer 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [435/900] Adonal Foyle (ID: 1502)... ✅ 733G 4.1P 4.7R 0.5A | 14 seasons
+  [436/900] Adonis Jordan (ID: 1817)... ⏭️ 跳过（仅 10 场）
+  [437/900] Adonis Thomas (ID: 203519)... ⏭️ 跳过（仅 6 场）
+  [438/900] Adreian Payne (ID: 203940)... ✅ 107G 4.0P 2.9R 0.6A | 6 seasons
+  [439/900] Adrian Branch (ID: 76237)... ✅ 130G 6.4P 1.9R 0.7A | 4 seasons
+  [440/900] Adrian Caldwell (ID: 154)... ✅ 197G 2.0P 2.5R 0.2A | 8 seasons
+  [441/900] Adrian Griffin (ID: 1559)... ✅ 477G 4.0P 3.2R 1.4A | 11 seasons
+  [442/900] Adrian Smith (ID: 78178)... ✅ 719G 11.8P 2.2R 2.4A | 12 seasons
+  [443/900] Ahmad Caver (ID: 1629958)...     ⚠️ Ahmad Caver 重试 (1/2): 'resultSet'
+    ⚠️ Ahmad Caver 重试 (2/2): 'resultSet'
+    ❌ Ahmad Caver 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [444/900] Al Bianchi (ID: 76160)... ✅ 687G 8.1P 2.5R 2.2A | 10 seasons
+  [445/900] Al Brightman (ID: 76254)...     ⚠️ Al Brightman 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Brightman 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Brightman 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [446/900] Al Butler (ID: 76319)... ✅ 234G 9.8P 3.0R 2.3A | 4 seasons
+  [447/900] Al Carlson (ID: 76343)... ⏭️ 跳过（仅 28 场）
+  [448/900] Al Cervi (ID: 76373)... ✅ 202G 7.9P 1.8R 3.2A | 4 seasons
+  [449/900] Al Eberhard (ID: 76634)... ✅ 220G 6.8P 3.5R 0.8A | 4 seasons
+  [450/900] Al Ferrari (ID: 76708)... ✅ 371G 6.8P 2.2R 2.5A | 6 seasons
+
+  💾 中间保存... (342 新球员)
+  💾 已保存: 595 球员, 4867 赛季记录
+  继续获取...
+
+  [451/900] Al Fleming (ID: 76722)... ⏭️ 跳过（仅 20 场）
+  [452/900] Al Guokas (ID: 76907)...     ⚠️ Al Guokas 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Guokas 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Guokas 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [453/900] Al Hairston (ID: 76915)... ⏭️ 跳过（仅 42 场）
+  [454/900] Al Harrington (ID: 1733)... ✅ 981G 13.5P 5.6R 1.7A | 20 seasons
+  [455/900] Al Henry (ID: 77000)... ⏭️ 跳过（仅 49 场）
+  [456/900] Al Jackson (ID: 77099)... ⏭️ 跳过（仅 2 场）
+  [457/900] Al Jefferson (ID: 2744)... ✅ 915G 15.7P 8.4R 1.5A | 14 seasons
+  [458/900] Al Lucas (ID: 77417)...     ⚠️ Al Lucas 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Lucas 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Lucas 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [459/900] Al Lujack (ID: 77423)...     ⚠️ Al Lujack 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Lujack 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Lujack 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [460/900] Al Masino (ID: 77482)... ✅ 99G 4.8P 2.1R 1.8A | 2 seasons
+  [461/900] Al McGuire (ID: 77536)... ✅ 191G 4.0P 2.2R 1.9A | 4 seasons
+  [462/900] Al Miksis (ID: 77594)...     ⚠️ Al Miksis 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Miksis 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Miksis 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [463/900] Al Negratti (ID: 77698)...     ⚠️ Al Negratti 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Al Negratti 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Al Negratti 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [464/900] Al Roges (ID: 78010)... ✅ 84G 7.5P 2.8R 2.1A | 2 seasons
+  [465/900] Al Skinner (ID: 78167)... ✅ 203G 9.3P 3.3R 2.6A | 8 seasons
+  [466/900] Al Thornton (ID: 201154)... ✅ 296G 11.9P 4.2R 1.2A | 8 seasons
+  [467/900] Al Tucker (ID: 78372)... ✅ 257G 9.5P 5.0R 0.9A | 8 seasons
+  [468/900] Al Wood (ID: 78610)... ✅ 417G 11.8P 3.0R 1.8A | 8 seasons
+  [469/900] Al-Farouq Aminu (ID: 202329)... ✅ 711G 7.5P 6.0R 1.2A | 13 seasons
+  [470/900] Alaa Abdelnaby (ID: 76001)... ✅ 256G 5.7P 3.3R 0.3A | 9 seasons
+  [471/900] Alan Anderson (ID: 101187)... ✅ 330G 7.3P 2.2R 1.1A | 8 seasons
+  [472/900] Alan Hardy (ID: 76947)... ✅ 60G 3.2P 0.9R 0.4A | 2 seasons
+  [473/900] Alan Henderson (ID: 673)... ✅ 652G 7.8P 5.0R 0.6A | 12 seasons
+  [474/900] Alan Ogg (ID: 1628)... ✅ 80G 2.2P 1.7R 0.2A | 5 seasons
+  [475/900] Alan Sawyer (ID: 78067)...     ⚠️ Alan Sawyer 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Alan Sawyer 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Alan Sawyer 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [476/900] Alan Williams (ID: 1626210)... ✅ 67G 6.2P 5.5R 0.6A | 4 seasons
+  [477/900] Alando Tucker (ID: 201169)... ✅ 51G 4.1P 1.0R 0.3A | 5 seasons
+  [478/900] Albert King (ID: 77263)... ✅ 534G 12.1P 4.2R 2.2A | 9 seasons
+  [479/900] Alec Burks (ID: 202692)... ✅ 791G 10.6P 3.3R 1.9A | 21 seasons
+  [480/900] Alec Kessler (ID: 77251)... ✅ 210G 5.2P 3.6R 0.4A | 4 seasons
+  [481/900] Alec Peters (ID: 1628409)... ⏭️ 跳过（仅 20 场）
+  [482/900] Aleem Ford (ID: 1630758)...     ⚠️ Aleem Ford 重试 (1/2): 'resultSet'
+    ⚠️ Aleem Ford 重试 (2/2): 'resultSet'
+    ❌ Aleem Ford 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [483/900] Aleksandar Djordjevic (ID: 1059)...     ⚠️ Aleksandar Djordjevic 重试 (1/2): 'resultSet'
+    ⚠️ Aleksandar Djordjevic 重试 (2/2): 'resultSet'
+    ❌ Aleksandar Djordjevic 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [484/900] Aleksandar Radojevic (ID: 1893)...     ⚠️ Aleksandar Radojevic 重试 (1/2): 'resultSet'
+    ⚠️ Aleksandar Radojevic 重试 (2/2): 'resultSet'
+    ❌ Aleksandar Radojevic 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [485/900] Aleksej Pokusevski (ID: 1630197)... ✅ 168G 7.5P 4.6R 1.9A | 6 seasons
+  [486/900] Alen Smailagic (ID: 1629346)... ⏭️ 跳过（仅 29 场）
+  [487/900] Alex Abrines (ID: 203518)... ✅ 174G 5.3P 1.4R 0.5A | 3 seasons
+  [488/900] Alex Acker (ID: 101165)... ⏭️ 跳过（仅 30 场）
+  [489/900] Alex Blackwell (ID: 76180)... ⏭️ 跳过（仅 27 场）
+  [490/900] Alex Bradley (ID: 76228)... ⏭️ 跳过（仅 39 场）
+  [491/900] Alex Ducas (ID: 1642505)... ⏭️ 跳过（仅 21 场）
+  [492/900] Alex Fudge (ID: 1641788)... ⏭️ 跳过（仅 6 场）
+  [493/900] Alex Garcia (ID: 2682)... ⏭️ 跳过（仅 10 场）
+  [494/900] Alex Groza (ID: 76897)...     ⚠️ Alex Groza 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Alex Groza 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Alex Groza 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [495/900] Alex Hannum (ID: 76937)... ✅ 516G 6.0P 4.5R 1.7A | 8 seasons
+  [496/900] Alex Kirk (ID: 203945)...     ⚠️ Alex Kirk 重试 (1/2): 'resultSet'
+    ⚠️ Alex Kirk 重试 (2/2): 'resultSet'
+    ❌ Alex Kirk 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [497/900] Alex Len (ID: 203458)... ✅ 690G 6.7P 5.3R 0.9A | 18 seasons
+  [498/900] Alex Poythress (ID: 1627816)... ✅ 52G 3.8P 2.3R 0.5A | 3 seasons
+  [499/900] Alex Reese (ID: 1642024)... ⏭️ 跳过（仅 15 场）
+  [500/900] Alex Scales (ID: 2637)...     ⚠️ Alex Scales 重试 (1/2): 'resultSet'
+    ⚠️ Alex Scales 重试 (2/2): 'resultSet'
+    ❌ Alex Scales 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [501/900] Alex Stepheson (ID: 1627293)...     ⚠️ Alex Stepheson 重试 (1/2): 'resultSet'
+    ⚠️ Alex Stepheson 重试 (2/2): 'resultSet'
+    ❌ Alex Stepheson 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [502/900] Alex Stivrins (ID: 78261)... ⏭️ 跳过（仅 22 场）
+  [503/900] Alexander Ellis (ID: 76658)... ✅ 118G 5.1P 5.2R 0.7A | 2 seasons
+  [504/900] Alexander Johnson (ID: 200792)... ✅ 102G 4.3P 2.7R 0.3A | 2 seasons
+  [505/900] Alexander Rosenberg (ID: 78017)...     ⚠️ Alexander Rosenberg 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Alexander Rosenberg 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Alexander Rosenberg 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [506/900] Alexander Volkov (ID: 78421)... ✅ 149G 6.8P 2.6R 2.2A | 2 seasons
+  [507/900] Alexey Shved (ID: 203144)... ✅ 182G 7.4P 2.0R 2.5A | 6 seasons
+  [508/900] Alexis Ajinca (ID: 201582)... ✅ 293G 5.3P 3.9R 0.5A | 9 seasons
+  [509/900] Alfonzo McKinnie (ID: 1628035)... ✅ 182G 4.0P 2.5R 0.3A | 5 seasons
+  [510/900] Alfredrick Hughes (ID: 77076)... ✅ 68G 5.2P 1.7R 0.9A | 1 seasons
+  [511/900] Alize Johnson (ID: 1628993)... ✅ 76G 2.5P 3.0R 0.4A | 8 seasons
+  [512/900] Allan Bristow (ID: 76257)... ✅ 648G 7.9P 4.0R 3.2A | 9 seasons
+  [513/900] Allan Ray (ID: 200810)... ⏭️ 跳过（仅 47 场）
+  [514/900] Allen Crabbe (ID: 203459)... ✅ 381G 9.1P 2.8R 1.1A | 9 seasons
+  [515/900] Allen Leavell (ID: 77353)... ✅ 700G 9.5P 1.7R 4.8A | 10 seasons
+  [516/900] Allen Murphy (ID: 77668)... ⏭️ 跳过（仅 2 场）
+  [517/900] Allie McGuire (ID: 77535)... ⏭️ 跳过（仅 2 场）
+  [518/900] Allonzo Trier (ID: 1629019)... ✅ 88G 9.7P 2.6R 1.7A | 2 seasons
+  [519/900] Alondes Williams (ID: 1631214)... ⏭️ 跳过（仅 13 场）
+  [520/900] Alonzo Bradley (ID: 76229)... ✅ 99G 4.4P 1.5R 0.7A | 3 seasons
+  [521/900] Alonzo Gee (ID: 202087)... ✅ 417G 6.6P 3.3R 1.1A | 13 seasons
+  [522/900] Alphonso Ford (ID: 76732)... ⏭️ 跳过（仅 11 场）
+  [523/900] Alton Ford (ID: 2228)... ✅ 73G 2.5P 1.7R 0.2A | 3 seasons
+  [524/900] Alton Lister (ID: 175)... ✅ 953G 6.6P 6.3R 1.0A | 18 seasons
+  [525/900] Alvan Adams (ID: 76011)... ✅ 988G 14.1P 7.0R 4.1A | 13 seasons
+  [526/900] Alvin Attles (ID: 76070)... ✅ 711G 8.9P 3.5R 3.5A | 11 seasons
+  [527/900] Alvin Heggs (ID: 76987)... ⏭️ 跳过（仅 4 场）
+  [528/900] Alvin Holt (ID: 77046)... ⏭️ 跳过（仅 6 场）
+  [529/900] Alvin Jones (ID: 2264)... ⏭️ 跳过（仅 23 场）
+  [530/900] Alvin Robertson (ID: 926)... ✅ 779G 14.0P 5.2R 5.0A | 12 seasons
+  [531/900] Alvin Scott (ID: 78095)... ✅ 627G 4.9P 3.2R 1.4A | 8 seasons
+  [532/900] Alvin Sims (ID: 1591)...     ⚠️ Alvin Sims 重试 (1/2): 'resultSet'
+    ⚠️ Alvin Sims 重试 (2/2): 'resultSet'
+    ❌ Alvin Sims 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [533/900] Alvin Williams (ID: 1541)... ✅ 460G 9.0P 2.5R 4.1A | 11 seasons
+  [534/900] Amal McCaskill (ID: 1043)... ✅ 114G 1.8P 1.9R 0.3A | 4 seasons
+  [535/900] Amar'e Stoudemire (ID: 2405)... ✅ 846G 18.9P 7.8R 1.2A | 16 seasons
+  [536/900] Amari Bailey (ID: 1641735)... ⏭️ 跳过（仅 10 场）
+  [537/900] Amida Brimah (ID: 1628578)... ⏭️ 跳过（仅 5 场）
+  [538/900] Amile Jefferson (ID: 1628518)... ⏭️ 跳过（仅 30 场）
+  [539/900] Amir Johnson (ID: 101161)... ✅ 870G 7.0P 5.4R 1.2A | 14 seasons
+  [540/900] Anderson Varejao (ID: 2760)... ✅ 632G 7.2P 7.2R 1.2A | 16 seasons
+  [541/900] Andrae Patterson (ID: 1754)... ⏭️ 跳过（仅 40 场）
+  [542/900] Andray Blatche (ID: 101154)... ✅ 564G 10.1P 5.4R 1.4A | 9 seasons
+  [543/900] Andre Barrett (ID: 2857)... ✅ 67G 3.3P 1.1R 2.0A | 8 seasons
+  [544/900] Andre Brown (ID: 2810)... ✅ 75G 2.6P 2.4R 0.1A | 3 seasons
+  [545/900] Andre Dawkins (ID: 203958)...     ⚠️ Andre Dawkins 重试 (1/2): 'resultSet'
+    ⚠️ Andre Dawkins 重试 (2/2): 'resultSet'
+    ❌ Andre Dawkins 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [546/900] Andre Emmett (ID: 2765)...     ⚠️ Andre Emmett 重试 (1/2): 'resultSet'
+    ⚠️ Andre Emmett 重试 (2/2): 'resultSet'
+    ❌ Andre Emmett 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [547/900] Andre Ingram (ID: 201281)... ⏭️ 跳过（仅 6 场）
+  [548/900] Andre McCarter (ID: 77504)... ✅ 103G 3.8P 0.9R 1.7A | 3 seasons
+  [549/900] Andre Miller (ID: 1889)... ✅ 1304G 12.5P 3.7R 6.5A | 25 seasons
+  [550/900] Andre Moore (ID: 77632)... ⏭️ 跳过（仅 10 场）
+  [551/900] Andre Owens (ID: 101261)... ✅ 54G 3.6P 1.3R 1.0A | 2 seasons
+  [552/900] Andre Roberson (ID: 203460)... ✅ 307G 4.5P 4.0R 0.9A | 7 seasons
+  [553/900] Andre Spencer (ID: 78227)...     ⚠️ Andre Spencer 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andre Spencer 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andre Spencer 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [554/900] Andre Turner (ID: 78377)...     ⚠️ Andre Turner 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andre Turner 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andre Turner 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [555/900] Andre Wakefield (ID: 78431)...     ⚠️ Andre Wakefield 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andre Wakefield 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andre Wakefield 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [556/900] Andrea Bargnani (ID: 200745)...     ⚠️ Andrea Bargnani 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrea Bargnani 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrea Bargnani 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [557/900] Andreas Glyniadakis (ID: 2601)...     ⚠️ Andreas Glyniadakis 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andreas Glyniadakis 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andreas Glyniadakis 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [558/900] Andrei Kirilenko (ID: 1905)...     ⚠️ Andrei Kirilenko 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrei Kirilenko 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrei Kirilenko 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [559/900] Andres Guibert (ID: 76903)...     ⚠️ Andres Guibert 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andres Guibert 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andres Guibert 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [560/900] Andres Nocioni (ID: 2804)...     ⚠️ Andres Nocioni 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andres Nocioni 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andres Nocioni 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [561/900] Andrew Bogut (ID: 101106)...     ⚠️ Andrew Bogut 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Bogut 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Bogut 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [562/900] Andrew Bynum (ID: 101115)...     ⚠️ Andrew Bynum 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Bynum 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Bynum 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [563/900] Andrew DeClercq (ID: 692)...     ⚠️ Andrew DeClercq 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew DeClercq 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew DeClercq 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [564/900] Andrew Funk (ID: 1641847)...     ⚠️ Andrew Funk 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Funk 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Funk 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [565/900] Andrew Gaze (ID: 1845)...     ⚠️ Andrew Gaze 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Gaze 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Gaze 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [566/900] Andrew Goudelock (ID: 202726)...     ⚠️ Andrew Goudelock 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Goudelock 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Goudelock 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [567/900] Andrew Harrison (ID: 1626150)...     ⚠️ Andrew Harrison 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Harrison 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Harrison 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [568/900] Andrew Lang (ID: 457)...     ⚠️ Andrew Lang 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Lang 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Lang 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [569/900] Andrew Levane (ID: 77375)...     ⚠️ Andrew Levane 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Levane 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Levane 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [570/900] Andrew Nicholson (ID: 203094)...     ⚠️ Andrew Nicholson 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Nicholson 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Nicholson 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [571/900] Andrew Toney (ID: 78351)...     ⚠️ Andrew Toney 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew Toney 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew Toney 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [572/900] Andrew White III (ID: 1628510)...     ⚠️ Andrew White III 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andrew White III 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andrew White III 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [573/900] Andris Biedrins (ID: 2740)...     ⚠️ Andris Biedrins 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andris Biedrins 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andris Biedrins 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [574/900] Andy Duncan (ID: 76615)...     ⚠️ Andy Duncan 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Duncan 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Duncan 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [575/900] Andy Johnson (ID: 77131)...     ⚠️ Andy Johnson 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Johnson 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Johnson 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [576/900] Andy Kostecka (ID: 77303)...     ⚠️ Andy Kostecka 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Kostecka 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Kostecka 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [577/900] Andy O'Donnell (ID: 77746)...     ⚠️ Andy O'Donnell 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy O'Donnell 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy O'Donnell 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [578/900] Andy Panko (ID: 1950)...     ⚠️ Andy Panko 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Panko 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Panko 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [579/900] Andy Phillip (ID: 77853)...     ⚠️ Andy Phillip 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Phillip 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Phillip 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [580/900] Andy Rautins (ID: 202360)...     ⚠️ Andy Rautins 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Rautins 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Rautins 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [581/900] Andy Tonkovich (ID: 78353)...     ⚠️ Andy Tonkovich 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Tonkovich 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Tonkovich 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [582/900] Andy Toolson (ID: 342)...     ⚠️ Andy Toolson 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Toolson 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Toolson 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [583/900] Andy Walker (ID: 78433)...     ⚠️ Andy Walker 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Andy Walker 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Andy Walker 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [584/900] Anfernee Hardaway (ID: 358)...     ⚠️ Anfernee Hardaway 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Anfernee Hardaway 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+✅ 704G 15.2P 4.5R 5.0A | 16 seasons
+  [585/900] Angel Delgado (ID: 1629116)... ⏭️ 跳过（仅 2 场）
+  [586/900] Angelo Musi (ID: 77677)...     ⚠️ Angelo Musi 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Angelo Musi 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Angelo Musi 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [587/900] Ansu Sesay (ID: 1738)... ✅ 127G 3.2P 1.8R 0.5A | 4 seasons
+  [588/900] Ante Zizic (ID: 1627790)... ✅ 113G 6.0P 3.9R 0.6A | 3 seasons
+  [589/900] Anthony Avent (ID: 138)... ✅ 352G 5.6P 4.5R 0.8A | 8 seasons
+  [590/900] Anthony Bennett (ID: 203461)... ✅ 151G 4.4P 3.1R 0.5A | 4 seasons
+  [591/900] Anthony Bonner (ID: 41)... ✅ 318G 6.9P 5.4R 1.4A | 6 seasons
+  [592/900] Anthony Bowie (ID: 194)... ✅ 461G 6.4P 2.2R 1.8A | 8 seasons
+  [593/900] Anthony Brown (ID: 1626148)... ⏭️ 跳过（仅 41 场）
+  [594/900] Anthony Carter (ID: 1853)... ✅ 623G 4.8P 2.1R 3.8A | 15 seasons
+  [595/900] Anthony Cook (ID: 76433)... ✅ 116G 3.6P 3.7R 0.3A | 6 seasons
+  [596/900] Anthony Frederick (ID: 76752)... ✅ 147G 4.9P 1.9R 0.9A | 3 seasons
+  [597/900] Anthony Goldwire (ID: 924)... ✅ 266G 6.3P 1.3R 2.8A | 16 seasons
+  [598/900] Anthony Grundy (ID: 101219)... ⏭️ 跳过（仅 12 场）
+  [599/900] Anthony Johnson (ID: 1533)... ✅ 793G 5.6P 1.7R 2.9A | 21 seasons
+  [600/900] Anthony Jones (ID: 77173)... ✅ 164G 3.6P 1.3R 0.7A | 7 seasons
+
+  💾 中间保存... (412 新球员)
+  💾 已保存: 665 球员, 5452 赛季记录
+  继续获取...
+
+  [601/900] Anthony Lamb (ID: 1630237)... ✅ 88G 6.2P 3.3R 1.4A | 3 seasons
+  [602/900] Anthony Mason (ID: 193)... ✅ 882G 10.9P 8.3R 3.4A | 13 seasons
+  [603/900] Anthony Miller (ID: 292)... ✅ 181G 2.8P 2.7R 0.4A | 11 seasons
+  [604/900] Anthony Morrow (ID: 201627)... ✅ 564G 9.4P 2.2R 0.9A | 13 seasons
+  [605/900] Anthony Parker (ID: 1515)... ✅ 494G 9.1P 3.2R 2.3A | 9 seasons
+  [606/900] Anthony Peeler (ID: 324)... ✅ 827G 9.7P 2.6R 2.4A | 15 seasons
+  [607/900] Anthony Pullard (ID: 77890)... ⏭️ 跳过（仅 8 场）
+  [608/900] Anthony Randolph (ID: 201576)... ✅ 252G 7.1P 4.3R 0.7A | 8 seasons
+  [609/900] Anthony Roberson (ID: 101194)... ✅ 65G 4.1P 0.8R 0.5A | 5 seasons
+  [610/900] Anthony Roberts (ID: 77975)... ✅ 213G 7.8P 3.9R 1.2A | 5 seasons
+  [611/900] Anthony Taylor (ID: 78295)... ⏭️ 跳过（仅 21 场）
+  [612/900] Anthony Tolliver (ID: 201229)... ✅ 730G 6.1P 3.3R 0.9A | 20 seasons
+  [613/900] Anthony Tucker (ID: 141)... ✅ 62G 3.9P 2.7R 1.1A | 1 seasons
+  [614/900] Antoine Carr (ID: 156)... ✅ 987G 9.3P 3.4R 1.1A | 18 seasons
+  [615/900] Antoine Rigaudeau (ID: 2541)...     ⚠️ Antoine Rigaudeau 重试 (1/2): 'resultSet'
+    ⚠️ Antoine Rigaudeau 重试 (2/2): 'resultSet'
+    ❌ Antoine Rigaudeau 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [616/900] Antoine Wright (ID: 101120)... ✅ 297G 5.4P 2.3R 1.0A | 8 seasons
+  [617/900] Anton Watson (ID: 1641817)... ⏭️ 跳过（仅 9 场）
+  [618/900] Antonio Anderson (ID: 202079)...     ⚠️ Antonio Anderson 重试 (1/2): 'resultSet'
+    ⚠️ Antonio Anderson 重试 (2/2): 'resultSet'
+    ❌ Antonio Anderson 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [619/900] Antonio Blakeney (ID: 1628469)... ✅ 76G 7.5P 1.8R 0.8A | 2 seasons
+  [620/900] Antonio Burks (ID: 2766)... ✅ 81G 2.3P 0.6R 1.3A | 2 seasons
+  [621/900] Antonio Daniels (ID: 1498)... ✅ 872G 7.6P 1.8R 3.4A | 15 seasons
+  [622/900] Antonio Davis (ID: 213)... ✅ 903G 10.0P 7.5R 1.1A | 17 seasons
+  [623/900] Antonio Harvey (ID: 176)... ✅ 187G 3.0P 2.3R 0.3A | 10 seasons
+  [624/900] Antonio Lang (ID: 226)... ✅ 143G 2.3P 1.5R 0.3A | 8 seasons
+  [625/900] Antonio McDyess (ID: 686)... ✅ 1015G 12.0P 7.5R 1.3A | 17 seasons
+  [626/900] Antonis Fotsis (ID: 2238)... ⏭️ 跳过（仅 28 场）
+  [627/900] Antonius Cleveland (ID: 1628499)... ⏭️ 跳过（仅 28 场）
+  [628/900] Anžejs Pasečņiks (ID: 1628394)... ⏭️ 跳过（仅 28 场）
+  [629/900] Archie Clark (ID: 76397)... ✅ 725G 16.3P 3.3R 4.8A | 12 seasons
+  [630/900] Archie Dees (ID: 76546)... ✅ 190G 8.1P 4.8R 0.7A | 4 seasons
+  [631/900] Archie Goodwin (ID: 203462)... ✅ 165G 6.3P 2.0R 1.2A | 6 seasons
+  [632/900] Ariel Maughan (ID: 77485)...     ⚠️ Ariel Maughan 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Ariel Maughan 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Ariel Maughan 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [633/900] Arinze Onuaku (ID: 202620)... ⏭️ 跳过（仅 19 场）
+  [634/900] Arlen Bockhorn (ID: 76191)... ✅ 474G 11.5P 4.7R 3.5A | 7 seasons
+  [635/900] Armand Cure (ID: 76489)...     ⚠️ Armand Cure 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Armand Cure 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Armand Cure 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [636/900] Armel Traore (ID: 1642422)... ⏭️ 跳过（仅 9 场）
+  [637/900] Armen Gilliam (ID: 288)... ✅ 929G 13.7P 6.9R 1.2A | 17 seasons
+  [638/900] Armon Johnson (ID: 202356)... ⏭️ 跳过（仅 47 场）
+  [639/900] Armond Hill (ID: 77024)... ✅ 468G 6.9P 2.0R 4.7A | 12 seasons
+  [640/900] Armoni Brooks (ID: 1629717)... ✅ 84G 6.6P 2.3R 1.2A | 5 seasons
+  [641/900] Arnett Moultrie (ID: 203102)... ✅ 59G 3.6P 3.1R 0.2A | 2 seasons
+  [642/900] Arnie Ferrin (ID: 76711)...     ⚠️ Arnie Ferrin 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Arnie Ferrin 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Arnie Ferrin 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [643/900] Arnie Johnson (ID: 77132)... ✅ 332G 8.7P 6.2R 2.2A | 5 seasons
+  [644/900] Arnie Risen (ID: 77967)... ✅ 637G 12.0P 9.7R 1.7A | 10 seasons
+  [645/900] Arnoldas Kulboka (ID: 1629083)... ⏭️ 跳过（仅 2 场）
+  [646/900] Aron Baynes (ID: 203382)... ✅ 522G 6.0P 4.6R 0.8A | 9 seasons
+  [647/900] Arron Afflalo (ID: 201167)... ✅ 762G 10.8P 2.9R 1.8A | 13 seasons
+  [648/900] Art Burris (ID: 76311)... ✅ 74G 2.5P 2.8R 0.7A | 2 seasons
+  [649/900] Art Collins (ID: 76416)... ⏭️ 跳过（仅 29 场）
+  [650/900] Art Harris (ID: 76956)... ✅ 238G 9.1P 2.4R 2.7A | 6 seasons
+
+  💾 中间保存... (446 新球员)
+  💾 已保存: 699 球员, 5762 赛季记录
+  继续获取...
+
+  [651/900] Art Heyman (ID: 77015)... ✅ 147G 10.3P 2.8R 2.4A | 5 seasons
+  [652/900] Art Hillhouse (ID: 77027)...     ⚠️ Art Hillhouse 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Art Hillhouse 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Art Hillhouse 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [653/900] Art Long (ID: 1609)... ✅ 98G 3.5P 3.3R 0.5A | 5 seasons
+  [654/900] Art Spector (ID: 78226)...     ⚠️ Art Spector 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Art Spector 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Art Spector 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [655/900] Art Spoelstra (ID: 78232)... ✅ 278G 7.2P 4.6R 1.0A | 4 seasons
+  [656/900] Art Stolkey (ID: 78266)...     ⚠️ Art Stolkey 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Art Stolkey 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Art Stolkey 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [657/900] Arthur Williams (ID: 78539)... ✅ 541G 5.3P 3.1R 4.4A | 7 seasons
+  [658/900] Arvid Kramer (ID: 77306)... ⏭️ 跳过（仅 8 场）
+  [659/900] Arvydas Macijauskas (ID: 101178)... ⏭️ 跳过（仅 19 场）
+  [660/900] Arvydas Sabonis (ID: 717)... ✅ 470G 12.0P 7.3R 2.1A | 7 seasons
+  [661/900] Ashraf Amaya (ID: 732)... ✅ 85G 4.5P 4.2R 0.4A | 2 seasons
+  [662/900] Ashton Hagans (ID: 1630204)... ⏭️ 跳过（仅 21 场）
+  [663/900] Askia Jones (ID: 77174)... ⏭️ 跳过（仅 11 场）
+  [664/900] Aubrey Davis (ID: 76515)...     ⚠️ Aubrey Davis 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Aubrey Davis 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Aubrey Davis 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [665/900] Audie Norris (ID: 77731)... ✅ 187G 4.4P 3.1R 0.8A | 3 seasons
+  [666/900] Audley Brindley (ID: 76255)...     ⚠️ Audley Brindley 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Audley Brindley 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Audley Brindley 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [667/900] Austin Carr (ID: 76348)... ✅ 682G 15.4P 2.9R 2.8A | 12 seasons
+  [668/900] Austin Croshere (ID: 1506)... ✅ 659G 6.8P 4.0R 1.0A | 14 seasons
+  [669/900] Austin Daye (ID: 201948)... ✅ 293G 5.2P 2.6R 0.7A | 12 seasons
+  [670/900] Austin Rivers (ID: 203085)... ✅ 707G 8.5P 2.0R 2.1A | 17 seasons
+  [671/900] Avery Bradley (ID: 202340)... ✅ 660G 11.0P 2.8R 1.7A | 18 seasons
+  [672/900] Avery Johnson (ID: 422)... ✅ 1054G 8.4P 1.7R 5.5A | 22 seasons
+  [673/900] Awvee Storey (ID: 2852)... ✅ 60G 2.4P 1.4R 0.4A | 3 seasons
+  [674/900] Axel Toupane (ID: 1626253)... ⏭️ 跳过（仅 33 场）
+  [675/900] B.J. Armstrong (ID: 769)... ✅ 747G 9.8P 1.8R 3.3A | 15 seasons
+  [676/900] B.J. Tyler (ID: 189)... ✅ 55G 3.5P 1.1R 3.2A | 1 seasons
+  [677/900] BJ Johnson (ID: 1629168)... ⏭️ 跳过（仅 21 场）
+  [678/900] Bailey Howell (ID: 77070)... ✅ 950G 18.7P 9.9R 2.0A | 12 seasons
+  [679/900] Barney Cable (ID: 76324)... ✅ 362G 6.6P 5.2R 1.0A | 6 seasons
+  [680/900] Barry Kramer (ID: 77307)... ✅ 52G 3.6P 1.9R 0.8A | 3 seasons
+  [681/900] Barry Nelson (ID: 77699)... ⏭️ 跳过（仅 28 场）
+  [682/900] Barry Orms (ID: 77768)...     ⚠️ Barry Orms 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Barry Orms 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Barry Orms 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [683/900] Barry Stevens (ID: 78251)...     ⚠️ Barry Stevens 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Barry Stevens 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Barry Stevens 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [684/900] Barry Sumpter (ID: 78654)...     ⚠️ Barry Sumpter 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Barry Sumpter 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Barry Sumpter 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [685/900] Barry Yates (ID: 78629)...     ⚠️ Barry Yates 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Barry Yates 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Barry Yates 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [686/900] Bart Kofoed (ID: 77294)...     ⚠️ Bart Kofoed 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bart Kofoed 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bart Kofoed 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [687/900] Bato Govedarica (ID: 76837)...     ⚠️ Bato Govedarica 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bato Govedarica 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bato Govedarica 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [688/900] Bayard Forrest (ID: 76739)...     ⚠️ Bayard Forrest 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bayard Forrest 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bayard Forrest 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [689/900] Belus Smawley (ID: 78176)...     ⚠️ Belus Smawley 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Belus Smawley 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Belus Smawley 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [690/900] Ben Bentil (ID: 1627791)...     ⚠️ Ben Bentil 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Ben Bentil 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Ben Bentil 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [691/900] Ben Clyde (ID: 76409)...     ⚠️ Ben Clyde 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Ben Clyde 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Ben Clyde 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [692/900] Ben Coleman (ID: 76412)...     ⚠️ Ben Coleman 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Ben Coleman 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76412 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Coleman 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76412 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [693/900] Ben Davis (ID: 989)...     ⚠️ Ben Davis 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=989 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Davis 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=989 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Davis 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=989 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [694/900] Ben Gillery (ID: 76812)...     ⚠️ Ben Gillery 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76812 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Gillery 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76812 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Gillery 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76812 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [695/900] Ben Goldfaden (ID: 76829)...     ⚠️ Ben Goldfaden 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76829 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Goldfaden 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76829 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Goldfaden 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=76829 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [696/900] Ben Gordon (ID: 2732)...     ⚠️ Ben Gordon 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=2732 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Gordon 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=2732 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Gordon 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=2732 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [697/900] Ben Handlogten (ID: 1052)...     ⚠️ Ben Handlogten 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1052 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Handlogten 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1052 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Handlogten 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1052 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [698/900] Ben Hansbrough (ID: 203162)...     ⚠️ Ben Hansbrough 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203162 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Hansbrough 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203162 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Hansbrough 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203162 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [699/900] Ben Kelso (ID: 77240)...     ⚠️ Ben Kelso 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77240 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Kelso 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77240 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Kelso 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77240 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [700/900] Ben McDonald (ID: 77524)...     ⚠️ Ben McDonald 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77524 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben McDonald 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77524 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben McDonald 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77524 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [701/900] Ben McLemore (ID: 203463)...     ⚠️ Ben McLemore 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203463 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben McLemore 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203463 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben McLemore 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=203463 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [702/900] Ben Moore (ID: 1628500)...     ⚠️ Ben Moore 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1628500 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Moore 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1628500 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Moore 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=1628500 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [703/900] Ben Poquette (ID: 77873)...     ⚠️ Ben Poquette 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77873 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Poquette 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77873 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Poquette 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=77873 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [704/900] Ben Schadler (ID: 78070)...     ⚠️ Ben Schadler 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78070 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Schadler 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78070 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Schadler 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78070 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [705/900] Ben Scharnus (ID: 78073)...     ⚠️ Ben Scharnus 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78073 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Scharnus 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78073 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Scharnus 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78073 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [706/900] Ben Uzoh (ID: 202386)...     ⚠️ Ben Uzoh 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=202386 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Uzoh 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=202386 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Uzoh 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=202386 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [707/900] Ben Warley (ID: 78458)...     ⚠️ Ben Warley 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78458 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Ben Warley 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78458 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Ben Warley 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78458 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [708/900] Bennie Swain (ID: 78283)...     ⚠️ Bennie Swain 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78283 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Bennie Swain 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78283 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ❌ Bennie Swain 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=78283 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⏭️ 跳过（无数据）
+  [709/900] Beno Udrih (ID: 2757)...     ⚠️ Beno Udrih 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/playercareerstats?LeagueID=00&PerMode=PerGame&PlayerID=2757 (Caused by NameResolutionError("HTTPSConnection(host='stats.nba.com', port=443): Failed to resolve 'stats.nba.com' ([Errno 8] nodename nor servname provided, or not known)"))
+    ⚠️ Beno Udrih 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Beno Udrih 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [710/900] Benoit Benjamin (ID: 104)...     ⚠️ Benoit Benjamin 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Benoit Benjamin 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Benoit Benjamin 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [711/900] Bernard James (ID: 203108)...     ⚠️ Bernard James 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bernard James 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bernard James 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [712/900] Bernard Robinson (ID: 2774)...     ⚠️ Bernard Robinson 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bernard Robinson 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bernard Robinson 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [713/900] Bernard Thompson (ID: 78323)...     ⚠️ Bernard Thompson 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
