@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import PlayersClient from "./PlayersClient";
+import { playersPageJsonLd, JsonLdScripts } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "NBA 球员名录",
@@ -8,5 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default function PlayersPage() {
-  return <PlayersClient />;
+  return (
+    <>
+      <JsonLdScripts data={playersPageJsonLd()} />
+      <PlayersClient />
+    </>
+  );
 }

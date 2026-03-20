@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { webSiteJsonLd, JsonLdScripts } from "@/lib/jsonld";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -46,6 +47,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" className="h-full antialiased">
       <body className="relative min-h-full flex flex-col text-slate-800">
+        <JsonLdScripts data={webSiteJsonLd()} />
         {children}
       </body>
     </html>

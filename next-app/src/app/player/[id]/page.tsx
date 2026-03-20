@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getAllPlayers, getPlayerById, getPlayerSeasons } from "@/lib/data";
 import { getHeadshotUrl, getPlayerInitials } from "@/lib/avatar";
+import { playerPageJsonLd, JsonLdScripts } from "@/lib/jsonld";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import type { Player, PlayerSeason } from "@/lib/types";
@@ -71,28 +72,6 @@ function yearsLabel(from?: number | null, to?: number | null): string {
   return "\u2014";
 }
 
-/* ─── JSON-LD structured data ─── */
-function buildJsonLd(player: Player, baseUrl: string) {
-  return [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      name: `${player.nameZh} (${player.nameEn}) 生涯数据`,
-      description: `${player.nameZh} 的 NBA 生涯数据总览`,
-      url: `${baseUrl}/player/${player.id}`,
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "首页", item: baseUrl },
-        { "@type": "ListItem", position: 2, name: "球员", item: `${baseUrl}/players` },
-        { "@type": "ListItem", position: 3, name: player.nameZh, item: `${baseUrl}/player/${player.id}` },
-      ],
-    },
-  ];
-}
-
 /* ─── Related players: same position, exclude self ─── */
 function getRelatedPlayers(player: Player, allPlayers: Player[]): Player[] {
   if (!player.position) return allPlayers.filter((p) => p.id !== player.id).slice(0, 6);
@@ -152,21 +131,14 @@ export default async function PlayerPage({ params }: PageProps) {
   const allPlayers = getAllPlayers();
   const related = getRelatedPlayers(player, allPlayers);
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://goat.starcoby.com";
-  const jsonLd = buildJsonLd(player, baseUrl);
+  const jsonLd = playerPageJsonLd(player);
 
   const c = player.career;
 
   return (
     <>
       {/* JSON-LD */}
-      {jsonLd.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
+      <JsonLdScripts data={jsonLd} />
 
       <div className="min-h-screen">
         {/* ── Header ── */}

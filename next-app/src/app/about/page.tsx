@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { aboutPageJsonLd, JsonLdScripts } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "关于 GOAT NBA 球员对比工具",
@@ -18,6 +19,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      {/* JSON-LD */}
+      <JsonLdScripts data={aboutPageJsonLd()} />
+
       {/* Header */}
       <SiteHeader />
 

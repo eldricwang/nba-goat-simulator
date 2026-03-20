@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { Metadata } from "next";
 import CompareClient from "./CompareClient";
+import { comparePageJsonLd, JsonLdScripts } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "NBA 球员数据对比",
@@ -16,14 +17,17 @@ export const metadata: Metadata = {
 
 export default function ComparePage() {
   return (
-    <Suspense
-      fallback={
-        <div className="min-h-screen bg-neutral-950 text-white flex items-center justify-center">
-          <div className="text-white/30">Loading...</div>
-        </div>
-      }
-    >
-      <CompareClient />
-    </Suspense>
+    <>
+      <JsonLdScripts data={comparePageJsonLd()} />
+      <Suspense
+        fallback={
+          <div className="min-h-screen bg-neutral-950 text-white flex items-center justify-center">
+            <div className="text-white/30">Loading...</div>
+          </div>
+        }
+      >
+        <CompareClient />
+      </Suspense>
+    </>
   );
 }

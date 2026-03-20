@@ -9,6 +9,7 @@ import {
   getPlayerSeason,
 } from "@/lib/data";
 import { getHeadshotUrl, getPlayerInitials } from "@/lib/avatar";
+import { seasonPageJsonLd, JsonLdScripts } from "@/lib/jsonld";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import type { Player, PlayerSeason } from "@/lib/types";
@@ -78,29 +79,6 @@ function positionLabel(pos: string | null | undefined): string {
     "Forward-Center": "前锋/中锋", "Center-Forward": "中锋/前锋",
   };
   return map[pos] ?? pos;
-}
-
-/* ─── JSON-LD structured data ─── */
-function buildJsonLd(player: Player, season: string, baseUrl: string) {
-  return [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      name: `${player.nameZh} (${player.nameEn}) ${season} 赛季数据`,
-      description: `${player.nameZh} 的 ${season} 赛季 NBA 数据`,
-      url: `${baseUrl}/player/${player.id}/season/${season}`,
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "首页", item: baseUrl },
-        { "@type": "ListItem", position: 2, name: "球员", item: `${baseUrl}/players` },
-        { "@type": "ListItem", position: 3, name: player.nameZh, item: `${baseUrl}/player/${player.id}` },
-        { "@type": "ListItem", position: 4, name: `${season} 赛季`, item: `${baseUrl}/player/${player.id}/season/${season}` },
-      ],
-    },
-  ];
 }
 
 /* ─── Avatar component (server) ─── */
@@ -212,19 +190,12 @@ export default async function SeasonPage({ params }: PageProps) {
 
   const c = player.career;
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://goat.starcoby.com";
-  const jsonLd = buildJsonLd(player, season, baseUrl);
+  const jsonLd = seasonPageJsonLd(player, season);
 
   return (
     <>
       {/* JSON-LD */}
-      {jsonLd.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
+      <JsonLdScripts data={jsonLd} />
 
       <div className="min-h-screen">
         {/* ── Header ── */}
