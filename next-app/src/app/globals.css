@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --nba-blue: #1d428a;
+  --nba-red: #c8102e;
+  --nba-white: #ffffff;
+}
+
+body {
+  background: linear-gradient(160deg, #e0f0ff 0%, #f0f7ff 30%, #fef8f0 70%, #fce8e4 100%);
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+/* Smooth transitions for interactive elements */
+button, a, select, input {
+  transition: all 0.2s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out;
+}

@@ -1,0 +1,4222 @@
+[
+  {
+    "id": "michael-jordan",
+    "nameZh": "迈克尔·乔丹",
+    "nameEn": "Michael Jordan",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1072,
+      "mp": 38.3,
+      "pts": 30.1,
+      "reb": 6.2,
+      "ast": 5.3,
+      "fgPct": 49.7,
+      "tpPct": 32.7,
+      "tsPct": 56.9,
+      "mvp": 5,
+      "fmvp": 6
+    },
+    "nbaId": 893
+  },
+  {
+    "id": "wilt-chamberlain",
+    "nameZh": "威尔特·张伯伦",
+    "nameEn": "Wilt Chamberlain",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1045,
+      "mp": 45.8,
+      "pts": 30.1,
+      "reb": 22.9,
+      "ast": 4.4,
+      "fgPct": 54.0,
+      "tpPct": null,
+      "tsPct": 54.0,
+      "mvp": 4,
+      "fmvp": 1
+    },
+    "nbaId": 76375
+  },
+  {
+    "id": "luka-doncic",
+    "nameZh": "卢卡·东契奇",
+    "nameEn": "Luka Doncic",
+    "position": "PG/SG",
+    "active": true,
+    "career": {
+      "gp": 434,
+      "mp": 35.1,
+      "pts": 28.7,
+      "reb": 8.7,
+      "ast": 8.3,
+      "fgPct": 46.0,
+      "tpPct": 34.4,
+      "tsPct": 57.8,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1629029
+  },
+  {
+    "id": "joel-embiid",
+    "nameZh": "乔尔·恩比德",
+    "nameEn": "Joel Embiid",
+    "position": "C",
+    "active": true,
+    "career": {
+      "gp": 433,
+      "mp": 31.5,
+      "pts": 27.9,
+      "reb": 11.2,
+      "ast": 3.6,
+      "fgPct": 50.4,
+      "tpPct": 33.0,
+      "tsPct": 59.4,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 203954
+  },
+  {
+    "id": "elgin-baylor",
+    "nameZh": "埃尔金·贝勒",
+    "nameEn": "Elgin Baylor",
+    "position": "SF",
+    "active": false,
+    "nbaId": 76127,
+    "career": {
+      "gp": 846,
+      "mp": 40.7,
+      "pts": 27.4,
+      "reb": 13.5,
+      "ast": 4.3,
+      "fgPct": 43.1,
+      "tpPct": null,
+      "tsPct": 50.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "lebron-james",
+    "nameZh": "勒布朗·詹姆斯",
+    "nameEn": "LeBron James",
+    "position": "SF",
+    "active": true,
+    "career": {
+      "gp": 1492,
+      "mp": 38.2,
+      "pts": 27.1,
+      "reb": 7.5,
+      "ast": 7.4,
+      "fgPct": 50.6,
+      "tpPct": 34.6,
+      "tsPct": 58.6,
+      "mvp": 4,
+      "fmvp": 4
+    },
+    "nbaId": 2544
+  },
+  {
+    "id": "kevin-durant",
+    "nameZh": "凯文·杜兰特",
+    "nameEn": "Kevin Durant",
+    "position": "SF",
+    "active": true,
+    "career": {
+      "gp": 1187,
+      "mp": 36.7,
+      "pts": 27.1,
+      "reb": 7.0,
+      "ast": 4.4,
+      "fgPct": 50.1,
+      "tpPct": 38.5,
+      "tsPct": 61.4,
+      "mvp": 1,
+      "fmvp": 2
+    },
+    "nbaId": 201142
+  },
+  {
+    "id": "jerry-west",
+    "nameZh": "杰里·韦斯特",
+    "nameEn": "Jerry West",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 932,
+      "mp": 36.6,
+      "pts": 27.0,
+      "reb": 5.8,
+      "ast": 6.7,
+      "fgPct": 47.4,
+      "tpPct": null,
+      "tsPct": 55.0,
+      "mvp": 0,
+      "fmvp": 1
+    },
+    "nbaId": 78531
+  },
+  {
+    "id": "allen-iverson",
+    "nameZh": "阿伦·艾弗森",
+    "nameEn": "Allen Iverson",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 914,
+      "mp": 41.1,
+      "pts": 26.7,
+      "reb": 3.7,
+      "ast": 6.2,
+      "fgPct": 42.5,
+      "tpPct": 31.3,
+      "tsPct": 51.8,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 947
+  },
+  {
+    "id": "bob-pettit",
+    "nameZh": "鲍勃·佩蒂特",
+    "nameEn": "Bob Pettit",
+    "position": "PF",
+    "active": false,
+    "nbaId": 77847,
+    "career": {
+      "gp": 792,
+      "mp": 37.8,
+      "pts": 26.4,
+      "reb": 16.2,
+      "ast": 3.0,
+      "fgPct": 43.6,
+      "tpPct": null,
+      "tsPct": 51.1,
+      "mvp": 2,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "oscar-robertson",
+    "nameZh": "奥斯卡·罗伯特森",
+    "nameEn": "Oscar Robertson",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1040,
+      "mp": 42.2,
+      "pts": 25.7,
+      "reb": 7.5,
+      "ast": 9.5,
+      "fgPct": 48.5,
+      "tpPct": null,
+      "tsPct": 55.8,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 78643
+  },
+  {
+    "id": "trae-young",
+    "nameZh": "特雷·杨",
+    "nameEn": "Trae Young",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 430,
+      "mp": 34.7,
+      "pts": 25.3,
+      "reb": 3.7,
+      "ast": 9.5,
+      "fgPct": 43.0,
+      "tpPct": 35.3,
+      "tsPct": 58.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1629027
+  },
+  {
+    "id": "damian-lillard",
+    "nameZh": "达米安·利拉德",
+    "nameEn": "Damian Lillard",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 849,
+      "mp": 35.3,
+      "pts": 25.2,
+      "reb": 4.2,
+      "ast": 6.7,
+      "fgPct": 44.1,
+      "tpPct": 37.1,
+      "tsPct": 59.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 203081
+  },
+  {
+    "id": "donovan-mitchell",
+    "nameZh": "多诺万·米切尔",
+    "nameEn": "Donovan Mitchell",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1628378,
+    "career": {
+      "gp": 600,
+      "mp": 33.8,
+      "pts": 25.1,
+      "reb": 4.3,
+      "ast": 4.8,
+      "fgPct": 45.2,
+      "tpPct": 36.6,
+      "tsPct": 57.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "george-gervin",
+    "nameZh": "乔治·格文",
+    "nameEn": "George Gervin",
+    "position": "SG",
+    "active": false,
+    "nbaId": 76804,
+    "career": {
+      "gp": 791,
+      "mp": 33.4,
+      "pts": 25.1,
+      "reb": 4.6,
+      "ast": 2.8,
+      "fgPct": 51.1,
+      "tpPct": 27.8,
+      "tsPct": 55.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kobe-bryant",
+    "nameZh": "科比·布莱恩特",
+    "nameEn": "Kobe Bryant",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1346,
+      "mp": 36.1,
+      "pts": 25.0,
+      "reb": 5.2,
+      "ast": 4.7,
+      "fgPct": 44.7,
+      "tpPct": 32.9,
+      "tsPct": 55.0,
+      "mvp": 1,
+      "fmvp": 2
+    },
+    "nbaId": 977
+  },
+  {
+    "id": "karl-malone",
+    "nameZh": "卡尔·马龙",
+    "nameEn": "Karl Malone",
+    "position": "PF",
+    "active": false,
+    "career": {
+      "gp": 1476,
+      "mp": 37.2,
+      "pts": 25.0,
+      "reb": 10.1,
+      "ast": 3.6,
+      "fgPct": 51.6,
+      "tpPct": 27.4,
+      "tsPct": 57.7,
+      "mvp": 2,
+      "fmvp": 0
+    },
+    "nbaId": 252
+  },
+  {
+    "id": "stephen-curry",
+    "nameZh": "斯蒂芬·库里",
+    "nameEn": "Stephen Curry",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 1065,
+      "mp": 34.3,
+      "pts": 24.8,
+      "reb": 4.7,
+      "ast": 6.3,
+      "fgPct": 47.3,
+      "tpPct": 42.6,
+      "tsPct": 62.4,
+      "mvp": 2,
+      "fmvp": 1
+    },
+    "nbaId": 201939
+  },
+  {
+    "id": "shai-gilgeous-alexander",
+    "nameZh": "谢·吉尔杰斯-亚历山大",
+    "nameEn": "Shai Gilgeous-Alexander",
+    "position": "SG",
+    "active": true,
+    "career": {
+      "gp": 412,
+      "mp": 34.5,
+      "pts": 24.8,
+      "reb": 5.0,
+      "ast": 5.5,
+      "fgPct": 50.5,
+      "tpPct": 34.5,
+      "tsPct": 59.8,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1628983
+  },
+  {
+    "id": "dominique-wilkins",
+    "nameZh": "多米尼克·威尔金斯",
+    "nameEn": "Dominique Wilkins",
+    "position": "SF",
+    "active": false,
+    "nbaId": 1122,
+    "career": {
+      "gp": 1074,
+      "mp": 35.5,
+      "pts": 24.8,
+      "reb": 6.7,
+      "ast": 2.5,
+      "fgPct": 46.1,
+      "tpPct": 31.9,
+      "tsPct": 53.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kareem-abdul-jabbar",
+    "nameZh": "卡里姆·贾巴尔",
+    "nameEn": "Kareem Abdul-Jabbar",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1560,
+      "mp": 36.8,
+      "pts": 24.6,
+      "reb": 11.2,
+      "ast": 3.6,
+      "fgPct": 55.9,
+      "tpPct": 5.6,
+      "tsPct": 55.9,
+      "mvp": 6,
+      "fmvp": 2
+    },
+    "nbaId": 76003
+  },
+  {
+    "id": "anthony-edwards",
+    "nameZh": "安东尼·爱德华兹",
+    "nameEn": "Anthony Edwards",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1630162,
+    "career": {
+      "gp": 439,
+      "mp": 34.9,
+      "pts": 24.6,
+      "reb": 5.3,
+      "ast": 4.1,
+      "fgPct": 45.3,
+      "tpPct": 37.0,
+      "tsPct": 57.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "larry-bird",
+    "nameZh": "拉里·伯德",
+    "nameEn": "Larry Bird",
+    "position": "SF",
+    "active": false,
+    "career": {
+      "gp": 897,
+      "mp": 38.4,
+      "pts": 24.3,
+      "reb": 10.0,
+      "ast": 6.3,
+      "fgPct": 49.6,
+      "tpPct": 37.6,
+      "tsPct": 56.4,
+      "mvp": 3,
+      "fmvp": 2
+    },
+    "nbaId": 1449
+  },
+  {
+    "id": "adrian-dantley",
+    "nameZh": "阿德里安·丹特利",
+    "nameEn": "Adrian Dantley",
+    "position": "SF",
+    "active": false,
+    "nbaId": 76504,
+    "career": {
+      "gp": 955,
+      "mp": 35.8,
+      "pts": 24.3,
+      "reb": 5.7,
+      "ast": 3.0,
+      "fgPct": 54.0,
+      "tpPct": 17.1,
+      "tsPct": 61.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "pete-maravich",
+    "nameZh": "皮特·马拉维奇",
+    "nameEn": "Pete Maravich",
+    "position": "SG",
+    "active": false,
+    "nbaId": 77459,
+    "career": {
+      "gp": 658,
+      "mp": 33.7,
+      "pts": 24.2,
+      "reb": 4.2,
+      "ast": 5.4,
+      "fgPct": 44.1,
+      "tpPct": null,
+      "tsPct": 51.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "giannis-antetokounmpo",
+    "nameZh": "扬尼斯·安特托昆博",
+    "nameEn": "Giannis Antetokounmpo",
+    "position": "PF",
+    "active": true,
+    "career": {
+      "gp": 895,
+      "mp": 33.7,
+      "pts": 24.1,
+      "reb": 9.9,
+      "ast": 5.0,
+      "fgPct": 54.5,
+      "tpPct": 28.6,
+      "tsPct": 59.8,
+      "mvp": 2,
+      "fmvp": 1
+    },
+    "nbaId": 203507
+  },
+  {
+    "id": "anthony-davis",
+    "nameZh": "安东尼·戴维斯",
+    "nameEn": "Anthony Davis",
+    "position": "PF/C",
+    "active": true,
+    "career": {
+      "gp": 764,
+      "mp": 33.8,
+      "pts": 24.1,
+      "reb": 10.5,
+      "ast": 2.3,
+      "fgPct": 51.7,
+      "tpPct": 30.0,
+      "tsPct": 58.3,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 203076
+  },
+  {
+    "id": "james-harden",
+    "nameZh": "詹姆斯·哈登",
+    "nameEn": "James Harden",
+    "position": "SG",
+    "active": true,
+    "career": {
+      "gp": 1102,
+      "mp": 35.6,
+      "pts": 24.1,
+      "reb": 5.5,
+      "ast": 7.0,
+      "fgPct": 44.0,
+      "tpPct": 36.4,
+      "tsPct": 60.9,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 201935
+  },
+  {
+    "id": "zion-williamson",
+    "nameZh": "锡安·威廉森",
+    "nameEn": "Zion Williamson",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1629627,
+    "career": {
+      "gp": 267,
+      "mp": 31.0,
+      "pts": 24.0,
+      "reb": 6.4,
+      "ast": 4.1,
+      "fgPct": 59.0,
+      "tpPct": 32.4,
+      "tsPct": 62.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "devin-booker",
+    "nameZh": "德文·布克",
+    "nameEn": "Devin Booker",
+    "position": "SG",
+    "active": true,
+    "career": {
+      "gp": 607,
+      "mp": 34.2,
+      "pts": 24.0,
+      "reb": 4.2,
+      "ast": 5.0,
+      "fgPct": 45.8,
+      "tpPct": 35.5,
+      "tsPct": 56.8,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1626164
+  },
+  {
+    "id": "shaquille-oneal",
+    "nameZh": "沙奎尔·奥尼尔",
+    "nameEn": "Shaquille O'Neal",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1207,
+      "mp": 36.2,
+      "pts": 23.7,
+      "reb": 10.9,
+      "ast": 2.5,
+      "fgPct": 58.2,
+      "tpPct": 4.5,
+      "tsPct": 58.5,
+      "mvp": 1,
+      "fmvp": 3
+    },
+    "nbaId": 406
+  },
+  {
+    "id": "jayson-tatum",
+    "nameZh": "杰森·塔图姆",
+    "nameEn": "Jayson Tatum",
+    "position": "SF",
+    "active": true,
+    "career": {
+      "gp": 555,
+      "mp": 35.8,
+      "pts": 23.7,
+      "reb": 7.2,
+      "ast": 4.4,
+      "fgPct": 45.3,
+      "tpPct": 37.0,
+      "tsPct": 57.5,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1628369
+  },
+  {
+    "id": "kyrie-irving",
+    "nameZh": "凯里·欧文",
+    "nameEn": "Kyrie Irving",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 795,
+      "mp": 33.5,
+      "pts": 23.3,
+      "reb": 3.8,
+      "ast": 5.6,
+      "fgPct": 47.0,
+      "tpPct": 39.2,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 202681
+  },
+  {
+    "id": "rick-barry",
+    "nameZh": "里克·巴里",
+    "nameEn": "Rick Barry",
+    "position": "SF",
+    "active": false,
+    "nbaId": 600013,
+    "career": {
+      "gp": 794,
+      "mp": 36.3,
+      "pts": 23.2,
+      "reb": 6.5,
+      "ast": 5.1,
+      "fgPct": 44.9,
+      "tpPct": null,
+      "tsPct": 56.4,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "karl-anthony-towns",
+    "nameZh": "卡尔-安东尼·唐斯",
+    "nameEn": "Karl-Anthony Towns",
+    "position": "C",
+    "active": true,
+    "nbaId": 1626157,
+    "career": {
+      "gp": 710,
+      "mp": 33.8,
+      "pts": 22.8,
+      "reb": 11.1,
+      "ast": 3.1,
+      "fgPct": 52.1,
+      "tpPct": 39.7,
+      "tsPct": 62.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "cade-cunningham",
+    "nameZh": "凯德·坎宁安",
+    "nameEn": "Cade Cunningham",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1630595,
+    "career": {
+      "gp": 269,
+      "mp": 33.9,
+      "pts": 22.6,
+      "reb": 5.4,
+      "ast": 7.9,
+      "fgPct": 45.0,
+      "tpPct": 34.1,
+      "tsPct": 54.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "carmelo-anthony",
+    "nameZh": "卡梅罗·安东尼",
+    "nameEn": "Carmelo Anthony",
+    "position": "SF",
+    "active": false,
+    "career": {
+      "gp": 1260,
+      "mp": 34.5,
+      "pts": 22.5,
+      "reb": 6.2,
+      "ast": 2.7,
+      "fgPct": 44.7,
+      "tpPct": 35.5,
+      "tsPct": 54.3,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 2546
+  },
+  {
+    "id": "ja-morant",
+    "nameZh": "贾·莫兰特",
+    "nameEn": "Ja Morant",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 268,
+      "mp": 32.2,
+      "pts": 22.5,
+      "reb": 4.5,
+      "ast": 7.3,
+      "fgPct": 47.2,
+      "tpPct": 31.5,
+      "tsPct": 54.5,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1629630
+  },
+  {
+    "id": "victor-wembanyama",
+    "nameZh": "维克托·文班亚马",
+    "nameEn": "Victor Wembanyama",
+    "position": "C",
+    "active": true,
+    "career": {
+      "gp": 145,
+      "mp": 30.5,
+      "pts": 22.5,
+      "reb": 10.5,
+      "ast": 3.8,
+      "fgPct": 46.2,
+      "tpPct": 32.5,
+      "tsPct": 57.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1641705
+  },
+  {
+    "id": "bernard-king",
+    "nameZh": "伯纳德·金",
+    "nameEn": "Bernard King",
+    "position": "SF",
+    "active": false,
+    "nbaId": 77264,
+    "career": {
+      "gp": 874,
+      "mp": 33.7,
+      "pts": 22.5,
+      "reb": 5.8,
+      "ast": 3.3,
+      "fgPct": 51.8,
+      "tpPct": 17.2,
+      "tsPct": 56.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "paolo-banchero",
+    "nameZh": "保罗·班切罗",
+    "nameEn": "Paolo Banchero",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1631094,
+    "career": {
+      "gp": 256,
+      "mp": 34.5,
+      "pts": 22.4,
+      "reb": 7.4,
+      "ast": 4.7,
+      "fgPct": 44.9,
+      "tpPct": 31.9,
+      "tsPct": 54.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "charles-barkley",
+    "nameZh": "查尔斯·巴克利",
+    "nameEn": "Charles Barkley",
+    "position": "PF",
+    "active": false,
+    "career": {
+      "gp": 1073,
+      "mp": 36.7,
+      "pts": 22.1,
+      "reb": 11.7,
+      "ast": 3.9,
+      "fgPct": 54.1,
+      "tpPct": 26.6,
+      "tsPct": 61.6,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 787
+  },
+  {
+    "id": "bob-mcadoo",
+    "nameZh": "鲍勃·麦卡杜",
+    "nameEn": "Bob McAdoo",
+    "position": "C",
+    "active": false,
+    "nbaId": 77498,
+    "career": {
+      "gp": 852,
+      "mp": 33.2,
+      "pts": 22.1,
+      "reb": 9.4,
+      "ast": 2.3,
+      "fgPct": 50.3,
+      "tpPct": 8.1,
+      "tsPct": 55.1,
+      "mvp": 1,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dwyane-wade",
+    "nameZh": "德怀恩·韦德",
+    "nameEn": "Dwyane Wade",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1054,
+      "mp": 33.9,
+      "pts": 22.0,
+      "reb": 4.7,
+      "ast": 5.4,
+      "fgPct": 48.0,
+      "tpPct": 29.3,
+      "tsPct": 55.5,
+      "mvp": 0,
+      "fmvp": 1
+    },
+    "nbaId": 2548
+  },
+  {
+    "id": "julius-erving",
+    "nameZh": "朱利叶斯·欧文",
+    "nameEn": "Julius Erving",
+    "position": "SF",
+    "active": false,
+    "career": {
+      "gp": 836,
+      "mp": 36.0,
+      "pts": 22.0,
+      "reb": 6.7,
+      "ast": 3.9,
+      "fgPct": 50.7,
+      "tpPct": 22.0,
+      "tsPct": 55.3,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 76680
+  },
+  {
+    "id": "hakeem-olajuwon",
+    "nameZh": "哈基姆·奥拉朱旺",
+    "nameEn": "Hakeem Olajuwon",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1238,
+      "mp": 35.7,
+      "pts": 21.8,
+      "reb": 11.1,
+      "ast": 2.5,
+      "fgPct": 51.2,
+      "tpPct": 20.2,
+      "tsPct": 55.3,
+      "mvp": 1,
+      "fmvp": 2
+    },
+    "nbaId": 165
+  },
+  {
+    "id": "russell-westbrook",
+    "nameZh": "拉塞尔·威斯布鲁克",
+    "nameEn": "Russell Westbrook",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 1162,
+      "mp": 34.4,
+      "pts": 21.8,
+      "reb": 7.4,
+      "ast": 8.3,
+      "fgPct": 43.7,
+      "tpPct": 30.5,
+      "tsPct": 52.9,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 201566
+  },
+  {
+    "id": "alex-english",
+    "nameZh": "阿莱克斯·英格利什",
+    "nameEn": "Alex English",
+    "position": "SF",
+    "active": false,
+    "nbaId": 76673,
+    "career": {
+      "gp": 1193,
+      "mp": 31.9,
+      "pts": 21.5,
+      "reb": 5.5,
+      "ast": 3.6,
+      "fgPct": 50.7,
+      "tpPct": 21.7,
+      "tsPct": 55.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "bradley-beal",
+    "nameZh": "布拉德利·比尔",
+    "nameEn": "Bradley Beal",
+    "position": "SG",
+    "active": true,
+    "nbaId": 203078,
+    "career": {
+      "gp": 807,
+      "mp": 34.3,
+      "pts": 21.4,
+      "reb": 4.0,
+      "ast": 4.3,
+      "fgPct": 46.4,
+      "tpPct": 37.6,
+      "tsPct": 56.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "nikola-jokic",
+    "nameZh": "尼古拉·约基奇",
+    "nameEn": "Nikola Jokic",
+    "position": "C",
+    "active": true,
+    "career": {
+      "gp": 708,
+      "mp": 33.2,
+      "pts": 21.3,
+      "reb": 10.9,
+      "ast": 7.1,
+      "fgPct": 55.8,
+      "tpPct": 33.7,
+      "tsPct": 63.5,
+      "mvp": 3,
+      "fmvp": 1
+    },
+    "nbaId": 203999
+  },
+  {
+    "id": "deaaron-fox",
+    "nameZh": "德阿龙·福克斯",
+    "nameEn": "De'Aaron Fox",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1628368,
+    "career": {
+      "gp": 591,
+      "mp": 33.1,
+      "pts": 21.2,
+      "reb": 3.9,
+      "ast": 6.2,
+      "fgPct": 47.2,
+      "tpPct": 33.2,
+      "tsPct": 55.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "demar-derozan",
+    "nameZh": "德玛尔·德罗赞",
+    "nameEn": "DeMar DeRozan",
+    "position": "SF",
+    "active": true,
+    "nbaId": 201942,
+    "career": {
+      "gp": 1256,
+      "mp": 34.6,
+      "pts": 21.2,
+      "reb": 4.3,
+      "ast": 4.1,
+      "fgPct": 47.0,
+      "tpPct": 30.2,
+      "tsPct": 55.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "david-robinson",
+    "nameZh": "大卫·罗宾逊",
+    "nameEn": "David Robinson",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 987,
+      "mp": 34.7,
+      "pts": 21.1,
+      "reb": 10.6,
+      "ast": 2.5,
+      "fgPct": 51.8,
+      "tpPct": 25.0,
+      "tsPct": 58.1,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 229
+  },
+  {
+    "id": "patrick-ewing",
+    "nameZh": "帕特里克·尤因",
+    "nameEn": "Patrick Ewing",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1183,
+      "mp": 34.3,
+      "pts": 21.0,
+      "reb": 9.8,
+      "ast": 2.0,
+      "fgPct": 50.4,
+      "tpPct": 15.2,
+      "tsPct": 54.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 121
+  },
+  {
+    "id": "tyrese-maxey",
+    "nameZh": "泰瑞斯·马克西",
+    "nameEn": "Tyrese Maxey",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1630178,
+    "career": {
+      "gp": 379,
+      "mp": 33.0,
+      "pts": 21.0,
+      "reb": 3.2,
+      "ast": 4.8,
+      "fgPct": 46.1,
+      "tpPct": 37.9,
+      "tsPct": 58.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "mitch-richmond",
+    "nameZh": "米奇·里奇蒙德",
+    "nameEn": "Mitch Richmond",
+    "position": "SG",
+    "active": false,
+    "nbaId": 782,
+    "career": {
+      "gp": 976,
+      "mp": 35.1,
+      "pts": 21.0,
+      "reb": 3.9,
+      "ast": 3.5,
+      "fgPct": 45.5,
+      "tpPct": 38.8,
+      "tsPct": 55.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "paul-george",
+    "nameZh": "保罗·乔治",
+    "nameEn": "Paul George",
+    "position": "SF",
+    "active": true,
+    "career": {
+      "gp": 891,
+      "mp": 33.5,
+      "pts": 20.8,
+      "reb": 6.4,
+      "ast": 3.7,
+      "fgPct": 44.2,
+      "tpPct": 38.0,
+      "tsPct": 57.3,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 202331
+  },
+  {
+    "id": "john-havlicek",
+    "nameZh": "约翰·哈夫利切克",
+    "nameEn": "John Havlicek",
+    "position": "SF",
+    "active": false,
+    "nbaId": 76970,
+    "career": {
+      "gp": 1270,
+      "mp": 36.6,
+      "pts": 20.8,
+      "reb": 6.3,
+      "ast": 4.8,
+      "fgPct": 43.9,
+      "tpPct": null,
+      "tsPct": 50.6,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "dirk-nowitzki",
+    "nameZh": "德克·诺维茨基",
+    "nameEn": "Dirk Nowitzki",
+    "position": "PF",
+    "active": false,
+    "career": {
+      "gp": 1522,
+      "mp": 33.7,
+      "pts": 20.7,
+      "reb": 7.5,
+      "ast": 2.4,
+      "fgPct": 47.1,
+      "tpPct": 38.0,
+      "tsPct": 57.7,
+      "mvp": 1,
+      "fmvp": 1
+    },
+    "nbaId": 1717
+  },
+  {
+    "id": "lamelo-ball",
+    "nameZh": "拉梅洛·鲍尔",
+    "nameEn": "LaMelo Ball",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1630163,
+    "career": {
+      "gp": 290,
+      "mp": 31.1,
+      "pts": 20.7,
+      "reb": 5.7,
+      "ast": 7.4,
+      "fgPct": 41.8,
+      "tpPct": 36.4,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "zach-lavine",
+    "nameZh": "扎克·拉文",
+    "nameEn": "Zach LaVine",
+    "position": "SG",
+    "active": true,
+    "nbaId": 203897,
+    "career": {
+      "gp": 693,
+      "mp": 32.7,
+      "pts": 20.7,
+      "reb": 4.0,
+      "ast": 3.9,
+      "fgPct": 47.0,
+      "tpPct": 39.1,
+      "tsPct": 58.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "gilbert-arenas",
+    "nameZh": "吉尔伯特·阿里纳斯",
+    "nameEn": "Gilbert Arenas",
+    "position": "SG",
+    "active": false,
+    "nbaId": 2240,
+    "career": {
+      "gp": 552,
+      "mp": 35.1,
+      "pts": 20.7,
+      "reb": 3.9,
+      "ast": 5.3,
+      "fgPct": 42.1,
+      "tpPct": 35.1,
+      "tsPct": 54.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "chris-webber",
+    "nameZh": "克里斯·韦伯",
+    "nameEn": "Chris Webber",
+    "position": "PF",
+    "active": false,
+    "nbaId": 185,
+    "career": {
+      "gp": 831,
+      "mp": 37.1,
+      "pts": 20.7,
+      "reb": 9.8,
+      "ast": 4.2,
+      "fgPct": 47.9,
+      "tpPct": 29.9,
+      "tsPct": 51.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "moses-malone",
+    "nameZh": "摩西·马龙",
+    "nameEn": "Moses Malone",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1329,
+      "mp": 33.9,
+      "pts": 20.6,
+      "reb": 12.2,
+      "ast": 1.4,
+      "fgPct": 49.1,
+      "tpPct": 10.0,
+      "tsPct": 54.0,
+      "mvp": 3,
+      "fmvp": 1
+    },
+    "nbaId": 77461
+  },
+  {
+    "id": "clyde-drexler",
+    "nameZh": "克莱德·德雷克斯勒",
+    "nameEn": "Clyde Drexler",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1086,
+      "mp": 35.5,
+      "pts": 20.4,
+      "reb": 6.1,
+      "ast": 5.6,
+      "fgPct": 47.2,
+      "tpPct": 31.8,
+      "tsPct": 54.7,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 76443
+  },
+  {
+    "id": "dan-issel",
+    "nameZh": "丹·伊塞尔",
+    "nameEn": "Dan Issel",
+    "position": "C",
+    "active": false,
+    "nbaId": 77097,
+    "career": {
+      "gp": 718,
+      "mp": 31.1,
+      "pts": 20.4,
+      "reb": 7.9,
+      "ast": 2.5,
+      "fgPct": 50.6,
+      "tpPct": 25.3,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dave-bing",
+    "nameZh": "戴夫·宾",
+    "nameEn": "Dave Bing",
+    "position": "PG",
+    "active": false,
+    "nbaId": 76166,
+    "career": {
+      "gp": 901,
+      "mp": 34.8,
+      "pts": 20.3,
+      "reb": 3.8,
+      "ast": 6.0,
+      "fgPct": 44.1,
+      "tpPct": null,
+      "tsPct": 49.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "bob-lanier",
+    "nameZh": "鲍勃·兰尼尔",
+    "nameEn": "Bob Lanier",
+    "position": "C",
+    "active": false,
+    "nbaId": 600005,
+    "career": {
+      "gp": 959,
+      "mp": 33.5,
+      "pts": 20.1,
+      "reb": 10.1,
+      "ast": 3.1,
+      "fgPct": 51.4,
+      "tpPct": null,
+      "tsPct": 55.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kawhi-leonard",
+    "nameZh": "科怀·伦纳德",
+    "nameEn": "Kawhi Leonard",
+    "position": "SF",
+    "active": true,
+    "career": {
+      "gp": 596,
+      "mp": 32.5,
+      "pts": 20.0,
+      "reb": 6.4,
+      "ast": 3.0,
+      "fgPct": 49.5,
+      "tpPct": 38.4,
+      "tsPct": 58.5,
+      "mvp": 0,
+      "fmvp": 2
+    },
+    "nbaId": 202695
+  },
+  {
+    "id": "jaylen-brown",
+    "nameZh": "杰伦·布朗",
+    "nameEn": "Jaylen Brown",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1627759,
+    "career": {
+      "gp": 665,
+      "mp": 30.9,
+      "pts": 19.9,
+      "reb": 5.5,
+      "ast": 2.9,
+      "fgPct": 47.8,
+      "tpPct": 35.8,
+      "tsPct": 57.1,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "brandon-ingram",
+    "nameZh": "布兰登·英格拉姆",
+    "nameEn": "Brandon Ingram",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1627742,
+    "career": {
+      "gp": 561,
+      "mp": 33.1,
+      "pts": 19.8,
+      "reb": 5.2,
+      "ast": 4.2,
+      "fgPct": 46.8,
+      "tpPct": 36.5,
+      "tsPct": 56.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "paul-pierce",
+    "nameZh": "保罗·皮尔斯",
+    "nameEn": "Paul Pierce",
+    "position": "SF",
+    "active": false,
+    "career": {
+      "gp": 1343,
+      "mp": 33.8,
+      "pts": 19.7,
+      "reb": 5.6,
+      "ast": 3.5,
+      "fgPct": 44.5,
+      "tpPct": 36.8,
+      "tsPct": 56.5,
+      "mvp": 0,
+      "fmvp": 1
+    },
+    "nbaId": 1718
+  },
+  {
+    "id": "tracy-mcgrady",
+    "nameZh": "特雷西·麦格雷迪",
+    "nameEn": "Tracy McGrady",
+    "position": "SG/SF",
+    "active": false,
+    "career": {
+      "gp": 938,
+      "mp": 34.7,
+      "pts": 19.6,
+      "reb": 5.6,
+      "ast": 4.4,
+      "fgPct": 43.5,
+      "tpPct": 33.8,
+      "tsPct": 53.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1503
+  },
+  {
+    "id": "demarcus-cousins",
+    "nameZh": "德马库斯·考辛斯",
+    "nameEn": "DeMarcus Cousins",
+    "position": "C",
+    "active": false,
+    "nbaId": 202326,
+    "career": {
+      "gp": 654,
+      "mp": 29.8,
+      "pts": 19.6,
+      "reb": 10.2,
+      "ast": 3.0,
+      "fgPct": 46.0,
+      "tpPct": 33.1,
+      "tsPct": 53.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "magic-johnson",
+    "nameZh": "魔术师约翰逊",
+    "nameEn": "Magic Johnson",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 906,
+      "mp": 36.7,
+      "pts": 19.5,
+      "reb": 7.2,
+      "ast": 11.2,
+      "fgPct": 52.0,
+      "tpPct": 30.3,
+      "tsPct": 61.0,
+      "mvp": 3,
+      "fmvp": 3
+    },
+    "nbaId": 77142
+  },
+  {
+    "id": "klay-thompson",
+    "nameZh": "克莱·汤普森",
+    "nameEn": "Klay Thompson",
+    "position": "SG",
+    "active": true,
+    "career": {
+      "gp": 793,
+      "mp": 33.5,
+      "pts": 19.5,
+      "reb": 3.5,
+      "ast": 2.3,
+      "fgPct": 45.5,
+      "tpPct": 41.3,
+      "tsPct": 56.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 202691
+  },
+  {
+    "id": "cj-mccollum",
+    "nameZh": "CJ·麦科勒姆",
+    "nameEn": "CJ McCollum",
+    "position": "SG",
+    "active": true,
+    "nbaId": 203468,
+    "career": {
+      "gp": 851,
+      "mp": 31.9,
+      "pts": 19.5,
+      "reb": 3.6,
+      "ast": 3.8,
+      "fgPct": 45.3,
+      "tpPct": 39.5,
+      "tsPct": 55.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "tyler-herro",
+    "nameZh": "泰勒·希罗",
+    "nameEn": "Tyler Herro",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1629639,
+    "career": {
+      "gp": 383,
+      "mp": 32.5,
+      "pts": 19.5,
+      "reb": 5.0,
+      "ast": 4.0,
+      "fgPct": 45.0,
+      "tpPct": 38.3,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "franz-wagner",
+    "nameZh": "弗朗茨·瓦格纳",
+    "nameEn": "Franz Wagner",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1630532,
+    "career": {
+      "gp": 319,
+      "mp": 32.3,
+      "pts": 19.3,
+      "reb": 4.9,
+      "ast": 3.7,
+      "fgPct": 47.5,
+      "tpPct": 32.5,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kemba-walker",
+    "nameZh": "肯巴·沃克",
+    "nameEn": "Kemba Walker",
+    "position": "PG",
+    "active": false,
+    "nbaId": 202689,
+    "career": {
+      "gp": 750,
+      "mp": 33.1,
+      "pts": 19.3,
+      "reb": 3.8,
+      "ast": 5.3,
+      "fgPct": 41.8,
+      "tpPct": 36.0,
+      "tsPct": 53.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "stephon-marbury",
+    "nameZh": "斯蒂芬·马布里",
+    "nameEn": "Stephon Marbury",
+    "position": "PG",
+    "active": false,
+    "nbaId": 950,
+    "career": {
+      "gp": 846,
+      "mp": 37.7,
+      "pts": 19.3,
+      "reb": 3.0,
+      "ast": 7.6,
+      "fgPct": 43.3,
+      "tpPct": 32.5,
+      "tsPct": 52.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "isiah-thomas",
+    "nameZh": "以赛亚·托马斯",
+    "nameEn": "Isiah Thomas",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 979,
+      "mp": 35.6,
+      "pts": 19.2,
+      "reb": 3.6,
+      "ast": 9.3,
+      "fgPct": 45.2,
+      "tpPct": 29.0,
+      "tsPct": 51.6,
+      "mvp": 0,
+      "fmvp": 1
+    },
+    "nbaId": 432
+  },
+  {
+    "id": "julius-randle",
+    "nameZh": "朱利叶斯·兰德尔",
+    "nameEn": "Julius Randle",
+    "position": "PF",
+    "active": true,
+    "nbaId": 203944,
+    "career": {
+      "gp": 780,
+      "mp": 32.1,
+      "pts": 19.2,
+      "reb": 8.9,
+      "ast": 3.9,
+      "fgPct": 47.3,
+      "tpPct": 33.2,
+      "tsPct": 56.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "chris-bosh",
+    "nameZh": "克里斯·波什",
+    "nameEn": "Chris Bosh",
+    "position": "PF",
+    "active": false,
+    "nbaId": 2547,
+    "career": {
+      "gp": 893,
+      "mp": 35.8,
+      "pts": 19.2,
+      "reb": 8.5,
+      "ast": 2.0,
+      "fgPct": 49.4,
+      "tpPct": 33.5,
+      "tsPct": 57.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "hal-greer",
+    "nameZh": "哈尔·格里尔",
+    "nameEn": "Hal Greer",
+    "position": "SG",
+    "active": false,
+    "nbaId": 76882,
+    "career": {
+      "gp": 1122,
+      "mp": 33.0,
+      "pts": 19.2,
+      "reb": 5.0,
+      "ast": 4.0,
+      "fgPct": 45.2,
+      "tpPct": null,
+      "tsPct": 50.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jalen-brunson",
+    "nameZh": "贾伦·布朗森",
+    "nameEn": "Jalen Brunson",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1628973,
+    "career": {
+      "gp": 551,
+      "mp": 29.9,
+      "pts": 19.1,
+      "reb": 3.2,
+      "ast": 5.2,
+      "fgPct": 48.5,
+      "tpPct": 38.7,
+      "tsPct": 58.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "lamarcus-aldridge",
+    "nameZh": "拉马库斯·阿尔德里奇",
+    "nameEn": "LaMarcus Aldridge",
+    "position": "PF",
+    "active": false,
+    "nbaId": 200746,
+    "career": {
+      "gp": 1076,
+      "mp": 33.7,
+      "pts": 19.1,
+      "reb": 8.1,
+      "ast": 1.9,
+      "fgPct": 49.3,
+      "tpPct": 32.0,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "tim-duncan",
+    "nameZh": "蒂姆·邓肯",
+    "nameEn": "Tim Duncan",
+    "position": "PF/C",
+    "active": false,
+    "career": {
+      "gp": 1392,
+      "mp": 34.0,
+      "pts": 19.0,
+      "reb": 10.8,
+      "ast": 3.0,
+      "fgPct": 50.6,
+      "tpPct": 17.4,
+      "tsPct": 55.1,
+      "mvp": 2,
+      "fmvp": 3
+    },
+    "nbaId": 1495
+  },
+  {
+    "id": "jimmy-butler",
+    "nameZh": "吉米·巴特勒",
+    "nameEn": "Jimmy Butler",
+    "position": "SF/SG",
+    "active": true,
+    "career": {
+      "gp": 833,
+      "mp": 33.2,
+      "pts": 19.0,
+      "reb": 5.5,
+      "ast": 4.6,
+      "fgPct": 47.0,
+      "tpPct": 32.3,
+      "tsPct": 57.8,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 202710
+  },
+  {
+    "id": "yao-ming",
+    "nameZh": "姚明",
+    "nameEn": "Yao Ming",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 486,
+      "mp": 32.5,
+      "pts": 19.0,
+      "reb": 9.2,
+      "ast": 1.6,
+      "fgPct": 52.4,
+      "tpPct": 20.0,
+      "tsPct": 55.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 2397
+  },
+  {
+    "id": "blake-griffin",
+    "nameZh": "布雷克·格里芬",
+    "nameEn": "Blake Griffin",
+    "position": "PF",
+    "active": false,
+    "nbaId": 201933,
+    "career": {
+      "gp": 765,
+      "mp": 31.9,
+      "pts": 19.0,
+      "reb": 8.0,
+      "ast": 4.0,
+      "fgPct": 49.3,
+      "tpPct": 32.8,
+      "tsPct": 55.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "michael-redd",
+    "nameZh": "迈克尔·里德",
+    "nameEn": "Michael Redd",
+    "position": "SG",
+    "active": false,
+    "nbaId": 2072,
+    "career": {
+      "gp": 629,
+      "mp": 32.0,
+      "pts": 19.0,
+      "reb": 3.8,
+      "ast": 2.1,
+      "fgPct": 44.7,
+      "tpPct": 38.0,
+      "tsPct": 55.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "ray-allen",
+    "nameZh": "雷·阿伦",
+    "nameEn": "Ray Allen",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1300,
+      "mp": 35.0,
+      "pts": 18.9,
+      "reb": 4.1,
+      "ast": 3.4,
+      "fgPct": 45.2,
+      "tpPct": 40.0,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 951
+  },
+  {
+    "id": "lauri-markkanen",
+    "nameZh": "劳里·马尔卡宁",
+    "nameEn": "Lauri Markkanen",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1628374,
+    "career": {
+      "gp": 492,
+      "mp": 31.3,
+      "pts": 18.9,
+      "reb": 7.1,
+      "ast": 1.5,
+      "fgPct": 45.8,
+      "tpPct": 37.0,
+      "tsPct": 59.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "walt-frazier",
+    "nameZh": "沃尔特·弗雷泽",
+    "nameEn": "Walt Frazier",
+    "position": "PG",
+    "active": false,
+    "nbaId": 76750,
+    "career": {
+      "gp": 825,
+      "mp": 36.8,
+      "pts": 18.9,
+      "reb": 5.9,
+      "ast": 6.1,
+      "fgPct": 49.0,
+      "tpPct": null,
+      "tsPct": 52.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "nate-archibald",
+    "nameZh": "内特·阿奇博尔德",
+    "nameEn": "Nate Archibald",
+    "position": "PG",
+    "active": false,
+    "nbaId": 76054,
+    "career": {
+      "gp": 876,
+      "mp": 34.5,
+      "pts": 18.8,
+      "reb": 2.3,
+      "ast": 7.4,
+      "fgPct": 46.7,
+      "tpPct": null,
+      "tsPct": 53.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "earl-monroe",
+    "nameZh": "厄尔·门罗",
+    "nameEn": "Earl Monroe",
+    "position": "SG",
+    "active": false,
+    "nbaId": 600006,
+    "career": {
+      "gp": 926,
+      "mp": 32.2,
+      "pts": 18.8,
+      "reb": 3.0,
+      "ast": 3.9,
+      "fgPct": 46.4,
+      "tpPct": null,
+      "tsPct": 50.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "john-wall",
+    "nameZh": "约翰·沃尔",
+    "nameEn": "John Wall",
+    "position": "PG",
+    "active": false,
+    "nbaId": 202322,
+    "career": {
+      "gp": 647,
+      "mp": 34.9,
+      "pts": 18.7,
+      "reb": 4.2,
+      "ast": 8.9,
+      "fgPct": 43.0,
+      "tpPct": 32.2,
+      "tsPct": 51.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "willis-reed",
+    "nameZh": "威利斯·里德",
+    "nameEn": "Willis Reed",
+    "position": "C",
+    "active": false,
+    "nbaId": 77929,
+    "career": {
+      "gp": 650,
+      "mp": 36.5,
+      "pts": 18.7,
+      "reb": 12.9,
+      "ast": 1.8,
+      "fgPct": 47.6,
+      "tpPct": null,
+      "tsPct": 52.3,
+      "mvp": 1,
+      "fmvp": 2
+    }
+  },
+  {
+    "id": "jamal-murray",
+    "nameZh": "贾马尔·穆雷",
+    "nameEn": "Jamal Murray",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1627750,
+    "career": {
+      "gp": 601,
+      "mp": 31.7,
+      "pts": 18.7,
+      "reb": 3.8,
+      "ast": 4.9,
+      "fgPct": 45.8,
+      "tpPct": 38.7,
+      "tsPct": 57.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jaren-jackson",
+    "nameZh": "贾伦·杰克逊",
+    "nameEn": "Jaren Jackson Jr.",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1628991,
+    "career": {
+      "gp": 455,
+      "mp": 28.8,
+      "pts": 18.6,
+      "reb": 5.6,
+      "ast": 1.5,
+      "fgPct": 46.7,
+      "tpPct": 35.1,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "pascal-siakam",
+    "nameZh": "帕斯卡尔·西亚卡姆",
+    "nameEn": "Pascal Siakam",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1627783,
+    "career": {
+      "gp": 684,
+      "mp": 31.4,
+      "pts": 18.5,
+      "reb": 6.7,
+      "ast": 3.6,
+      "fgPct": 49.7,
+      "tpPct": 34.2,
+      "tsPct": 57.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "antawn-jamison",
+    "nameZh": "安托万·贾米森",
+    "nameEn": "Antawn Jamison",
+    "position": "PF",
+    "active": false,
+    "nbaId": 1712,
+    "career": {
+      "gp": 1083,
+      "mp": 34.8,
+      "pts": 18.5,
+      "reb": 7.5,
+      "ast": 1.6,
+      "fgPct": 45.1,
+      "tpPct": 34.6,
+      "tsPct": 52.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "bob-cousy",
+    "nameZh": "鲍勃·库西",
+    "nameEn": "Bob Cousy",
+    "position": "PG",
+    "active": false,
+    "nbaId": 600003,
+    "career": {
+      "gp": 924,
+      "mp": 33.9,
+      "pts": 18.4,
+      "reb": 5.2,
+      "ast": 7.5,
+      "fgPct": 37.5,
+      "tpPct": null,
+      "tsPct": 44.8,
+      "mvp": 1,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "desmond-bane",
+    "nameZh": "德斯蒙德·贝恩",
+    "nameEn": "Desmond Bane",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1630217,
+    "career": {
+      "gp": 381,
+      "mp": 30.5,
+      "pts": 18.3,
+      "reb": 4.5,
+      "ast": 3.8,
+      "fgPct": 47.5,
+      "tpPct": 40.7,
+      "tsPct": 60.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "latrell-sprewell",
+    "nameZh": "拉特里尔·斯普雷威尔",
+    "nameEn": "Latrell Sprewell",
+    "position": "SG",
+    "active": false,
+    "nbaId": 84,
+    "career": {
+      "gp": 913,
+      "mp": 38.6,
+      "pts": 18.3,
+      "reb": 4.1,
+      "ast": 4.0,
+      "fgPct": 42.5,
+      "tpPct": 33.7,
+      "tsPct": 51.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "andrew-wiggins",
+    "nameZh": "安德鲁·威金斯",
+    "nameEn": "Andrew Wiggins",
+    "position": "SF",
+    "active": true,
+    "nbaId": 203952,
+    "career": {
+      "gp": 823,
+      "mp": 33.6,
+      "pts": 18.3,
+      "reb": 4.5,
+      "ast": 2.3,
+      "fgPct": 45.1,
+      "tpPct": 36.0,
+      "tsPct": 53.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "reggie-miller",
+    "nameZh": "雷吉·米勒",
+    "nameEn": "Reggie Miller",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1389,
+      "mp": 34.3,
+      "pts": 18.2,
+      "reb": 3.0,
+      "ast": 3.0,
+      "fgPct": 47.1,
+      "tpPct": 39.5,
+      "tsPct": 61.4,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 397
+  },
+  {
+    "id": "jalen-williams",
+    "nameZh": "杰伦·威廉姆斯",
+    "nameEn": "Jalen Williams",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1631114,
+    "career": {
+      "gp": 241,
+      "mp": 31.1,
+      "pts": 18.1,
+      "reb": 4.6,
+      "ast": 4.4,
+      "fgPct": 50.9,
+      "tpPct": 37.6,
+      "tsPct": 59.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "shareef-abdur-rahim",
+    "nameZh": "谢里夫·阿卜杜尔-拉希姆",
+    "nameEn": "Shareef Abdur-Rahim",
+    "position": "SF",
+    "active": false,
+    "nbaId": 949,
+    "career": {
+      "gp": 830,
+      "mp": 34.8,
+      "pts": 18.1,
+      "reb": 7.5,
+      "ast": 2.5,
+      "fgPct": 47.2,
+      "tpPct": 29.7,
+      "tsPct": 54.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "steve-francis",
+    "nameZh": "史蒂夫·弗朗西斯",
+    "nameEn": "Steve Francis",
+    "position": "PG",
+    "active": false,
+    "nbaId": 1883,
+    "career": {
+      "gp": 576,
+      "mp": 37.6,
+      "pts": 18.1,
+      "reb": 5.6,
+      "ast": 6.0,
+      "fgPct": 42.9,
+      "tpPct": 34.1,
+      "tsPct": 53.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kevin-mchale",
+    "nameZh": "凯文·麦克海尔",
+    "nameEn": "Kevin McHale",
+    "position": "PF",
+    "active": false,
+    "nbaId": 1450,
+    "career": {
+      "gp": 971,
+      "mp": 31.0,
+      "pts": 17.9,
+      "reb": 7.3,
+      "ast": 1.7,
+      "fgPct": 55.4,
+      "tpPct": 26.1,
+      "tsPct": 60.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kevin-garnett",
+    "nameZh": "凯文·加内特",
+    "nameEn": "Kevin Garnett",
+    "position": "PF",
+    "active": false,
+    "career": {
+      "gp": 1462,
+      "mp": 34.5,
+      "pts": 17.8,
+      "reb": 10.0,
+      "ast": 3.7,
+      "fgPct": 49.7,
+      "tpPct": 27.5,
+      "tsPct": 54.6,
+      "mvp": 1,
+      "fmvp": 0
+    },
+    "nbaId": 708
+  },
+  {
+    "id": "tim-hardaway",
+    "nameZh": "蒂姆·哈达威",
+    "nameEn": "Tim Hardaway",
+    "position": "PG",
+    "active": false,
+    "nbaId": 896,
+    "career": {
+      "gp": 867,
+      "mp": 35.3,
+      "pts": 17.7,
+      "reb": 3.3,
+      "ast": 8.2,
+      "fgPct": 43.1,
+      "tpPct": 35.5,
+      "tsPct": 53.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "sam-jones",
+    "nameZh": "萨姆·琼斯",
+    "nameEn": "Sam Jones",
+    "position": "SG",
+    "active": false,
+    "nbaId": 77196,
+    "career": {
+      "gp": 871,
+      "mp": 28.7,
+      "pts": 17.7,
+      "reb": 4.9,
+      "ast": 2.5,
+      "fgPct": 45.6,
+      "tpPct": null,
+      "tsPct": 51.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "james-worthy",
+    "nameZh": "詹姆斯·沃西",
+    "nameEn": "James Worthy",
+    "position": "SF",
+    "active": false,
+    "nbaId": 1460,
+    "career": {
+      "gp": 926,
+      "mp": 32.4,
+      "pts": 17.6,
+      "reb": 5.1,
+      "ast": 3.0,
+      "fgPct": 52.1,
+      "tpPct": 24.1,
+      "tsPct": 55.9,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "dave-cowens",
+    "nameZh": "戴夫·考恩斯",
+    "nameEn": "Dave Cowens",
+    "position": "C",
+    "active": false,
+    "nbaId": 76462,
+    "career": {
+      "gp": 766,
+      "mp": 36.6,
+      "pts": 17.6,
+      "reb": 13.6,
+      "ast": 3.8,
+      "fgPct": 46.0,
+      "tpPct": null,
+      "tsPct": 51.0,
+      "mvp": 1,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "chris-paul",
+    "nameZh": "克里斯·保罗",
+    "nameEn": "Chris Paul",
+    "position": "PG",
+    "active": true,
+    "career": {
+      "gp": 1331,
+      "mp": 33.4,
+      "pts": 17.5,
+      "reb": 4.5,
+      "ast": 9.4,
+      "fgPct": 47.1,
+      "tpPct": 36.9,
+      "tsPct": 58.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 101108
+  },
+  {
+    "id": "tyrese-haliburton",
+    "nameZh": "泰瑞斯·哈利伯顿",
+    "nameEn": "Tyrese Haliburton",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1630169,
+    "career": {
+      "gp": 333,
+      "mp": 33.0,
+      "pts": 17.5,
+      "reb": 3.7,
+      "ast": 8.8,
+      "fgPct": 47.7,
+      "tpPct": 39.2,
+      "tsPct": 60.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "scottie-barnes",
+    "nameZh": "斯科蒂·巴恩斯",
+    "nameEn": "Scottie Barnes",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1630567,
+    "career": {
+      "gp": 342,
+      "mp": 34.4,
+      "pts": 17.5,
+      "reb": 7.6,
+      "ast": 5.0,
+      "fgPct": 47.3,
+      "tpPct": 30.0,
+      "tsPct": 54.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "antoine-walker",
+    "nameZh": "安托万·沃克",
+    "nameEn": "Antoine Walker",
+    "position": "PF",
+    "active": false,
+    "nbaId": 952,
+    "career": {
+      "gp": 893,
+      "mp": 35.3,
+      "pts": 17.5,
+      "reb": 7.7,
+      "ast": 3.5,
+      "fgPct": 41.4,
+      "tpPct": 32.5,
+      "tsPct": 48.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "derrick-rose",
+    "nameZh": "德里克·罗斯",
+    "nameEn": "Derrick Rose",
+    "position": "PG",
+    "active": false,
+    "nbaId": 201565,
+    "career": {
+      "gp": 723,
+      "mp": 30.5,
+      "pts": 17.4,
+      "reb": 3.2,
+      "ast": 5.2,
+      "fgPct": 45.6,
+      "tpPct": 31.6,
+      "tsPct": 52.7,
+      "mvp": 1,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "allan-houston",
+    "nameZh": "阿兰·休斯顿",
+    "nameEn": "Allan Houston",
+    "position": "SG",
+    "active": false,
+    "nbaId": 275,
+    "career": {
+      "gp": 839,
+      "mp": 33.7,
+      "pts": 17.3,
+      "reb": 2.9,
+      "ast": 2.4,
+      "fgPct": 44.4,
+      "tpPct": 40.2,
+      "tsPct": 54.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "alonzo-mourning",
+    "nameZh": "阿隆佐·莫宁",
+    "nameEn": "Alonzo Mourning",
+    "position": "C",
+    "active": false,
+    "nbaId": 297,
+    "career": {
+      "gp": 838,
+      "mp": 31.0,
+      "pts": 17.1,
+      "reb": 8.5,
+      "ast": 1.1,
+      "fgPct": 52.7,
+      "tpPct": 24.7,
+      "tsPct": 58.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "richard-hamilton",
+    "nameZh": "理查德·汉密尔顿",
+    "nameEn": "Richard Hamilton",
+    "position": "SG",
+    "active": false,
+    "nbaId": 1888,
+    "career": {
+      "gp": 921,
+      "mp": 32.1,
+      "pts": 17.1,
+      "reb": 3.1,
+      "ast": 3.4,
+      "fgPct": 44.9,
+      "tpPct": 34.6,
+      "tsPct": 52.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "artis-gilmore",
+    "nameZh": "阿蒂斯·吉尔摩尔",
+    "nameEn": "Artis Gilmore",
+    "position": "C",
+    "active": false,
+    "nbaId": 600014,
+    "career": {
+      "gp": 909,
+      "mp": 32.7,
+      "pts": 17.1,
+      "reb": 10.1,
+      "ast": 2.0,
+      "fgPct": 59.9,
+      "tpPct": 7.7,
+      "tsPct": 64.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "pau-gasol",
+    "nameZh": "保罗·加索尔",
+    "nameEn": "Pau Gasol",
+    "position": "PF/C",
+    "active": false,
+    "career": {
+      "gp": 1226,
+      "mp": 31.4,
+      "pts": 17.0,
+      "reb": 9.2,
+      "ast": 3.2,
+      "fgPct": 50.7,
+      "tpPct": 26.8,
+      "tsPct": 55.5,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 2200
+  },
+  {
+    "id": "peja-stojakovic",
+    "nameZh": "佩贾·斯托亚科维奇",
+    "nameEn": "Peja Stojakovic",
+    "position": "SF",
+    "active": false,
+    "nbaId": 978,
+    "career": {
+      "gp": 804,
+      "mp": 33.5,
+      "pts": 17.0,
+      "reb": 4.7,
+      "ast": 1.8,
+      "fgPct": 45.0,
+      "tpPct": 40.1,
+      "tsPct": 57.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dangelo-russell",
+    "nameZh": "丹吉洛·拉塞尔",
+    "nameEn": "D'Angelo Russell",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1626156,
+    "career": {
+      "gp": 655,
+      "mp": 29.4,
+      "pts": 17.0,
+      "reb": 3.3,
+      "ast": 5.6,
+      "fgPct": 42.7,
+      "tpPct": 36.3,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "alperen-sengun",
+    "nameZh": "阿尔佩伦·森京",
+    "nameEn": "Alperen Sengun",
+    "position": "C",
+    "active": true,
+    "nbaId": 1630578,
+    "career": {
+      "gp": 345,
+      "mp": 29.2,
+      "pts": 16.8,
+      "reb": 8.6,
+      "ast": 4.4,
+      "fgPct": 51.5,
+      "tpPct": 27.4,
+      "tsPct": 56.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "vince-carter",
+    "nameZh": "文斯·卡特",
+    "nameEn": "Vince Carter",
+    "position": "SG/SF",
+    "active": false,
+    "career": {
+      "gp": 1541,
+      "mp": 30.0,
+      "pts": 16.7,
+      "reb": 4.4,
+      "ast": 3.1,
+      "fgPct": 43.5,
+      "tpPct": 37.1,
+      "tsPct": 54.1,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1713
+  },
+  {
+    "id": "evan-mobley",
+    "nameZh": "埃文·莫布利",
+    "nameEn": "Evan Mobley",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1630596,
+    "career": {
+      "gp": 323,
+      "mp": 32.5,
+      "pts": 16.7,
+      "reb": 8.9,
+      "ast": 3.0,
+      "fgPct": 54.4,
+      "tpPct": 31.2,
+      "tsPct": 59.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "grant-hill",
+    "nameZh": "格兰特·希尔",
+    "nameEn": "Grant Hill",
+    "position": "SF",
+    "active": false,
+    "nbaId": 255,
+    "career": {
+      "gp": 1026,
+      "mp": 33.9,
+      "pts": 16.7,
+      "reb": 6.0,
+      "ast": 4.1,
+      "fgPct": 48.3,
+      "tpPct": 31.4,
+      "tsPct": 55.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "chet-holmgren",
+    "nameZh": "切特·霍姆格伦",
+    "nameEn": "Chet Holmgren",
+    "position": "C",
+    "active": true,
+    "nbaId": 1631096,
+    "career": {
+      "gp": 174,
+      "mp": 29.0,
+      "pts": 16.5,
+      "reb": 8.3,
+      "ast": 2.1,
+      "fgPct": 53.1,
+      "tpPct": 36.4,
+      "tsPct": 63.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "gary-payton",
+    "nameZh": "加里·佩顿",
+    "nameEn": "Gary Payton",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1335,
+      "mp": 36.2,
+      "pts": 16.3,
+      "reb": 3.9,
+      "ast": 6.7,
+      "fgPct": 46.6,
+      "tpPct": 31.7,
+      "tsPct": 52.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 136
+  },
+  {
+    "id": "khris-middleton",
+    "nameZh": "克里斯·米德尔顿",
+    "nameEn": "Khris Middleton",
+    "position": "SF",
+    "active": true,
+    "nbaId": 203114,
+    "career": {
+      "gp": 828,
+      "mp": 30.3,
+      "pts": 16.3,
+      "reb": 4.7,
+      "ast": 3.9,
+      "fgPct": 45.9,
+      "tpPct": 38.5,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "scottie-pippen",
+    "nameZh": "斯科蒂·皮蓬",
+    "nameEn": "Scottie Pippen",
+    "position": "SF",
+    "active": false,
+    "career": {
+      "gp": 1178,
+      "mp": 34.9,
+      "pts": 16.1,
+      "reb": 6.4,
+      "ast": 5.2,
+      "fgPct": 47.3,
+      "tpPct": 32.6,
+      "tsPct": 53.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 937
+  },
+  {
+    "id": "bam-adebayo",
+    "nameZh": "巴姆·阿德巴约",
+    "nameEn": "Bam Adebayo",
+    "position": "C",
+    "active": true,
+    "nbaId": 1628389,
+    "career": {
+      "gp": 627,
+      "mp": 30.7,
+      "pts": 16.1,
+      "reb": 8.9,
+      "ast": 3.5,
+      "fgPct": 52.5,
+      "tpPct": 31.8,
+      "tsPct": 58.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "domantas-sabonis",
+    "nameZh": "多曼塔斯·萨博尼斯",
+    "nameEn": "Domantas Sabonis",
+    "position": "C",
+    "active": true,
+    "nbaId": 1627734,
+    "career": {
+      "gp": 665,
+      "mp": 30.8,
+      "pts": 16.1,
+      "reb": 10.7,
+      "ast": 4.9,
+      "fgPct": 55.9,
+      "tpPct": 34.2,
+      "tsPct": 61.5,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "baron-davis",
+    "nameZh": "拜伦·戴维斯",
+    "nameEn": "Baron Davis",
+    "position": "PG",
+    "active": false,
+    "nbaId": 1884,
+    "career": {
+      "gp": 835,
+      "mp": 34.2,
+      "pts": 16.1,
+      "reb": 3.8,
+      "ast": 7.2,
+      "fgPct": 40.9,
+      "tpPct": 32.0,
+      "tsPct": 50.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "joe-johnson",
+    "nameZh": "乔·约翰逊",
+    "nameEn": "Joe Johnson",
+    "position": "SG",
+    "active": false,
+    "nbaId": 2207,
+    "career": {
+      "gp": 1277,
+      "mp": 34.6,
+      "pts": 16.0,
+      "reb": 4.0,
+      "ast": 3.9,
+      "fgPct": 44.1,
+      "tpPct": 37.1,
+      "tsPct": 53.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jrue-holiday",
+    "nameZh": "朱·霍勒迪",
+    "nameEn": "Jrue Holiday",
+    "position": "PG",
+    "active": true,
+    "nbaId": 201950,
+    "career": {
+      "gp": 1078,
+      "mp": 32.8,
+      "pts": 15.9,
+      "reb": 4.2,
+      "ast": 6.2,
+      "fgPct": 46.2,
+      "tpPct": 37.0,
+      "tsPct": 54.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "elton-brand",
+    "nameZh": "埃尔顿·布兰德",
+    "nameEn": "Elton Brand",
+    "position": "PF",
+    "active": false,
+    "nbaId": 1882,
+    "career": {
+      "gp": 1058,
+      "mp": 33.0,
+      "pts": 15.9,
+      "reb": 8.5,
+      "ast": 2.1,
+      "fgPct": 50.0,
+      "tpPct": 9.5,
+      "tsPct": 54.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "tobias-harris",
+    "nameZh": "托拜厄斯·哈里斯",
+    "nameEn": "Tobias Harris",
+    "position": "PF",
+    "active": true,
+    "nbaId": 202699,
+    "career": {
+      "gp": 1021,
+      "mp": 31.5,
+      "pts": 15.9,
+      "reb": 6.1,
+      "ast": 2.4,
+      "fgPct": 47.7,
+      "tpPct": 36.5,
+      "tsPct": 56.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dwight-howard",
+    "nameZh": "德怀特·霍华德",
+    "nameEn": "Dwight Howard",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1242,
+      "mp": 30.6,
+      "pts": 15.7,
+      "reb": 11.8,
+      "ast": 1.4,
+      "fgPct": 59.2,
+      "tpPct": 11.4,
+      "tsPct": 59.1,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 2730
+  },
+  {
+    "id": "austin-reaves",
+    "nameZh": "奥斯汀·里夫斯",
+    "nameEn": "Austin Reaves",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1630559,
+    "career": {
+      "gp": 323,
+      "mp": 30.7,
+      "pts": 15.7,
+      "reb": 3.9,
+      "ast": 4.4,
+      "fgPct": 48.4,
+      "tpPct": 36.9,
+      "tsPct": 63.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "sam-cassell",
+    "nameZh": "萨姆·卡塞尔",
+    "nameEn": "Sam Cassell",
+    "position": "PG",
+    "active": false,
+    "nbaId": 208,
+    "career": {
+      "gp": 993,
+      "mp": 30.0,
+      "pts": 15.7,
+      "reb": 3.2,
+      "ast": 6.0,
+      "fgPct": 45.4,
+      "tpPct": 33.1,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "michael-finley",
+    "nameZh": "迈克尔·芬利",
+    "nameEn": "Michael Finley",
+    "position": "SG",
+    "active": false,
+    "nbaId": 714,
+    "career": {
+      "gp": 1103,
+      "mp": 34.4,
+      "pts": 15.7,
+      "reb": 4.4,
+      "ast": 2.9,
+      "fgPct": 44.4,
+      "tpPct": 37.5,
+      "tsPct": 52.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "tony-parker",
+    "nameZh": "托尼·帕克",
+    "nameEn": "Tony Parker",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1254,
+      "mp": 30.5,
+      "pts": 15.5,
+      "reb": 2.7,
+      "ast": 5.6,
+      "fgPct": 49.0,
+      "tpPct": 31.8,
+      "tsPct": 55.0,
+      "mvp": 0,
+      "fmvp": 1
+    },
+    "nbaId": 2225
+  },
+  {
+    "id": "brook-lopez",
+    "nameZh": "布鲁克·洛佩兹",
+    "nameEn": "Brook Lopez",
+    "position": "C",
+    "active": true,
+    "nbaId": 201572,
+    "career": {
+      "gp": 1167,
+      "mp": 29.8,
+      "pts": 15.4,
+      "reb": 5.9,
+      "ast": 1.4,
+      "fgPct": 49.4,
+      "tpPct": 35.2,
+      "tsPct": 57.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "malcolm-brogdon",
+    "nameZh": "马尔科姆·布罗格登",
+    "nameEn": "Malcolm Brogdon",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1627763,
+    "career": {
+      "gp": 463,
+      "mp": 29.1,
+      "pts": 15.3,
+      "reb": 4.1,
+      "ast": 4.7,
+      "fgPct": 46.3,
+      "tpPct": 38.8,
+      "tsPct": 57.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "gordon-hayward",
+    "nameZh": "戈登·海沃德",
+    "nameEn": "Gordon Hayward",
+    "position": "SF",
+    "active": false,
+    "nbaId": 202330,
+    "career": {
+      "gp": 835,
+      "mp": 30.7,
+      "pts": 15.2,
+      "reb": 4.4,
+      "ast": 3.5,
+      "fgPct": 45.5,
+      "tpPct": 37.0,
+      "tsPct": 56.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "chauncey-billups",
+    "nameZh": "昌西·比卢普斯",
+    "nameEn": "Chauncey Billups",
+    "position": "PG",
+    "active": false,
+    "nbaId": 1497,
+    "career": {
+      "gp": 1043,
+      "mp": 31.6,
+      "pts": 15.2,
+      "reb": 2.9,
+      "ast": 5.4,
+      "fgPct": 41.5,
+      "tpPct": 38.7,
+      "tsPct": 58.0,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "shawn-marion",
+    "nameZh": "肖恩·马里昂",
+    "nameEn": "Shawn Marion",
+    "position": "SF",
+    "active": false,
+    "nbaId": 1890,
+    "career": {
+      "gp": 1163,
+      "mp": 34.5,
+      "pts": 15.2,
+      "reb": 8.7,
+      "ast": 1.9,
+      "fgPct": 48.4,
+      "tpPct": 33.1,
+      "tsPct": 54.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "mark-price",
+    "nameZh": "马克·普莱斯",
+    "nameEn": "Mark Price",
+    "position": "PG",
+    "active": false,
+    "nbaId": 899,
+    "career": {
+      "gp": 722,
+      "mp": 29.9,
+      "pts": 15.2,
+      "reb": 2.6,
+      "ast": 6.7,
+      "fgPct": 47.2,
+      "tpPct": 40.2,
+      "tsPct": 58.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "bill-russell",
+    "nameZh": "比尔·拉塞尔",
+    "nameEn": "Bill Russell",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 963,
+      "mp": 42.3,
+      "pts": 15.1,
+      "reb": 22.5,
+      "ast": 4.3,
+      "fgPct": 44.0,
+      "tpPct": null,
+      "tsPct": 48.4,
+      "mvp": 5,
+      "fmvp": 0
+    },
+    "nbaId": 78049
+  },
+  {
+    "id": "fred-vanvleet",
+    "nameZh": "弗雷德·范弗利特",
+    "nameEn": "Fred VanVleet",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1627832,
+    "career": {
+      "gp": 550,
+      "mp": 31.3,
+      "pts": 14.9,
+      "reb": 3.4,
+      "ast": 5.7,
+      "fgPct": 40.1,
+      "tpPct": 37.1,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "anfernee-simons",
+    "nameZh": "安弗尼·西蒙斯",
+    "nameEn": "Anfernee Simons",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1629014,
+    "career": {
+      "gp": 444,
+      "mp": 26.6,
+      "pts": 14.9,
+      "reb": 2.5,
+      "ast": 3.2,
+      "fgPct": 43.2,
+      "tpPct": 38.1,
+      "tsPct": 56.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "rashard-lewis",
+    "nameZh": "拉沙德·刘易斯",
+    "nameEn": "Rashard Lewis",
+    "position": "SF",
+    "active": false,
+    "nbaId": 1740,
+    "career": {
+      "gp": 1049,
+      "mp": 32.0,
+      "pts": 14.9,
+      "reb": 5.2,
+      "ast": 1.7,
+      "fgPct": 45.2,
+      "tpPct": 38.6,
+      "tsPct": 56.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "mikal-bridges",
+    "nameZh": "米卡尔·布里奇斯",
+    "nameEn": "Mikal Bridges",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1628969,
+    "career": {
+      "gp": 626,
+      "mp": 33.3,
+      "pts": 14.8,
+      "reb": 4.0,
+      "ast": 2.9,
+      "fgPct": 48.4,
+      "tpPct": 37.1,
+      "tsPct": 59.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "eddie-jones",
+    "nameZh": "埃迪·琼斯",
+    "nameEn": "Eddie Jones",
+    "position": "SG",
+    "active": false,
+    "nbaId": 224,
+    "career": {
+      "gp": 954,
+      "mp": 34.4,
+      "pts": 14.8,
+      "reb": 4.0,
+      "ast": 2.9,
+      "fgPct": 43.7,
+      "tpPct": 37.3,
+      "tsPct": 55.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "josh-giddey",
+    "nameZh": "乔什·基迪",
+    "nameEn": "Josh Giddey",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1630581,
+    "career": {
+      "gp": 327,
+      "mp": 29.6,
+      "pts": 14.6,
+      "reb": 7.6,
+      "ast": 6.5,
+      "fgPct": 46.3,
+      "tpPct": 33.9,
+      "tsPct": 54.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jamal-crawford",
+    "nameZh": "贾马尔·克劳福德",
+    "nameEn": "Jamal Crawford",
+    "position": "SG",
+    "active": false,
+    "nbaId": 2037,
+    "career": {
+      "gp": 1327,
+      "mp": 29.4,
+      "pts": 14.6,
+      "reb": 2.2,
+      "ast": 3.4,
+      "fgPct": 41.0,
+      "tpPct": 34.8,
+      "tsPct": 52.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "buddy-hield",
+    "nameZh": "巴迪·希尔德",
+    "nameEn": "Buddy Hield",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1627741,
+    "career": {
+      "gp": 760,
+      "mp": 27.6,
+      "pts": 14.6,
+      "reb": 4.0,
+      "ast": 2.4,
+      "fgPct": 43.3,
+      "tpPct": 39.5,
+      "tsPct": 57.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "robert-parish",
+    "nameZh": "罗伯特·帕里什",
+    "nameEn": "Robert Parish",
+    "position": "C",
+    "active": false,
+    "nbaId": 305,
+    "career": {
+      "gp": 1611,
+      "mp": 28.4,
+      "pts": 14.5,
+      "reb": 9.1,
+      "ast": 1.4,
+      "fgPct": 53.7,
+      "tpPct": 0.0,
+      "tsPct": 57.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "immanuel-quickley",
+    "nameZh": "以马内利·奎克利",
+    "nameEn": "Immanuel Quickley",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1630193,
+    "career": {
+      "gp": 389,
+      "mp": 26.8,
+      "pts": 14.5,
+      "reb": 3.5,
+      "ast": 4.1,
+      "fgPct": 42.5,
+      "tpPct": 37.5,
+      "tsPct": 56.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "rasheed-wallace",
+    "nameZh": "拉希德·华莱士",
+    "nameEn": "Rasheed Wallace",
+    "position": "PF",
+    "active": false,
+    "nbaId": 739,
+    "career": {
+      "gp": 1109,
+      "mp": 32.7,
+      "pts": 14.4,
+      "reb": 6.7,
+      "ast": 1.8,
+      "fgPct": 46.7,
+      "tpPct": 33.6,
+      "tsPct": 53.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "steve-nash",
+    "nameZh": "史蒂夫·纳什",
+    "nameEn": "Steve Nash",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1217,
+      "mp": 31.3,
+      "pts": 14.3,
+      "reb": 2.7,
+      "ast": 8.5,
+      "fgPct": 49.0,
+      "tpPct": 42.8,
+      "tsPct": 60.5,
+      "mvp": 2,
+      "fmvp": 0
+    },
+    "nbaId": 959
+  },
+  {
+    "id": "dennis-johnson",
+    "nameZh": "丹尼斯·约翰逊",
+    "nameEn": "Dennis Johnson",
+    "position": "SG",
+    "active": false,
+    "nbaId": 77141,
+    "career": {
+      "gp": 1100,
+      "mp": 32.7,
+      "pts": 14.1,
+      "reb": 3.9,
+      "ast": 5.0,
+      "fgPct": 44.5,
+      "tpPct": 17.2,
+      "tsPct": 51.1,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "marc-gasol",
+    "nameZh": "马克·加索尔",
+    "nameEn": "Marc Gasol",
+    "position": "C",
+    "active": false,
+    "nbaId": 201188,
+    "career": {
+      "gp": 891,
+      "mp": 32.2,
+      "pts": 14.0,
+      "reb": 7.4,
+      "ast": 3.4,
+      "fgPct": 48.1,
+      "tpPct": 36.0,
+      "tsPct": 55.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "detlef-schrempf",
+    "nameZh": "德特勒夫·施伦普夫",
+    "nameEn": "Detlef Schrempf",
+    "position": "SF",
+    "active": false,
+    "nbaId": 96,
+    "career": {
+      "gp": 1136,
+      "mp": 29.6,
+      "pts": 13.9,
+      "reb": 6.2,
+      "ast": 3.4,
+      "fgPct": 49.1,
+      "tpPct": 38.4,
+      "tsPct": 58.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "terry-rozier",
+    "nameZh": "特里·罗齐尔",
+    "nameEn": "Terry Rozier",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1626179,
+    "career": {
+      "gp": 665,
+      "mp": 27.6,
+      "pts": 13.9,
+      "reb": 3.9,
+      "ast": 3.5,
+      "fgPct": 41.8,
+      "tpPct": 36.1,
+      "tsPct": 53.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "myles-turner",
+    "nameZh": "迈尔斯·特纳",
+    "nameEn": "Myles Turner",
+    "position": "C",
+    "active": true,
+    "nbaId": 1626167,
+    "career": {
+      "gp": 705,
+      "mp": 28.6,
+      "pts": 13.9,
+      "reb": 6.7,
+      "ast": 1.3,
+      "fgPct": 49.4,
+      "tpPct": 36.6,
+      "tsPct": 59.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kyle-lowry",
+    "nameZh": "凯尔·洛瑞",
+    "nameEn": "Kyle Lowry",
+    "position": "PG",
+    "active": true,
+    "nbaId": 200768,
+    "career": {
+      "gp": 1184,
+      "mp": 31.1,
+      "pts": 13.8,
+      "reb": 4.2,
+      "ast": 6.0,
+      "fgPct": 42.3,
+      "tpPct": 36.7,
+      "tsPct": 56.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "mike-conley",
+    "nameZh": "迈克·康利",
+    "nameEn": "Mike Conley",
+    "position": "PG",
+    "active": true,
+    "nbaId": 201144,
+    "career": {
+      "gp": 1219,
+      "mp": 30.7,
+      "pts": 13.7,
+      "reb": 2.9,
+      "ast": 5.5,
+      "fgPct": 43.6,
+      "tpPct": 38.7,
+      "tsPct": 55.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "harrison-barnes",
+    "nameZh": "哈里森·巴恩斯",
+    "nameEn": "Harrison Barnes",
+    "position": "SF",
+    "active": true,
+    "nbaId": 203084,
+    "career": {
+      "gp": 1057,
+      "mp": 31.0,
+      "pts": 13.7,
+      "reb": 4.7,
+      "ast": 1.8,
+      "fgPct": 45.9,
+      "tpPct": 38.4,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "aaron-gordon",
+    "nameZh": "阿隆·戈登",
+    "nameEn": "Aaron Gordon",
+    "position": "PF",
+    "active": true,
+    "nbaId": 203932,
+    "career": {
+      "gp": 748,
+      "mp": 29.2,
+      "pts": 13.7,
+      "reb": 6.2,
+      "ast": 2.7,
+      "fgPct": 48.4,
+      "tpPct": 33.5,
+      "tsPct": 56.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jabari-smith",
+    "nameZh": "贾巴里·史密斯",
+    "nameEn": "Jabari Smith Jr.",
+    "position": "PF",
+    "active": true,
+    "nbaId": 1631095,
+    "career": {
+      "gp": 276,
+      "mp": 32.0,
+      "pts": 13.6,
+      "reb": 7.3,
+      "ast": 1.4,
+      "fgPct": 43.8,
+      "tpPct": 34.6,
+      "tsPct": 55.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "derrick-white",
+    "nameZh": "德里克·怀特",
+    "nameEn": "Derrick White",
+    "position": "SG",
+    "active": true,
+    "nbaId": 1628401,
+    "career": {
+      "gp": 560,
+      "mp": 29.2,
+      "pts": 13.5,
+      "reb": 3.8,
+      "ast": 4.3,
+      "fgPct": 43.9,
+      "tpPct": 36.1,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "mehmet-okur",
+    "nameZh": "穆罕默德·奥库尔",
+    "nameEn": "Mehmet Okur",
+    "position": "C",
+    "active": false,
+    "nbaId": 2246,
+    "career": {
+      "gp": 634,
+      "mp": 29.1,
+      "pts": 13.5,
+      "reb": 7.0,
+      "ast": 1.7,
+      "fgPct": 45.8,
+      "tpPct": 37.5,
+      "tsPct": 55.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "manu-ginobili",
+    "nameZh": "马努·吉诺比利",
+    "nameEn": "Manu Ginobili",
+    "position": "SG",
+    "active": false,
+    "career": {
+      "gp": 1057,
+      "mp": 25.4,
+      "pts": 13.3,
+      "reb": 3.5,
+      "ast": 3.8,
+      "fgPct": 44.7,
+      "tpPct": 36.9,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1938
+  },
+  {
+    "id": "lamar-odom",
+    "nameZh": "拉马尔·奥多姆",
+    "nameEn": "Lamar Odom",
+    "position": "SF",
+    "active": false,
+    "nbaId": 1885,
+    "career": {
+      "gp": 961,
+      "mp": 33.4,
+      "pts": 13.3,
+      "reb": 8.4,
+      "ast": 3.7,
+      "fgPct": 46.3,
+      "tpPct": 31.2,
+      "tsPct": 53.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "derek-harper",
+    "nameZh": "德里克·哈珀",
+    "nameEn": "Derek Harper",
+    "position": "PG",
+    "active": false,
+    "nbaId": 157,
+    "career": {
+      "gp": 1199,
+      "mp": 31.5,
+      "pts": 13.3,
+      "reb": 2.4,
+      "ast": 5.5,
+      "fgPct": 46.3,
+      "tpPct": 35.4,
+      "tsPct": 53.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "og-anunoby",
+    "nameZh": "OG·阿奴诺比",
+    "nameEn": "OG Anunoby",
+    "position": "SF",
+    "active": true,
+    "nbaId": 1628384,
+    "career": {
+      "gp": 548,
+      "mp": 30.5,
+      "pts": 13.3,
+      "reb": 4.5,
+      "ast": 1.7,
+      "fgPct": 47.6,
+      "tpPct": 37.6,
+      "tsPct": 58.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jermaine-oneal",
+    "nameZh": "杰梅因·奥尼尔",
+    "nameEn": "Jermaine O'Neal",
+    "position": "PF",
+    "active": false,
+    "nbaId": 979,
+    "career": {
+      "gp": 1011,
+      "mp": 27.1,
+      "pts": 13.2,
+      "reb": 7.2,
+      "ast": 1.4,
+      "fgPct": 46.7,
+      "tpPct": 14.7,
+      "tsPct": 51.7,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "john-stockton",
+    "nameZh": "约翰·斯托克顿",
+    "nameEn": "John Stockton",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1504,
+      "mp": 31.8,
+      "pts": 13.1,
+      "reb": 2.7,
+      "ast": 10.5,
+      "fgPct": 51.5,
+      "tpPct": 38.4,
+      "tsPct": 60.8,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 304
+  },
+  {
+    "id": "ben-simmons",
+    "nameZh": "本·西蒙斯",
+    "nameEn": "Ben Simmons",
+    "position": "PG",
+    "active": true,
+    "nbaId": 1627732,
+    "career": {
+      "gp": 383,
+      "mp": 31.1,
+      "pts": 13.1,
+      "reb": 7.4,
+      "ast": 7.2,
+      "fgPct": 55.8,
+      "tpPct": 13.9,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "spencer-dinwiddie",
+    "nameZh": "斯宾塞·丁维迪",
+    "nameEn": "Spencer Dinwiddie",
+    "position": "PG",
+    "active": true,
+    "nbaId": 203915,
+    "career": {
+      "gp": 621,
+      "mp": 27.7,
+      "pts": 13.0,
+      "reb": 3.0,
+      "ast": 5.1,
+      "fgPct": 41.4,
+      "tpPct": 33.3,
+      "tsPct": 54.9,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jarrett-allen",
+    "nameZh": "贾雷特·阿伦",
+    "nameEn": "Jarrett Allen",
+    "position": "C",
+    "active": true,
+    "nbaId": 1628386,
+    "career": {
+      "gp": 619,
+      "mp": 28.2,
+      "pts": 13.0,
+      "reb": 9.2,
+      "ast": 1.7,
+      "fgPct": 64.1,
+      "tpPct": 15.9,
+      "tsPct": 67.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "al-horford",
+    "nameZh": "阿尔·霍福德",
+    "nameEn": "Al Horford",
+    "position": "C",
+    "active": true,
+    "nbaId": 201143,
+    "career": {
+      "gp": 1181,
+      "mp": 31.2,
+      "pts": 12.8,
+      "reb": 7.8,
+      "ast": 3.2,
+      "fgPct": 50.7,
+      "tpPct": 37.6,
+      "tsPct": 57.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "jason-kidd",
+    "nameZh": "贾森·基德",
+    "nameEn": "Jason Kidd",
+    "position": "PG",
+    "active": false,
+    "career": {
+      "gp": 1391,
+      "mp": 36.1,
+      "pts": 12.6,
+      "reb": 6.3,
+      "ast": 8.7,
+      "fgPct": 40.0,
+      "tpPct": 34.9,
+      "tsPct": 51.2,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 429
+  },
+  {
+    "id": "rudy-gobert",
+    "nameZh": "鲁迪·戈贝尔",
+    "nameEn": "Rudy Gobert",
+    "position": "C",
+    "active": true,
+    "nbaId": 203497,
+    "career": {
+      "gp": 896,
+      "mp": 30.7,
+      "pts": 12.5,
+      "reb": 11.7,
+      "ast": 1.4,
+      "fgPct": 65.9,
+      "tpPct": 0.0,
+      "tsPct": 67.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "kenyon-martin",
+    "nameZh": "凯尼恩·马丁",
+    "nameEn": "Kenyon Martin",
+    "position": "PF",
+    "active": false,
+    "nbaId": 2030,
+    "career": {
+      "gp": 757,
+      "mp": 30.6,
+      "pts": 12.3,
+      "reb": 6.8,
+      "ast": 1.9,
+      "fgPct": 48.3,
+      "tpPct": 23.4,
+      "tsPct": 51.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "andre-drummond",
+    "nameZh": "安德烈·德拉蒙德",
+    "nameEn": "Andre Drummond",
+    "position": "C",
+    "active": false,
+    "nbaId": 203083,
+    "career": {
+      "gp": 955,
+      "mp": 26.4,
+      "pts": 12.2,
+      "reb": 12.0,
+      "ast": 1.2,
+      "fgPct": 54.0,
+      "tpPct": 19.3,
+      "tsPct": 54.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "terry-porter",
+    "nameZh": "特里·波特",
+    "nameEn": "Terry Porter",
+    "position": "PG",
+    "active": false,
+    "nbaId": 345,
+    "career": {
+      "gp": 1274,
+      "mp": 27.8,
+      "pts": 12.2,
+      "reb": 3.0,
+      "ast": 5.6,
+      "fgPct": 46.3,
+      "tpPct": 38.6,
+      "tsPct": 57.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "serge-ibaka",
+    "nameZh": "塞尔吉·伊巴卡",
+    "nameEn": "Serge Ibaka",
+    "position": "PF",
+    "active": false,
+    "nbaId": 201586,
+    "career": {
+      "gp": 919,
+      "mp": 27.3,
+      "pts": 12.0,
+      "reb": 7.1,
+      "ast": 0.8,
+      "fgPct": 51.3,
+      "tpPct": 35.9,
+      "tsPct": 57.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dan-majerle",
+    "nameZh": "丹·马尔利",
+    "nameEn": "Dan Majerle",
+    "position": "SG",
+    "active": false,
+    "nbaId": 105,
+    "career": {
+      "gp": 955,
+      "mp": 31.6,
+      "pts": 11.4,
+      "reb": 4.5,
+      "ast": 2.9,
+      "fgPct": 43.1,
+      "tpPct": 35.8,
+      "tsPct": 53.8,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "andre-iguodala",
+    "nameZh": "安德烈·伊戈达拉",
+    "nameEn": "Andre Iguodala",
+    "position": "SF",
+    "active": false,
+    "nbaId": 2738,
+    "career": {
+      "gp": 1231,
+      "mp": 32.1,
+      "pts": 11.3,
+      "reb": 4.9,
+      "ast": 4.2,
+      "fgPct": 46.3,
+      "tpPct": 33.0,
+      "tsPct": 55.3,
+      "mvp": 0,
+      "fmvp": 1
+    }
+  },
+  {
+    "id": "clint-capela",
+    "nameZh": "克林特·卡佩拉",
+    "nameEn": "Clint Capela",
+    "position": "C",
+    "active": true,
+    "nbaId": 203991,
+    "career": {
+      "gp": 726,
+      "mp": 25.0,
+      "pts": 11.3,
+      "reb": 10.0,
+      "ast": 1.0,
+      "fgPct": 61.3,
+      "tpPct": 0.0,
+      "tsPct": 61.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "horace-grant",
+    "nameZh": "霍勒斯·格兰特",
+    "nameEn": "Horace Grant",
+    "position": "PF",
+    "active": false,
+    "nbaId": 270,
+    "career": {
+      "gp": 1165,
+      "mp": 33.2,
+      "pts": 11.2,
+      "reb": 8.1,
+      "ast": 2.2,
+      "fgPct": 50.9,
+      "tpPct": 6.3,
+      "tsPct": 54.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "ricky-rubio",
+    "nameZh": "里基·卢比奥",
+    "nameEn": "Ricky Rubio",
+    "position": "PG",
+    "active": false,
+    "nbaId": 201937,
+    "career": {
+      "gp": 698,
+      "mp": 29.6,
+      "pts": 10.8,
+      "reb": 4.1,
+      "ast": 7.4,
+      "fgPct": 38.8,
+      "tpPct": 32.4,
+      "tsPct": 51.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "rajon-rondo",
+    "nameZh": "拉简·隆多",
+    "nameEn": "Rajon Rondo",
+    "position": "PG",
+    "active": false,
+    "nbaId": 200765,
+    "career": {
+      "gp": 957,
+      "mp": 29.9,
+      "pts": 9.8,
+      "reb": 4.5,
+      "ast": 7.9,
+      "fgPct": 45.6,
+      "tpPct": 32.4,
+      "tsPct": 50.1,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dikembe-mutombo",
+    "nameZh": "迪肯贝·穆托姆博",
+    "nameEn": "Dikembe Mutombo",
+    "position": "C",
+    "active": false,
+    "nbaId": 87,
+    "career": {
+      "gp": 1196,
+      "mp": 30.8,
+      "pts": 9.8,
+      "reb": 10.3,
+      "ast": 1.0,
+      "fgPct": 51.8,
+      "tpPct": 0.0,
+      "tsPct": 57.3,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "draymond-green",
+    "nameZh": "德雷蒙德·格林",
+    "nameEn": "Draymond Green",
+    "position": "PF",
+    "active": true,
+    "career": {
+      "gp": 832,
+      "mp": 31.5,
+      "pts": 8.6,
+      "reb": 6.9,
+      "ast": 5.5,
+      "fgPct": 44.1,
+      "tpPct": 31.5,
+      "tsPct": 53.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 203110
+  },
+  {
+    "id": "deandre-jordan",
+    "nameZh": "德安德鲁·乔丹",
+    "nameEn": "DeAndre Jordan",
+    "position": "C",
+    "active": false,
+    "nbaId": 201599,
+    "career": {
+      "gp": 1121,
+      "mp": 25.0,
+      "pts": 8.5,
+      "reb": 9.7,
+      "ast": 0.9,
+      "fgPct": 67.4,
+      "tpPct": 15.4,
+      "tsPct": 64.4,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "dennis-rodman",
+    "nameZh": "丹尼斯·罗德曼",
+    "nameEn": "Dennis Rodman",
+    "position": "PF",
+    "active": false,
+    "career": {
+      "gp": 911,
+      "mp": 31.7,
+      "pts": 7.3,
+      "reb": 13.1,
+      "ast": 1.8,
+      "fgPct": 52.1,
+      "tpPct": 23.1,
+      "tsPct": 52.4,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 367
+  },
+  {
+    "id": "robert-williams",
+    "nameZh": "罗伯特·威廉姆斯三世",
+    "nameEn": "Robert Williams III",
+    "position": "C",
+    "active": true,
+    "nbaId": 1629057,
+    "career": {
+      "gp": 283,
+      "mp": 19.7,
+      "pts": 7.1,
+      "reb": 6.8,
+      "ast": 1.3,
+      "fgPct": 72.3,
+      "tpPct": 29.6,
+      "tsPct": 73.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "robert-horry",
+    "nameZh": "罗伯特·霍里",
+    "nameEn": "Robert Horry",
+    "position": "PF",
+    "active": false,
+    "nbaId": 109,
+    "career": {
+      "gp": 1107,
+      "mp": 24.5,
+      "pts": 7.0,
+      "reb": 4.8,
+      "ast": 2.1,
+      "fgPct": 42.5,
+      "tpPct": 34.1,
+      "tsPct": 52.0,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "ben-wallace",
+    "nameZh": "本·华莱士",
+    "nameEn": "Ben Wallace",
+    "position": "C",
+    "active": false,
+    "career": {
+      "gp": 1088,
+      "mp": 30.0,
+      "pts": 5.7,
+      "reb": 9.6,
+      "ast": 1.4,
+      "fgPct": 41.7,
+      "tpPct": 13.0,
+      "tsPct": 48.0,
+      "mvp": 0,
+      "fmvp": 0
+    },
+    "nbaId": 1112
+  },
+  {
+    "id": "glen-rice",
+    "nameZh": "格伦·莱斯",
+    "nameEn": "Glen Rice",
+    "position": "SF",
+    "active": false,
+    "nbaId": 203318,
+    "career": {
+      "gp": 16,
+      "mp": 9.4,
+      "pts": 2.7,
+      "reb": 1.5,
+      "ast": 0.6,
+      "fgPct": 26.9,
+      "tpPct": 25.0,
+      "tsPct": 37.2,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  },
+  {
+    "id": "larry-johnson",
+    "nameZh": "拉里·约翰逊",
+    "nameEn": "Larry Johnson",
+    "position": "PF",
+    "active": false,
+    "nbaId": 77156,
+    "career": {
+      "gp": 4,
+      "mp": 9.5,
+      "pts": 1.5,
+      "reb": 1.2,
+      "ast": 1.8,
+      "fgPct": 23.1,
+      "tpPct": null,
+      "tsPct": 21.6,
+      "mvp": 0,
+      "fmvp": 0
+    }
+  }
+]
