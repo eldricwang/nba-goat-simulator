@@ -17,6 +17,7 @@ import ShareCard, { type CardLang } from "@/components/ShareCard";
 import ModeToggle from "@/components/ModeToggle";
 import SeasonSelect from "@/components/SeasonSelect";
 import NBALogo from "@/components/NBALogo";
+import Link from "next/link";
 import { toPng } from "html-to-image";
 import { analytics } from "@/lib/analytics";
 
@@ -174,8 +175,21 @@ export default function CompareClient() {
       {/* Header */}
       <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm shadow-sm">
         <div className="max-w-5xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <NBALogo className="h-8 sm:h-10" />
+          <div className="flex items-center gap-4 sm:gap-6">
+            <Link href="/compare">
+              <NBALogo className="h-8 sm:h-10" />
+            </Link>
+            <nav className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm font-medium">
+              <Link href="/compare" className="text-slate-800 border-b-2 border-red-500 pb-0.5">
+                对比
+              </Link>
+              <Link href="/players" className="text-slate-400 hover:text-slate-600 transition-colors">
+                球员
+              </Link>
+              <Link href="/about" className="text-slate-400 hover:text-slate-600 transition-colors">
+                关于
+              </Link>
+            </nav>
           </div>
           <ModeToggle mode={mode} onChange={setMode} />
         </div>
@@ -300,9 +314,9 @@ export default function CompareClient() {
           <div className="flex items-center justify-center my-6 sm:my-10">
             <div className="flex items-center gap-3 sm:gap-6">
               <div className="text-right">
-                <span className="text-red-600 font-bold text-base sm:text-lg">
+                <Link href={`/player/${playerA.id}`} className="text-red-600 font-bold text-base sm:text-lg hover:underline">
                   {playerA.nameZh}
-                </span>
+                </Link>
                 {mode === "season" && seasonA && (
                   <span className="text-red-400 text-xs sm:text-sm ml-1.5 sm:ml-2">
                     {seasonA}
@@ -314,9 +328,9 @@ export default function CompareClient() {
                 <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 via-transparent to-blue-500/10 blur-xl" />
               </div>
               <div className="text-left">
-                <span className="text-blue-700 font-bold text-base sm:text-lg">
+                <Link href={`/player/${playerB.id}`} className="text-blue-700 font-bold text-base sm:text-lg hover:underline">
                   {playerB.nameZh}
-                </span>
+                </Link>
                 {mode === "season" && seasonB && (
                   <span className="text-blue-400 text-xs sm:text-sm ml-1.5 sm:ml-2">
                     {seasonB}

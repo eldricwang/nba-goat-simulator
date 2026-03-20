@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import type { Player, PlayerSeason, CompareMode } from "@/lib/types";
 import { getHeadshotUrl, getPlayerInitials } from "@/lib/avatar";
 
@@ -70,8 +71,12 @@ export default function PlayerCard({
       </div>
 
       {/* Name */}
-      <h3 className={`text-lg font-bold ${accentText}`}>{player.nameZh}</h3>
-      <p className="text-slate-400 text-sm">{player.nameEn}</p>
+      <Link href={`/player/${player.id}`} className={`text-lg font-bold ${accentText} hover:underline`}>
+        {player.nameZh}
+      </Link>
+      <Link href={`/player/${player.id}`} className="text-slate-400 text-sm hover:text-slate-600 transition-colors">
+        {player.nameEn}
+      </Link>
 
       {/* Tags */}
       <div className="flex items-center gap-2 mt-2.5 flex-wrap justify-center">

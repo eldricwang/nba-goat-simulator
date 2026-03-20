@@ -1089,3 +1089,34 @@ NBA 球员数据扩充脚本
 ⏭️ 跳过（无数据）
   [718/900] Bert Cook (ID: 76434)...     ⚠️ Bert Cook 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
     ⚠️ Bert Cook 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bert Cook 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [719/900] Bill Bolger (ID: 76196)...     ⚠️ Bill Bolger 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Bolger 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Bolger 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [720/900] Bill Bradley (ID: 76233)...     ⚠️ Bill Bradley 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Bradley 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Bradley 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [721/900] Bill Bridges (ID: 76253)...     ⚠️ Bill Bridges 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Bridges 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Bridges 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [722/900] Bill Buntin (ID: 76302)...     ⚠️ Bill Buntin 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Buntin 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Buntin 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [723/900] Bill Calhoun (ID: 76331)...     ⚠️ Bill Calhoun 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Calhoun 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Calhoun 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [724/900] Bill Cartwright (ID: 76362)...     ⚠️ Bill Cartwright 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Cartwright 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Cartwright 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [725/900] Bill Chamberlain (ID: 76374)...     ⚠️ Bill Chamberlain 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Chamberlain 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Chamberlain 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [726/900] Bill Closs (ID: 76406)...     ⚠️ Bill Closs 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)

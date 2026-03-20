@@ -166,8 +166,8 @@ export default async function PlayerPage({ params }: PageProps) {
               GOAT
             </Link>
             <nav className="flex items-center gap-4 sm:gap-6 text-sm">
-              <Link href="/" className="text-slate-500 hover:text-slate-800 transition-colors">首页</Link>
               <Link href="/compare" className="text-slate-500 hover:text-slate-800 transition-colors">对比</Link>
+              <Link href="/players" className="text-slate-500 hover:text-slate-800 transition-colors">球员</Link>
               <Link href="/about" className="text-slate-500 hover:text-slate-800 transition-colors">关于</Link>
             </nav>
           </div>

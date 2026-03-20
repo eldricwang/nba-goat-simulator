@@ -11,11 +11,11 @@ export default function AboutPage() {
               GOAT 🏀
             </Link>
             <nav className="flex items-center gap-6">
-              <Link href="/" className="text-slate-600 hover:text-slate-800 transition-colors">
-                首页
-              </Link>
               <Link href="/compare" className="text-slate-600 hover:text-slate-800 transition-colors">
                 对比
+              </Link>
+              <Link href="/players" className="text-slate-600 hover:text-slate-800 transition-colors">
+                球员
               </Link>
               <span className="text-blue-600 font-medium">关于</span>
             </nav>
