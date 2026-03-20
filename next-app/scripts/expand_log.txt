@@ -1133,3 +1133,19 @@ NBA 球员数据扩充脚本
 ⏭️ 跳过（无数据）
   [729/900] Bill Dinwiddie (ID: 76576)...     ⚠️ Bill Dinwiddie 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
     ⚠️ Bill Dinwiddie 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Dinwiddie 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [730/900] Bill Downey (ID: 76593)...     ⚠️ Bill Downey 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Downey 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Downey 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [731/900] Bill Ebben (ID: 76633)...     ⚠️ Bill Ebben 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Ebben 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Ebben 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [732/900] Bill Edwards (ID: 76646)...     ⚠️ Bill Edwards 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Edwards 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Edwards 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [733/900] Bill Fenley (ID: 76706)...     ⚠️ Bill Fenley 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Fenley 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)

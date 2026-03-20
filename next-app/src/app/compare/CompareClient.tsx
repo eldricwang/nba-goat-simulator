@@ -17,6 +17,8 @@ import ShareCard, { type CardLang } from "@/components/ShareCard";
 import ModeToggle from "@/components/ModeToggle";
 import SeasonSelect from "@/components/SeasonSelect";
 import NBALogo from "@/components/NBALogo";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import Link from "next/link";
 import { toPng } from "html-to-image";
 import { analytics } from "@/lib/analytics";
@@ -178,27 +180,10 @@ export default function CompareClient() {
   return (
     <div className="relative z-10 min-h-screen">
       {/* Header */}
-      <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm shadow-sm">
-        <div className="max-w-5xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between">
-          <div className="flex items-center gap-4 sm:gap-6">
-            <Link href="/compare">
-              <NBALogo className="h-8 sm:h-10" />
-            </Link>
-            <nav className="flex items-center gap-3 sm:gap-4 text-xs sm:text-sm font-medium">
-              <Link href="/compare" className="text-slate-800 border-b-2 border-red-500 pb-0.5">
-                对比
-              </Link>
-              <Link href="/players" className="text-slate-400 hover:text-slate-600 transition-colors">
-                球员
-              </Link>
-              <Link href="/about" className="text-slate-400 hover:text-slate-600 transition-colors">
-                关于
-              </Link>
-            </nav>
-          </div>
-          <ModeToggle mode={mode} onChange={setMode} />
-        </div>
-      </header>
+      <SiteHeader
+        logo={<NBALogo className="h-8 sm:h-10" />}
+        rightSlot={<ModeToggle mode={mode} onChange={setMode} />}
+      />
 
       <main className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
         {/* Player selectors */}
@@ -492,11 +477,7 @@ export default function CompareClient() {
       )}
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 mt-auto py-4 bg-white/40">
-        <p className="text-center text-[11px] text-slate-400">
-          GOAT — Greatest Of All Time Comparator
-        </p>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

@@ -9,6 +9,8 @@ import {
   getPlayerSeason,
 } from "@/lib/data";
 import { getHeadshotUrl, getPlayerInitials } from "@/lib/avatar";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import type { Player, PlayerSeason } from "@/lib/types";
 
 /* ─── SSG: pre-render every player+season page at build time ─── */
@@ -219,18 +221,7 @@ export default async function SeasonPage({ params }: PageProps) {
 
       <div className="min-h-screen">
         {/* ── Header ── */}
-        <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm shadow-sm">
-          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="text-xl font-bold text-slate-800 hover:text-slate-600 transition-colors">
-              GOAT
-            </Link>
-            <nav className="flex items-center gap-4 sm:gap-6 text-sm">
-              <Link href="/compare" className="text-slate-500 hover:text-slate-800 transition-colors">对比</Link>
-              <Link href="/players" className="text-slate-500 hover:text-slate-800 transition-colors">球员</Link>
-              <Link href="/about" className="text-slate-500 hover:text-slate-800 transition-colors">关于</Link>
-            </nav>
-          </div>
-        </header>
+        <SiteHeader />
 
         <main className="max-w-5xl mx-auto px-4 py-6 sm:py-10">
           {/* ── Breadcrumb ── */}
@@ -453,16 +444,7 @@ export default async function SeasonPage({ params }: PageProps) {
         </main>
 
         {/* ── Footer ── */}
-        <footer className="border-t border-slate-200 mt-auto py-4 bg-white/40">
-          <div className="max-w-5xl mx-auto px-4 flex items-center justify-between text-[11px] text-slate-400">
-            <p>GOAT — Greatest Of All Time Comparator</p>
-            <div className="flex gap-4">
-              <Link href="/compare" className="hover:text-slate-600 transition-colors">对比</Link>
-              <Link href="/players" className="hover:text-slate-600 transition-colors">球员</Link>
-              <Link href="/about" className="hover:text-slate-600 transition-colors">关于</Link>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </>
   );

@@ -1,27 +1,12 @@
 import Link from "next/link";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Header */}
-      <header className="border-b border-slate-200 bg-white/80 backdrop-blur-sm shadow-sm">
-        <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold text-slate-800 hover:text-slate-600 transition-colors">
-              GOAT 🏀
-            </Link>
-            <nav className="flex items-center gap-6">
-              <Link href="/compare" className="text-slate-600 hover:text-slate-800 transition-colors">
-                对比
-              </Link>
-              <Link href="/players" className="text-slate-600 hover:text-slate-800 transition-colors">
-                球员
-              </Link>
-              <span className="text-blue-600 font-medium">关于</span>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* Main content */}
       <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
@@ -125,8 +110,8 @@ export default function AboutPage() {
               <h2 className="text-xl font-semibold text-slate-800 mb-4">技术栈</h2>
               <div className="flex flex-wrap gap-3">
                 {[
-                  "Next.js 14", "TypeScript", "Tailwind CSS", 
-                  "React", "Vercel", "NBA API"
+                  "Next.js 16", "TypeScript", "Tailwind CSS", 
+                  "React 19", "Vercel", "NBA API"
                 ].map((tech) => (
                   <span 
                     key={tech}
@@ -159,13 +144,7 @@ export default function AboutPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 mt-12 py-6 bg-white/40">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-sm text-slate-500">
-            © 2026 GOAT - NBA 球员对比工具 | 数据仅供参考，NBA 及相关标识为 NBA 所有
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

@@ -136,6 +136,22 @@ export default function CardClient() {
         </Link>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Player profile links */}
+          <div className="hidden sm:flex items-center gap-2 mr-2">
+            <Link
+              href={`/player/${playerA.id}`}
+              className="text-xs text-white/40 hover:text-white/70 transition-colors"
+            >
+              {playerA.nameZh}
+            </Link>
+            <span className="text-white/20 text-xs">vs</span>
+            <Link
+              href={`/player/${playerB.id}`}
+              className="text-xs text-white/40 hover:text-white/70 transition-colors"
+            >
+              {playerB.nameZh}
+            </Link>
+          </div>
           {/* Language toggle */}
           <div className="flex rounded-lg overflow-hidden border border-white/15">
             <button
@@ -235,9 +251,14 @@ export default function CardClient() {
 
       {/* Footer */}
       <footer className="border-t border-white/5 py-3">
-        <p className="text-center text-[11px] text-white/20">
-          GOAT — Greatest Of All Time Comparator
-        </p>
+        <div className="flex items-center justify-between px-4 sm:px-8 text-[11px] text-white/20">
+          <p>GOAT — Greatest Of All Time Comparator</p>
+          <nav className="flex gap-4">
+            <Link href="/compare" className="hover:text-white/50 transition-colors">对比</Link>
+            <Link href="/players" className="hover:text-white/50 transition-colors">球员</Link>
+            <Link href="/about" className="hover:text-white/50 transition-colors">关于</Link>
+          </nav>
+        </div>
       </footer>
     </div>
   );
