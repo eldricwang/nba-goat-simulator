@@ -1087,4 +1087,5 @@ NBA 球员数据扩充脚本
     ⚠️ Bernie Williams 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
     ❌ Bernie Williams 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
 ⏭️ 跳过（无数据）
-  [718/900] Bert Cook (ID: 76434)... 
+  [718/900] Bert Cook (ID: 76434)...     ⚠️ Bert Cook 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bert Cook 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
