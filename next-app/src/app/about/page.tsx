@@ -1,6 +1,19 @@
 import Link from "next/link";
+import { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+
+export const metadata: Metadata = {
+  title: "关于 GOAT NBA 球员对比工具",
+  description:
+    "GOAT（Greatest Of All Time）是一个 NBA 球员对比工具，帮助篮球爱好者客观、直观地比较不同球员的职业生涯数据。了解项目简介、数据来源和技术栈。",
+  openGraph: {
+    title: "关于 GOAT NBA 球员对比工具",
+    description:
+      "了解 GOAT 项目的简介、数据来源和技术栈。",
+    type: "website",
+  },
+};
 
 export default function AboutPage() {
   return (

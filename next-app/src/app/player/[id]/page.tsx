@@ -21,10 +21,10 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const player = getPlayerById(id);
-  if (!player) return { title: "球员未找到 | GOAT" };
+  if (!player) return { title: "球员未找到" };
 
-  const title = `${player.nameZh} (${player.nameEn}) 生涯数据 | GOAT`;
-  const desc = `${player.nameZh}（${player.nameEn}）的 NBA 生涯数据总览：场均 ${player.career.pts} 分 ${player.career.reb} 篮板 ${player.career.ast} 助攻，${player.career.mvp} 次 MVP，${player.career.fmvp} 次 FMVP。`;
+  const title = `${player.nameZh} (${player.nameEn}) 生涯数据`;
+  const desc = `${player.nameZh}（${player.nameEn}）的 NBA 生涯数据总览：场均 ${player.career.pts ?? "—"} 分 ${player.career.reb ?? "—"} 篮板 ${player.career.ast ?? "—"} 助攻，${player.career.mvp} 次 MVP，${player.career.fmvp} 次 FMVP。`;
 
   return {
     title,

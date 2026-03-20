@@ -1149,3 +1149,286 @@ NBA 球员数据扩充脚本
 ⏭️ 跳过（无数据）
   [733/900] Bill Fenley (ID: 76706)...     ⚠️ Bill Fenley 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
     ⚠️ Bill Fenley 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bill Fenley 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [734/900] Bill Garnett (ID: 76785)...     ⚠️ Bill Garnett 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bill Garnett 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+✅ 300G 5.5P 4.3R 1.3A | 4 seasons
+  [735/900] Bill Hanzlik (ID: 76944)... ✅ 748G 7.2P 2.8R 2.8A | 10 seasons
+  [736/900] Bill Henry (ID: 77004)...     ⚠️ Bill Henry 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bill Henry 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bill Henry 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [737/900] Bill Herman (ID: 77006)...     ⚠️ Bill Herman 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bill Herman 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bill Herman 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [738/900] Bill Hewitt (ID: 77013)... ✅ 361G 5.7P 5.5R 1.3A | 8 seasons
+  [739/900] Bill Jones (ID: 77180)... ⏭️ 跳过（仅 37 场）
+  [740/900] Bill Kenville (ID: 77247)... ✅ 345G 7.1P 3.5R 2.1A | 6 seasons
+  [741/900] Bill Laimbeer (ID: 100263)... ✅ 1068G 12.9P 9.7R 2.0A | 16 seasons
+  [742/900] Bill Ligon (ID: 77388)... ⏭️ 跳过（仅 38 场）
+  [743/900] Bill Martin (ID: 77481)... ✅ 84G 4.7P 1.6R 0.7A | 3 seasons
+  [744/900] Bill Mayfield (ID: 77495)... ⏭️ 跳过（仅 7 场）
+  [745/900] Bill McGill (ID: 77531)... ✅ 158G 10.2P 3.9R 1.1A | 5 seasons
+  [746/900] Bill Melchionni (ID: 77576)... ✅ 144G 4.4P 1.4R 1.4A | 2 seasons
+  [747/900] Bill Miller (ID: 77605)...     ⚠️ Bill Miller 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bill Miller 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bill Miller 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [748/900] Bill Mlkvy (ID: 77619)... ⏭️ 跳过（仅 31 场）
+  [749/900] Bill Roberts (ID: 77979)...     ⚠️ Bill Roberts 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bill Roberts 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bill Roberts 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [750/900] Bill Robinzine (ID: 77997)... ✅ 529G 10.5P 6.1R 1.1A | 9 seasons
+
+  💾 中间保存... (474 新球员)
+  💾 已保存: 727 球员, 5993 赛季记录
+  继续获取...
+
+  [751/900] Bill Sharman (ID: 78126)... ✅ 711G 17.8P 3.9R 3.0A | 11 seasons
+  [752/900] Bill Smith (ID: 78207)... ⏭️ 跳过（仅 30 场）
+  [753/900] Bill Smith (ID: 78209)... ⏭️ 跳过（仅 9 场）
+  [754/900] Bill Stricker (ID: 78269)... ⏭️ 跳过（仅 1 场）
+  [755/900] Bill Thieben (ID: 78312)... ✅ 85G 4.0P 3.2R 0.3A | 2 seasons
+  [756/900] Bill Tosheff (ID: 78359)... ✅ 203G 9.2P 3.0R 3.3A | 3 seasons
+  [757/900] Bill Turner (ID: 78385)... ✅ 294G 5.4P 3.5R 0.6A | 10 seasons
+  [758/900] Bill Walton (ID: 78450)... ✅ 468G 13.3P 10.5R 3.4A | 10 seasons
+  [759/900] Bill Wennington (ID: 82)... ✅ 720G 4.6P 3.0R 0.6A | 13 seasons
+  [760/900] Bill Willoughby (ID: 78577)... ✅ 488G 6.0P 3.9R 0.8A | 10 seasons
+  [761/900] Bill Zopf (ID: 78648)... ✅ 53G 2.2P 0.9R 1.4A | 1 seasons
+  [762/900] Billy Cunningham (ID: 76487)... ✅ 654G 20.8P 10.1R 4.0A | 9 seasons
+  [763/900] Billy Donovan (ID: 76586)... ⏭️ 跳过（仅 44 场）
+  [764/900] Billy Gabor (ID: 76768)... ✅ 307G 9.8P 1.8R 2.0A | 6 seasons
+  [765/900] Billy Garrett (ID: 1628656)... ⏭️ 跳过（仅 4 场）
+  [766/900] Billy Hassett (ID: 76967)...     ⚠️ Billy Hassett 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Billy Hassett 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Billy Hassett 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [767/900] Billy Knight (ID: 77290)... ✅ 671G 15.7P 4.5R 2.1A | 13 seasons
+  [768/900] Billy McKinney (ID: 77547)... ✅ 476G 8.0P 1.4R 3.5A | 9 seasons
+  [769/900] Billy Owens (ID: 182)... ✅ 600G 11.7P 6.7R 2.8A | 14 seasons
+  [770/900] Billy Paultz (ID: 77817)... ✅ 637G 8.5P 5.6R 1.6A | 13 seasons
+  [771/900] Billy Reid (ID: 77937)... ✅ 59G 3.2P 1.0R 1.2A | 1 seasons
+  [772/900] Billy Thomas (ID: 2873)... ✅ 53G 2.7P 1.0R 0.5A | 5 seasons
+  [773/900] Billy Thompson (ID: 1631)... ✅ 300G 8.6P 5.4R 1.7A | 6 seasons
+  [774/900] Billyray Bates (ID: 76121)... ✅ 187G 11.7P 1.7R 1.9A | 6 seasons
+  [775/900] Bimbo Coles (ID: 902)... ✅ 852G 7.8P 2.1R 3.9A | 18 seasons
+  [776/900] Bingo Smith (ID: 78202)... ✅ 865G 12.6P 4.2R 2.0A | 13 seasons
+  [777/900] Bison Dele (ID: 183)... ✅ 413G 11.0P 6.2R 1.1A | 8 seasons
+  [778/900] Blaine Denning (ID: 76557)... ⏭️ 跳过（仅 1 场）
+  [779/900] Blair Rasmussen (ID: 78656)... ✅ 532G 9.6P 5.7R 0.9A | 8 seasons
+  [780/900] Blake Ahearn (ID: 201336)... ⏭️ 跳过（仅 19 场）
+  [781/900] Blue Edwards (ID: 898)... ✅ 704G 10.8P 3.4R 2.0A | 12 seasons
+  [782/900] Bo Ellis (ID: 76664)... ✅ 168G 3.6P 2.9R 0.7A | 3 seasons
+  [783/900] Bo Erias (ID: 76679)... ⏭️ 跳过（仅 18 场）
+  [784/900] Bo Kimble (ID: 77260)... ✅ 105G 5.5P 1.5R 0.9A | 3 seasons
+  [785/900] Bo Lamar (ID: 77330)... ✅ 71G 7.1P 1.3R 2.5A | 1 seasons
+  [786/900] Bo Outlaw (ID: 448)... ✅ 914G 5.4P 4.9R 1.6A | 17 seasons
+  [787/900] Bob Allen (ID: 76028)... ⏭️ 跳过（仅 27 场）
+  [788/900] Bob Anderegg (ID: 76034)... ⏭️ 跳过（仅 33 场）
+  [789/900] Bob Armstrong (ID: 76061)... ⏭️ 跳过（仅 19 场）
+  [790/900] Bob Arnzen (ID: 76064)... ✅ 55G 5.5P 2.8R 0.4A | 1 seasons
+  [791/900] Bob Bigelow (ID: 76165)... ✅ 94G 2.5P 1.2R 0.4A | 6 seasons
+  [792/900] Bob Boozer (ID: 76206)... ✅ 874G 14.8P 8.1R 1.4A | 13 seasons
+  [793/900] Bob Brannum (ID: 76238)... ✅ 338G 7.3P 7.0R 2.1A | 5 seasons
+  [794/900] Bob Brown (ID: 76284)...     ⚠️ Bob Brown 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Brown 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Brown 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [795/900] Bob Burrow (ID: 76313)... ✅ 81G 5.7P 4.4R 0.6A | 2 seasons
+  [796/900] Bob Carney (ID: 76345)... ⏭️ 跳过（仅 19 场）
+  [797/900] Bob Carpenter (ID: 76346)...     ⚠️ Bob Carpenter 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Carpenter 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Carpenter 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [798/900] Bob Carrington (ID: 76352)... ✅ 82G 8.2P 2.3R 1.5A | 4 seasons
+  [799/900] Bob Christian (ID: 76395)... ✅ 246G 3.8P 4.1R 0.8A | 4 seasons
+  [800/900] Bob Dandridge (ID: 76500)... ✅ 839G 18.5P 6.8R 3.4A | 13 seasons
+
+  💾 中间保存... (509 新球员)
+  💾 已保存: 762 球员, 6266 赛季记录
+  继续获取...
+
+  [801/900] Bob Davies (ID: 76514)... ✅ 462G 14.3P 2.9R 4.9A | 7 seasons
+  [802/900] Bob Davis (ID: 76533)... ⏭️ 跳过（仅 9 场）
+  [803/900] Bob Dille (ID: 76570)...     ⚠️ Bob Dille 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Dille 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Dille 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [804/900] Bob Doll (ID: 76582)...     ⚠️ Bob Doll 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Doll 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Doll 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [805/900] Bob Donham (ID: 76584)... ✅ 273G 6.7P 3.9R 2.6A | 4 seasons
+  [806/900] Bob Duffy (ID: 76609)...     ⚠️ Bob Duffy 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Duffy 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Duffy 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [807/900] Bob Duffy (ID: 76610)... ✅ 94G 4.3P 1.1R 1.8A | 3 seasons
+  [808/900] Bob Elliott (ID: 76656)... ✅ 141G 7.0P 3.6R 1.4A | 3 seasons
+  [809/900] Bob Evans (ID: 76687)...     ⚠️ Bob Evans 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Evans 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Evans 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [810/900] Bob Faught (ID: 76696)...     ⚠️ Bob Faught 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Faught 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Faught 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [811/900] Bob Feerick (ID: 76698)...     ⚠️ Bob Feerick 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Feerick 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Feerick 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [812/900] Bob Ferry (ID: 76712)... ✅ 634G 9.1P 5.3R 1.4A | 10 seasons
+  [813/900] Bob Fitzgerald (ID: 76720)...     ⚠️ Bob Fitzgerald 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Fitzgerald 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Fitzgerald 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [814/900] Bob Gantt (ID: 76776)...     ⚠️ Bob Gantt 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Gantt 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Gantt 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [815/900] Bob Greacen (ID: 76865)... ⏭️ 跳过（仅 43 场）
+  [816/900] Bob Gross (ID: 76895)... ✅ 513G 8.9P 4.4R 2.9A | 8 seasons
+  [817/900] Bob Hahn (ID: 76914)...     ⚠️ Bob Hahn 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Hahn 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Hahn 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [818/900] Bob Hansen (ID: 76942)... ✅ 575G 6.9P 2.2R 1.6A | 11 seasons
+  [819/900] Bob Harris (ID: 76959)... ✅ 325G 6.8P 6.9R 1.5A | 5 seasons
+  [820/900] Bob Harrison (ID: 76962)... ✅ 615G 7.2P 2.5R 2.7A | 9 seasons
+  [821/900] Bob Hogsett (ID: 77037)... ⏭️ 跳过（仅 7 场）
+  [822/900] Bob Hopkins (ID: 77052)... ✅ 273G 8.2P 5.6R 0.7A | 4 seasons
+  [823/900] Bob Houbregs (ID: 77062)... ✅ 281G 9.3P 5.5R 1.8A | 5 seasons
+  [824/900] Bob Hubbard (ID: 77072)...     ⚠️ Bob Hubbard 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Hubbard 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Hubbard 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [825/900] Bob Kauffman (ID: 77227)... ✅ 525G 11.5P 7.0R 2.7A | 7 seasons
+  [826/900] Bob Kinney (ID: 77277)...     ⚠️ Bob Kinney 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Kinney 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Kinney 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [827/900] Bob Knight (ID: 77287)... ⏭️ 跳过（仅 2 场）
+  [828/900] Bob Lavoy (ID: 77347)... ✅ 264G 8.2P 6.2R 1.5A | 4 seasons
+  [829/900] Bob Leonard (ID: 77371)... ✅ 426G 9.9P 2.9R 3.3A | 7 seasons
+  [830/900] Bob Lochmueller (ID: 77397)... ✅ 62G 3.7P 2.6R 0.8A | 1 seasons
+  [831/900] Bob Love (ID: 77412)... ✅ 789G 17.6P 5.9R 1.4A | 16 seasons
+  [832/900] Bob Martin (ID: 77478)... ✅ 54G 2.1P 2.2R 0.3A | 2 seasons
+  [833/900] Bob McCann (ID: 737)... ✅ 178G 4.2P 2.6R 0.6A | 5 seasons
+  [834/900] Bob McNeill (ID: 77562)... ✅ 125G 4.6P 1.4R 2.6A | 2 seasons
+  [835/900] Bob Miller (ID: 77603)... ⏭️ 跳过（仅 2 场）
+  [836/900] Bob Mullens (ID: 77660)...     ⚠️ Bob Mullens 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Mullens 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Mullens 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [837/900] Bob Naber (ID: 77681)... ⏭️ 跳过（仅 4 场）
+  [838/900] Bob Nash (ID: 77688)... ✅ 219G 4.7P 2.2R 0.7A | 4 seasons
+  [839/900] Bob O'Brien (ID: 77744)...     ⚠️ Bob O'Brien 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob O'Brien 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob O'Brien 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [840/900] Bob Peterson (ID: 77843)... ✅ 103G 4.7P 3.8R 0.8A | 3 seasons
+  [841/900] Bob Portman (ID: 77878)... ✅ 221G 5.7P 3.3R 0.6A | 4 seasons
+  [842/900] Bob Priddy (ID: 77886)... ⏭️ 跳过（仅 16 场）
+  [843/900] Bob Quick (ID: 77892)... ✅ 136G 6.0P 2.8R 0.7A | 6 seasons
+  [844/900] Bob Riley (ID: 77963)... ⏭️ 跳过（仅 7 场）
+  [845/900] Bob Royer (ID: 78033)...     ⚠️ Bob Royer 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Royer 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Royer 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [846/900] Bob Rule (ID: 78042)... ✅ 403G 17.4P 8.3R 1.5A | 12 seasons
+  [847/900] Bob Santini (ID: 78061)... ⏭️ 跳过（仅 4 场）
+  [848/900] Bob Schafer (ID: 78072)... ✅ 54G 4.1P 1.3R 1.0A | 1 seasons
+  [849/900] Bob Shea (ID: 78130)...     ⚠️ Bob Shea 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Shea 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Shea 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [850/900] Bob Sims (ID: 78160)... ✅ 65G 7.8P 2.8R 2.4A | 1 seasons
+
+  💾 中间保存... (535 新球员)
+  💾 已保存: 788 球员, 6410 赛季记录
+  继续获取...
+
+  [851/900] Bob Sura (ID: 682)... ✅ 657G 8.6P 3.4R 3.8A | 12 seasons
+  [852/900] Bob Thornton (ID: 738)... ✅ 283G 3.0P 2.5R 0.3A | 10 seasons
+  [853/900] Bob Tough (ID: 78360)...     ⚠️ Bob Tough 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Tough 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Tough 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [854/900] Bob Verga (ID: 78413)... ⏭️ 跳过（仅 21 场）
+  [855/900] Bob Warlick (ID: 78459)... ✅ 157G 7.5P 2.9R 2.0A | 6 seasons
+  [856/900] Bob Weiss (ID: 78485)... ✅ 783G 7.6P 1.8R 3.7A | 14 seasons
+  [857/900] Bob Wiesenhahn (ID: 78522)... ✅ 60G 2.0P 1.9R 0.4A | 1 seasons
+  [858/900] Bob Williams (ID: 78564)... ⏭️ 跳过（仅 24 场）
+  [859/900] Bob Wilson (ID: 78586)... ✅ 63G 3.7P 3.3R 1.7A | 1 seasons
+  [860/900] Bob Wood (ID: 78612)...     ⚠️ Bob Wood 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bob Wood 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bob Wood 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [861/900] Boban Marjanovic (ID: 1626246)... ✅ 331G 5.5P 3.6R 0.5A | 13 seasons
+  [862/900] Bobby Brown (ID: 201628)... ✅ 158G 4.4P 0.7R 1.5A | 8 seasons
+  [863/900] Bobby Cattage (ID: 76368)... ✅ 78G 3.1P 1.4R 0.1A | 2 seasons
+  [864/900] Bobby Cook (ID: 76438)...     ⚠️ Bobby Cook 重试 (1/2): float() argument must be a string or a real number, not 'NoneType'
+    ⚠️ Bobby Cook 重试 (2/2): float() argument must be a string or a real number, not 'NoneType'
+    ❌ Bobby Cook 获取失败: float() argument must be a string or a real number, not 'NoneType'
+⏭️ 跳过（无数据）
+  [865/900] Bobby Hurley (ID: 310)... ✅ 269G 3.8P 1.1R 3.3A | 7 seasons
+  [866/900] Bobby Jackson (ID: 1517)... ✅ 755G 9.7P 3.1R 2.6A | 14 seasons
+  [867/900] Bobby Jones (ID: 77193)... ✅ 774G 11.5P 5.5R 2.4A | 10 seasons
+  [868/900] Bobby Jones (ID: 200784)... ✅ 91G 3.2P 1.6R 0.5A | 7 seasons
+  [869/900] Bobby Lewis (ID: 77385)... ✅ 255G 5.8P 2.1R 2.2A | 4 seasons
+  [870/900] Bobby Phills (ID: 184)... ✅ 467G 11.0P 3.1R 2.7A | 9 seasons
+  [871/900] Bobby Simmons (ID: 2250)... ✅ 466G 9.0P 3.8R 1.5A | 10 seasons
+  [872/900] Bobby Smith (ID: 78203)... ⏭️ 跳过（仅 13 场）
+  [873/900] Bobby Wanzer (ID: 78453)... ✅ 568G 12.2P 4.5R 3.2A | 9 seasons
+  [874/900] Bobby Washington (ID: 78469)... ✅ 116G 6.0P 2.0R 3.6A | 2 seasons
+  [875/900] Bobby Wilson (ID: 78585)... ✅ 143G 5.5P 1.2R 0.8A | 4 seasons
+  [876/900] Bojan Bogdanovic (ID: 202711)... ✅ 719G 15.6P 3.6R 1.7A | 14 seasons
+  [877/900] Bol Bol (ID: 1629626)... ✅ 202G 6.2P 3.5R 0.6A | 6 seasons
+  [878/900] Boniface Ndong (ID: 101238)...     ⚠️ Boniface Ndong 重试 (1/2): 'resultSet'
+    ⚠️ Boniface Ndong 重试 (2/2): 'resultSet'
+    ❌ Boniface Ndong 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [879/900] Bonzi Wells (ID: 1719)... ✅ 591G 12.1P 4.6R 2.1A | 14 seasons
+  [880/900] Bonzie Colson (ID: 1629045)... ⏭️ 跳过（仅 8 场）
+  [881/900] Boris Diaw (ID: 2564)... ✅ 1064G 8.6P 4.4R 3.5A | 18 seasons
+  [882/900] Boris Nachamkin (ID: 77682)... ⏭️ 跳过（仅 6 场）
+  [883/900] Bostjan Nachbar (ID: 2411)... ✅ 317G 7.1P 2.6R 0.9A | 10 seasons
+  [884/900] Bracey Wright (ID: 101152)... ⏭️ 跳过（仅 26 场）
+  [885/900] Brad Branson (ID: 76239)... ✅ 72G 5.4P 2.9R 0.7A | 2 seasons
+  [886/900] Brad Daugherty (ID: 921)... ✅ 548G 19.0P 9.5R 3.7A | 8 seasons
+  [887/900] Brad Davis (ID: 76516)... ✅ 961G 8.2P 1.8R 4.9A | 19 seasons
+  [888/900] Brad Holland (ID: 77040)... ✅ 93G 3.2P 0.6R 0.7A | 5 seasons
+  [889/900] Brad Lohaus (ID: 38)... ✅ 656G 5.9P 2.8R 1.1A | 17 seasons
+  [890/900] Brad Miller (ID: 1802)... ✅ 868G 11.2P 7.1R 2.8A | 18 seasons
+  [891/900] Brad Sellers (ID: 78110)... ✅ 398G 6.3P 2.7R 1.1A | 8 seasons
+  [892/900] Brad Wanamaker (ID: 202954)... ✅ 191G 5.5P 1.7R 2.4A | 8 seasons
+  [893/900] Brad Wright (ID: 78620)... ⏭️ 跳过（仅 16 场）
+  [894/900] Brady Walker (ID: 78434)... ✅ 228G 7.0P 5.4R 1.4A | 4 seasons
+  [895/900] Brandan Wright (ID: 201148)... ✅ 428G 7.0P 3.6R 0.5A | 17 seasons
+  [896/900] Branden Dawson (ID: 1626183)... ⏭️ 跳过（仅 6 场）
+  [897/900] Brandin Knight (ID: 2688)...     ⚠️ Brandin Knight 重试 (1/2): 'resultSet'
+    ⚠️ Brandin Knight 重试 (2/2): 'resultSet'
+    ❌ Brandin Knight 获取失败: 'resultSet'
+⏭️ 跳过（无数据）
+  [898/900] Brandon Armstrong (ID: 2220)... ✅ 108G 2.2P 0.6R 0.2A | 3 seasons
+  [899/900] Brandon Bass (ID: 101138)... ✅ 758G 8.7P 4.5R 0.8A | 12 seasons
+  [900/900] Brandon Boston (ID: 1630527)... ✅ 147G 7.5P 2.2R 1.2A | 4 seasons
+
+  💾 中间保存... (572 新球员)
+  💾 已保存: 825 球员, 6740 赛季记录
+  继续获取...
+
+
+============================================================
+📊 最终统计:
+  新增球员: 572
+  新增赛季数据: 4096
+  失败: 152
+  总球员数: 825
+  总赛季数据: 6740
+  💾 已保存: 825 球员, 6740 赛季记录
+
+✅ 数据扩充完成！

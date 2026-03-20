@@ -34,13 +34,13 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id, season } = await params;
   const player = getPlayerById(id);
-  if (!player) return { title: "球员未找到 | GOAT" };
+  if (!player) return { title: "球员未找到" };
 
   const seasonData = getPlayerSeason(id, season);
-  if (!seasonData) return { title: `${player.nameZh} - 赛季未找到 | GOAT` };
+  if (!seasonData) return { title: `${player.nameZh} - 赛季未找到` };
 
-  const title = `${player.nameZh} (${player.nameEn}) ${season} 赛季数据 | GOAT`;
-  const desc = `${player.nameZh}（${player.nameEn}）${season} 赛季数据：${seasonData.gp} 场，场均 ${seasonData.pts} 分 ${seasonData.reb} 篮板 ${seasonData.ast} 助攻，投篮命中率 ${seasonData.fgPct}%。`;
+  const title = `${player.nameZh} (${player.nameEn}) ${season} 赛季数据`;
+  const desc = `${player.nameZh}（${player.nameEn}）${season} 赛季数据：${seasonData.gp} 场，场均 ${seasonData.pts ?? "—"} 分 ${seasonData.reb ?? "—"} 篮板 ${seasonData.ast ?? "—"} 助攻，投篮命中率 ${seasonData.fgPct ?? "—"}%。`;
 
   return {
     title,
