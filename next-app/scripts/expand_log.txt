@@ -1080,3 +1080,11 @@ NBA 球员数据扩充脚本
     ❌ Bernie Fryer 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
 ⏭️ 跳过（无数据）
   [716/900] Bernie Harris (ID: 76957)...     ⚠️ Bernie Harris 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bernie Harris 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bernie Harris 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [717/900] Bernie Williams (ID: 78540)...     ⚠️ Bernie Williams 重试 (1/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ⚠️ Bernie Williams 重试 (2/2): HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+    ❌ Bernie Williams 获取失败: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+⏭️ 跳过（无数据）
+  [718/900] Bert Cook (ID: 76434)... 

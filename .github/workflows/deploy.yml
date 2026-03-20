@@ -1,4 +1,4 @@
-name: Deploy to Vercel
+name: CI - Build Verification
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     
     steps:
@@ -26,12 +26,3 @@ jobs:
         
     - name: Build Next.js app
       run: cd next-app && npm run build
-      
-    - name: Deploy to Vercel
-      uses: vercel/action@v1
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-        vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-        working-directory: next-app
-        vercel-args: '--prod'
